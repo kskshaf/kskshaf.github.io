@@ -182,8 +182,8 @@
   const loadWaline = async () => {
     if (typeof Waline === 'object') initWaline()
     else {
-      await getCSS('https://cdn.staticfile.net/waline/3.1.0/waline.min.css')
-      await getScript('https://cdn.staticfile.net/waline/3.1.0/waline.umd.min.js')
+      await getCSS('https://cdn.staticfile.net/waline/3.1.2/waline.min.css')
+      await getScript('https://cdn.staticfile.net/waline/3.1.2/waline.umd.min.js')
       initWaline()
     }
   }
