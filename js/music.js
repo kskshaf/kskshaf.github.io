@@ -391,6 +391,12 @@ const apall = new APlayer({
         cover: 'https://music-for-blog.haf208.cc/lovelive/us/12.jpg',
         theme: '#FFB800'
     }, {
+        name: "ステージへと続く道",
+        artist: '藤澤慶昌',
+        url: 'https://music-for-blog.haf208.cc/lovelive/us/19.m4a',
+        cover: 'https://music-for-blog.haf208.cc/lovelive/us/19.jpg',
+        theme: '#FFAE2E'
+    }, {
         name: "SUNNY DAY SONG",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lovelive/us/16.m4a',
@@ -414,6 +420,12 @@ const apall = new APlayer({
         url: 'https://music-for-blog.haf208.cc/lovelive/us/14.m4a',
         cover: 'https://music-for-blog.haf208.cc/lovelive/us/14.jpg',
         theme: '#DAFFF9'
+    }, {
+        name: "MOMENT RING",
+        artist: "μ's",
+        url: 'https://music-for-blog.haf208.cc/lovelive/us/18.m4a',
+        cover: 'https://music-for-blog.haf208.cc/lovelive/us/15.jpg',
+        theme: '#FFB800'
     }, {
         name: "さようならへさよなら！",
         artist: "μ's",
