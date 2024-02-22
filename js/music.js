@@ -506,5 +506,4 @@ const apall = new APlayer({
         cover: 'https://music-for-blog.haf208.cc/bangdream/mygo/BRMM-10716/cover.jpg',
         theme: '#F8D9B6'
     }
-    ]
 });
