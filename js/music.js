@@ -290,31 +290,31 @@ const apall = new APlayer({
         name: "海中都市",
         artist: '松本文紀',
         url: 'https://music-for-blog.haf208.cc/atri/01.m4a',
-        cover: 'https://music-for-blog.haf208.cc/atri/cover.jpg',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/atri/cover.jpg',
         theme: '#7CD5F8'
     }, {
         name: "暖かな時間",
         artist: '松本文紀',
         url: 'https://music-for-blog.haf208.cc/atri/03.m4a',
-        cover: 'https://music-for-blog.haf208.cc/atri/cover.jpg',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/atri/cover.jpg',
         theme: '#7CD5F8'
     }, {
         name: "親愛なるあの日々へ",
         artist: '松本文紀',
         url: 'https://music-for-blog.haf208.cc/atri/20.m4a',
-        cover: 'https://music-for-blog.haf208.cc/atri/cover.jpg',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/atri/cover.jpg',
         theme: '#7CD5F8'
     }, {
         name: "光放て!",
         artist: '柳麻美',
         url: 'https://music-for-blog.haf208.cc/atri/21.m4a',
-        cover: 'https://music-for-blog.haf208.cc/atri/cover.jpg',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/atri/cover.jpg',
         theme: '#7CD5F8'
     }, {
         name: "Dear Moments",
         artist: '赤尾ひかる',
         url: 'https://music-for-blog.haf208.cc/atri/24.m4a',
-        cover: 'https://music-for-blog.haf208.cc/atri/cover.jpg',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/atri/cover.jpg',
         theme: '#7CD5F8'
     },
     // LoveLive
@@ -468,22 +468,22 @@ const apall = new APlayer({
         name: "曇り空の向こうは晴れている",
         artist: "22/7",
         url: 'https://music-for-blog.haf208.cc/227/SRCL-12642/12.m4a',
-        cover: 'https://music-for-blog.haf208.cc/227/SRCL-12642/cover.jpg',
-        lrc: 'https://music-for-blog.haf208.cc/227/SRCL-12642/12.lrc',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/227/SRCL-12642/cover.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/227/SRCL-12642/12.lrc',
         theme: '#A3A09E'
     }, {
         name: "僕は今夜、出て行く",
         artist: "22/7",
         url: 'https://music-for-blog.haf208.cc/227/SRCL-12642/09.m4a',
-        cover: 'https://music-for-blog.haf208.cc/227/SRCL-12642/cover.jpg',
-        lrc: 'https://music-for-blog.haf208.cc/227/SRCL-12642/09.lrc',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/227/SRCL-12642/cover.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/227/SRCL-12642/09.lrc',
         theme: '#A3A09E'
     }, {
         name: "世界の矛盾",
         artist: "22/7",
         url: 'https://music-for-blog.haf208.cc/227/SRCL-12642/11.m4a',
-        cover: 'https://music-for-blog.haf208.cc/227/SRCL-12642/cover.jpg',
-        lrc: 'https://music-for-blog.haf208.cc/227/SRCL-12642/11.lrc',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/227/SRCL-12642/cover.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-01/1.0.0/files/227/SRCL-12642/11.lrc',
         theme: '#A3A09E'
     },
     // MyGO!!!!!
