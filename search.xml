@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一些 MV (随缘)</title>
-    <url>/2023/11/18/Others/</url>
-    <content><![CDATA[<h2> MV </h2>
-<span id="more"></span>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/Mh9E1iZxoHs" title="22/7 9thシングル『曇り空の向こうは晴れている』music video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br> </br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/87IzmBR3v4o" title="22/7 11thシングル『僕は今夜、出て行く』music video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br> </br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/XYKceXnAFpQ" title="スリーズブーケ 「眩耀夜行」 リリックビデオ (ラブライブ！蓮ノ空女学院スクールアイドルクラブ)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-]]></content>
-      <tags>
-        <tag>hello</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搞了N天，终于搞出来了</title>
     <url>/2023/08/24/blog-his/</url>
     <content><![CDATA[<p>其实这东西…<span id="more"></span>(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
@@ -33,6 +18,35 @@
 ]]></content>
       <tags>
         <tag>old</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些 MV (随缘)</title>
+    <url>/2023/11/18/Others/</url>
+    <content><![CDATA[<h2> MV </h2>
+<span id="more"></span>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/Mh9E1iZxoHs" title="22/7 9thシングル『曇り空の向こうは晴れている』music video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br> </br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/87IzmBR3v4o" title="22/7 11thシングル『僕は今夜、出て行く』music video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br> </br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/XYKceXnAFpQ" title="スリーズブーケ 「眩耀夜行」 リリックビデオ (ラブライブ！蓮ノ空女学院スクールアイドルクラブ)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]]></content>
+      <tags>
+        <tag>hello</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm 使用笔记</title>
+    <url>/2024/03/02/npm/</url>
+    <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://docs.npmjs.com/</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/nodejs/nodejs-npm.html</span></span><br><span class="line"><span class="comment"># https://akilar.top/posts/3e956346/</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br><span class="line"></span><br><span class="line">npm init</span><br><span class="line">npm publish</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除已发布的包版本</span></span><br><span class="line">npm unpublish you-npm-pack@version --force</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>note</tag>
       </tags>
   </entry>
   <entry>
@@ -74,20 +88,6 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum -y <span class="built_in">groups</span> install <span class="string">&quot;GNOME Desktop&quot;</span></span><br><span class="line">startx</span><br><span class="line">systemctl get-default <span class="comment"># 查看默认使用界面</span></span><br><span class="line">systemctl set-default graphical.target <span class="comment"># 设置默认启动为图形界面</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h3 id="其他"><a href="#其他" class="headerlink" title="其他?"></a><em><strong>其他?</strong></em></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Rust mirror</span></span><br><span class="line"><span class="comment"># https://mirrors.ustc.edu.cn/help/crates.io-index.html</span></span><br><span class="line"><span class="comment"># 在 $CARGO_HOME/config 中添加如下内容 ($CARGO_HOME 在 Windows 系统默认为：%USERPROFILE%\.cargo，在类 Unix 系统默认为：$HOME/.cargo)：</span></span><br><span class="line">[source.crates-io]</span><br><span class="line">replace-with = <span class="string">&#x27;ustc&#x27;</span></span><br><span class="line"></span><br><span class="line">[source.ustc]</span><br><span class="line">registry = <span class="string">&quot;git://mirrors.ustc.edu.cn/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Pip mirror</span></span><br><span class="line">python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip</span><br><span class="line"></span><br><span class="line"><span class="comment"># Install NGINX Latest Version</span></span><br><span class="line"><span class="comment"># https://nginx.org/en/linux_packages.html</span></span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>note, linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm 使用笔记</title>
-    <url>/2024/03/02/npm/</url>
-    <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://docs.npmjs.com/</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/nodejs/nodejs-npm.html</span></span><br><span class="line"><span class="comment"># https://akilar.top/posts/3e956346/</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br><span class="line"></span><br><span class="line">npm init</span><br><span class="line">npm publish</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除已发布的包版本</span></span><br><span class="line">npm unpublish you-npm-pack@version --force</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
-</ul>
-]]></content>
       <tags>
         <tag>note</tag>
       </tags>

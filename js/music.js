@@ -155,6 +155,7 @@ const apall = new APlayer({
         name: "Hesitation Snow",
         artist: 'fripSide',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-04/1.0.0/files/fripSide/GNCA-1582/25.m4a',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.0/fripSide/GNCA-1582/25.lrc',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-04/1.0.0/files/fripSide/GNCA-1582/cover.jpg',
         theme: '#972C3F'
     },
