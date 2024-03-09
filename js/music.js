@@ -54,30 +54,35 @@ const apall = new APlayer({
         artist: '中岛みゆき',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/01.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/01.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/01.lrc',
         theme: '#C69480'
     }, {
         name: "雪の華",
         artist: '中島美嘉',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/02.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/02.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/02.lrc',
         theme: '#484632'
     }, {
         name: "雪の華",
         artist: '南條愛乃',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/03.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/umca-10015.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/03.lrc',
         theme: '#AEA191'
     }, {
         name: "銀の龍の背に乗って",
         artist: '佐藤聡美',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/04.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/umca-10015.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/04.lrc',
         theme: '#AEA191'
     }, {
         name: "空も飛べるはず",
         artist: 'Twinkle Voice All Stars',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/05.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/umca-10015.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/05.lrc',
         theme: '#AEA191'
     }, {
         name: "キスのひとつで",
@@ -91,9 +96,9 @@ const apall = new APlayer({
     {
         name: "星屑のインターリュード",
         artist: 'fhána',
-        url: 'https://music-for-blog.haf208.cc/fhána/LACM-14279/01.m4a',
-        cover: 'https://music-for-blog.haf208.cc/fhána/LACM-14279/cover.jpg',
-        lrc: 'https://music-for-blog.haf208.cc/fhána/LACM-14279/01.lrc',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/fhána/LACM-14279/01.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/fhána/LACM-14279/cover.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/fhána/LACM-14279/01.lrc',
         theme: '#9279B7'
     },
     // fripSide
@@ -165,6 +170,7 @@ const apall = new APlayer({
         artist: 'XX:me',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/07.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/07.jpg',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/07.lrc',
         theme: '#46718B'
     },
     // Re:0
@@ -173,7 +179,16 @@ const apall = new APlayer({
         artist: '鈴木このみ',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/06.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/06.webp',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/06.lrc',
         theme: '#C9AFF8'
+    },
+    // 春日影 - CRYCHIC
+    {
+        name: "春日影",
+        artist: "CRYCHIC",
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/others/09.m4a',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/09.lrc',
+        theme: '#8DABC2'
     },
     // About Anime Madoka
     {
@@ -328,116 +343,116 @@ const apall = new APlayer({
     {
         name: "始まりの朝(メインテーマ)",
         artist: '藤澤慶昌',
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/01.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/01.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/01.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/01.jpg',
         theme: '#FFAE2E'
     }, {
         name: "Snow halation",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/02.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/02.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/02.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/02.jpg',
         theme: '#E1E1E1'
     }, {
         name: "ススメ→トゥモロウ",
         artist: "高坂穂乃果...",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/03.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/03.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/03.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/03.jpg',
         theme: '#FFAE2E'
     }, {
         name: "START：DASH！！",
         artist: "高坂穂乃果...",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/04.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/03.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/04.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/03.jpg',
         theme: '#7AEBF9'
     }, {
         name: "僕らは今のなかで",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/05.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/05.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/05.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/05.jpg',
         theme: '#FFAE2E'
     }, {
         name: "きっと青春が聞こえる",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/07.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/07.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/07.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/07.jpg',
         theme: '#FFAE2E'
     }, {
         name: "それは僕たちの奇跡",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/08.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/08.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/08.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/08.jpg',
         theme: '#FFAE2E'
     }, {
         name: "ユメノトビラ",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/09.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/09.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/09.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/09.jpg',
         theme: '#8DF9F6'
     }, {
         name: "Dancing stars on me！",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/06.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/06.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/06.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/06.jpg',
         theme: '#FFAE2E'
     }, {
         name: "Love wing bell",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/10.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/06.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/10.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/06.jpg',
         theme: '#FFADC0'
     }, {
         name: "KiRa-KiRa Sensation！",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/11.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/11.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/11.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/11.jpg',
         theme: '#FFADC0'
     }, {
         name: "どんなときもずっと",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/12.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/12.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/12.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/12.jpg',
         theme: '#FFB800'
     }, {
         name: "ステージへと続く道",
         artist: '藤澤慶昌',
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/19.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/19.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/19.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/19.jpg',
         theme: '#FFAE2E'
     }, {
         name: "SUNNY DAY SONG",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/16.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/16.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/16.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/16.jpg',
         theme: '#FF9B00'
     }, {
         name: "僕たちはひとつの光",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/17.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/17.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/17.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/17.jpg',
         theme: '#F2C7D3'
     }, {
         name: "冬がくれた予感",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/13.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/13.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/13.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/13.jpg',
         theme: '#DAFFF9'
     }, {
         name: "LOVELESS WORLD",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/14.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/14.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/14.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/14.jpg',
         theme: '#DAFFF9'
     }, {
         name: "MOMENT RING",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/18.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/15.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/18.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/15.jpg',
         theme: '#FFB800'
     }, {
         name: "さようならへさよなら！",
         artist: "μ's",
-        url: 'https://music-for-blog.haf208.cc/lovelive/us/15.m4a',
-        cover: 'https://music-for-blog.haf208.cc/lovelive/us/15.jpg',
+        url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/15.m4a',
+        cover: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/lovelive/us/15.jpg',
         theme: '#FFB800'
     }, {
         name: "青空Jumping Heart",
