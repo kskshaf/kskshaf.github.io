@@ -54,35 +54,35 @@ const apall = new APlayer({
         artist: '中岛みゆき',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/01.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/01.jpg',
-        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/01.lrc',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.2/files/others/01.lrc',
         theme: '#C69480'
     }, {
         name: "雪の華",
         artist: '中島美嘉',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/02.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/02.jpg',
-        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/02.lrc',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.2/files/others/02.lrc',
         theme: '#484632'
     }, {
         name: "雪の華",
         artist: '南條愛乃',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/03.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/umca-10015.jpg',
-        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/03.lrc',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.2/files/others/03.lrc',
         theme: '#AEA191'
     }, {
         name: "銀の龍の背に乗って",
         artist: '佐藤聡美',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/04.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/umca-10015.jpg',
-        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/04.lrc',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.2/files/others/04.lrc',
         theme: '#AEA191'
     }, {
         name: "空も飛べるはず",
         artist: 'Twinkle Voice All Stars',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/05.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/umca-10015.jpg',
-        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/05.lrc',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.2/files/others/05.lrc',
         theme: '#AEA191'
     }, {
         name: "キスのひとつで",
@@ -170,7 +170,7 @@ const apall = new APlayer({
         artist: 'XX:me',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/07.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/07.jpg',
-        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/07.lrc',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.2/files/others/07.lrc',
         theme: '#46718B'
     },
     // Re:0
@@ -179,7 +179,7 @@ const apall = new APlayer({
         artist: '鈴木このみ',
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/06.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-02/1.0.0/files/others/06.webp',
-        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/06.lrc',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.2/files/others/06.lrc',
         theme: '#C9AFF8'
     },
     // 春日影 - CRYCHIC
@@ -187,7 +187,7 @@ const apall = new APlayer({
         name: "春日影",
         artist: "CRYCHIC",
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-05/1.0.0/files/others/09.m4a',
-        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.1/files/others/09.lrc',
+        lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.2/files/others/09.lrc',
         theme: '#8DABC2'
     },
     // About Anime Madoka
