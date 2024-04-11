@@ -1,7 +1,7 @@
 // if there is any infringement, please contact delete!: github.com/kskshaf/kskshaf.github.io
-const apall = new APlayer({
-    container: document.getElementById('aplayerallpages'),
-    fixed: true,
+const musicpages = new APlayer({
+    container: document.getElementById('aplayermusicpages'),
+    fixed: false,
     autoplay: false,
     loop: 'all',
     order: 'list',
@@ -11,7 +11,6 @@ const apall = new APlayer({
     lrcType: 3,
     listFolded: false,
     audio: [
-    // new songs here
     {
         name: "life",
         artist: '霜月はるか',
@@ -25,7 +24,7 @@ const apall = new APlayer({
         url: 'https://registry.npmmirror.com/lokocdnms-pkg-04/1.0.1/files/shimotsukin/KDSD-20017/disc2/10.m4a',
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-04/1.0.1/files/shimotsukin/KDSD-20017/disc2/cover.webp',
         lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.31/files/shimotsukin/KDSD-20017/disc2/10.lrc',
-        theme: '#FFA5DE'
+        theme: '#67AE87'
     }, {
         name: "明日、晴れるかな",
         artist: '三澤紗千香',
@@ -46,11 +45,6 @@ const apall = new APlayer({
         cover: 'https://registry.npmmirror.com/lokocdnms-pkg-04/1.0.1/files/summer_pockets/KSLM-0151/cover.webp',
         lrc: 'https://registry.npmmirror.com/lokocdnms-pkg-exlrc/1.0.31/files/summer_pockets/KSLM-0151/11.lrc',
         theme: '#E1BCBC'
-    }, {
-        name: "さくら、Reincarnation -Arrange-",
-        artist: '忍',
-        url: 'https://unpkg.com/moyu-cdnms-pkg-01@0.0.1/disc4-14.m4a',
-        theme: '#FE8FA7'
     },
     // wonderful everyday
     {
