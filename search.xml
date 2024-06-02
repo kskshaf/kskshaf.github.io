@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>搞了N天，终于搞出来了</title>
+    <url>/2023/08/24/blog-his/</url>
+    <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
+<p>先是 lnmp 环境的搭建（没用云服务端开箱即用的，买不起，用的是 <a href="https://github.com/linuxeye/lnmp">gayhub</a> 上的自动化脚本），然后是 WordPress 的安装、总体的配置等等。最初用的是普通的云服务器安装 lnmp，很快搞掂；但，后来我想安装到在 pdd 花费了不到 50RMB 买的机顶盒，可总是安装失败，以我目前的水平是解决不了的啦[哭笑]<br><del>（目前就随便装了个主题应付一下，有空再搞了</del></p>
+<p><strong>2024.02.17更新</strong><br>现在的话就是使用 hexo，部署在 github pages 上了，还套上了<del>减速器</del> cloudflare，方便且成本低。<br>后面的话打算进一步完善主题外观（也可能会更换主题），并加上评论系统。</p>
+<p><strong>2024.02.20更新</strong><br>经过了这几天的折腾，终于还是换了 butterfly 主题，并开启了评论系统（Waline &amp; Twikoo, 使用了 vercel or netlify + mongodb 的部署方案）。<br>但由于 Turnsite 在两个评论系统中同时启用会出 bug, 目前关闭了 Twikoo，只开启了 Waline。<br>原来的 landscape 主题实在是无能力折腾，遂弃之[死鱼眼]。</p>
+<p><strong>2024.03.08更新</strong><br>开启了 Gitalk。</p>
+<h3 id="文档-参考"><a href="#文档-参考" class="headerlink" title="文档 &amp; 参考:"></a>文档 &amp; 参考:</h3><ul>
+<li><a href="https://waline.js.org/">https://waline.js.org/</a></li>
+<li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1418">https://github.com/jerryc127/hexo-theme-butterfly/issues/1418</a></li>
+<li><a href="https://twikoo.js.org/">https://twikoo.js.org/</a></li>
+<li><a href="https://blog.saop.cc/">https://blog.saop.cc/</a></li>
+<li><a href="https://runtimes.cc/8693/">https://runtimes.cc/8693/</a><br><br> </br></li>
+<li><em>发布时间: 2023.08.24, 最后更新: 2024.03.08</em></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>old</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些视频 (随缘)</title>
+    <url>/2023/11/18/Others/</url>
+    <content><![CDATA[<h2> 伊朗做死哥 </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]]></content>
+      <tags>
+        <tag>hello</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>npm 使用笔记</title>
     <url>/2024/03/02/npm/</url>
     <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
@@ -9,6 +47,16 @@
 <ul>
 <li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
 </ul>
+]]></content>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git 使用笔记</title>
+    <url>/2024/02/15/git-notes/</url>
+    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
         <tag>note</tag>
@@ -133,54 +181,6 @@
         <tag>diy</tag>
         <tag>电子</tag>
         <tag>作死</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git 使用笔记</title>
-    <url>/2024/02/15/git-notes/</url>
-    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搞了N天，终于搞出来了</title>
-    <url>/2023/08/24/blog-his/</url>
-    <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
-<p>先是 lnmp 环境的搭建（没用云服务端开箱即用的，买不起，用的是 <a href="https://github.com/linuxeye/lnmp">gayhub</a> 上的自动化脚本），然后是 WordPress 的安装、总体的配置等等。最初用的是普通的云服务器安装 lnmp，很快搞掂；但，后来我想安装到在 pdd 花费了不到 50RMB 买的机顶盒，可总是安装失败，以我目前的水平是解决不了的啦[哭笑]<br><del>（目前就随便装了个主题应付一下，有空再搞了</del></p>
-<p><strong>2024.02.17更新</strong><br>现在的话就是使用 hexo，部署在 github pages 上了，还套上了<del>减速器</del> cloudflare，方便且成本低。<br>后面的话打算进一步完善主题外观（也可能会更换主题），并加上评论系统。</p>
-<p><strong>2024.02.20更新</strong><br>经过了这几天的折腾，终于还是换了 butterfly 主题，并开启了评论系统（Waline &amp; Twikoo, 使用了 vercel or netlify + mongodb 的部署方案）。<br>但由于 Turnsite 在两个评论系统中同时启用会出 bug, 目前关闭了 Twikoo，只开启了 Waline。<br>原来的 landscape 主题实在是无能力折腾，遂弃之[死鱼眼]。</p>
-<p><strong>2024.03.08更新</strong><br>开启了 Gitalk。</p>
-<h3 id="文档-参考"><a href="#文档-参考" class="headerlink" title="文档 &amp; 参考:"></a>文档 &amp; 参考:</h3><ul>
-<li><a href="https://waline.js.org/">https://waline.js.org/</a></li>
-<li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1418">https://github.com/jerryc127/hexo-theme-butterfly/issues/1418</a></li>
-<li><a href="https://twikoo.js.org/">https://twikoo.js.org/</a></li>
-<li><a href="https://blog.saop.cc/">https://blog.saop.cc/</a></li>
-<li><a href="https://runtimes.cc/8693/">https://runtimes.cc/8693/</a><br><br> </br></li>
-<li><em>发布时间: 2023.08.24, 最后更新: 2024.03.08</em></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>old</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一些视频 (随缘)</title>
-    <url>/2023/11/18/Others/</url>
-    <content><![CDATA[<h2> 伊朗做死哥 </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-]]></content>
-      <tags>
-        <tag>hello</tag>
       </tags>
   </entry>
   <entry>
