@@ -69,6 +69,25 @@ const apall = new APlayer({
         url: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/wonderful_everyday/disc2-13.m4a',
         theme: '#9F604C'
     },
+    {   // ATRI OST
+        name: "海中都市",
+        artist: '松本文紀',
+        url: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/01.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/cover.jpg',
+        theme: '#7CD5F8'
+    }, {
+        name: "暖かな時間",
+        artist: '松本文紀',
+        url: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/03.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/cover.jpg',
+        theme: '#7CD5F8'
+    }, {
+        name: "親愛なるあの日々へ",
+        artist: '松本文紀',
+        url: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/20.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/cover.jpg',
+        theme: '#7CD5F8'
+    },
     // new songs here
     {
         name: "绽放",
@@ -478,24 +497,6 @@ const apall = new APlayer({
     },
     // ATRI
     {
-        name: "海中都市",
-        artist: '松本文紀',
-        url: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/01.m4a',
-        cover: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/cover.jpg',
-        theme: '#7CD5F8'
-    }, {
-        name: "暖かな時間",
-        artist: '松本文紀',
-        url: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/03.m4a',
-        cover: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/cover.jpg',
-        theme: '#7CD5F8'
-    }, {
-        name: "親愛なるあの日々へ",
-        artist: '松本文紀',
-        url: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/20.m4a',
-        cover: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/cover.jpg',
-        theme: '#7CD5F8'
-    }, {
         name: "光放て!",
         artist: '柳麻美',
         url: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/21.m4a',
