@@ -16,56 +16,56 @@ const sakurunouta = new APlayer({
         artist: 'はな',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/01.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/01.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/01.lrc',
         theme: '#FFBF58'
     }, {
         name: "Bright pain",
         artist: '橋本みゆき',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/02.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/02.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/02.lrc',
         theme: '#FFBF58'
     }, {
         name: "Pica pica",
         artist: 'monet',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/03.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/03.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/03.lrc',
         theme: '#FFBF58'
     }, {
         name: "ZYPRESSENの花束",
         artist: 'monet',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/04.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/04.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/04.lrc',
         theme: '#FFBF58'
     }, {
         name: "天球の下の奇蹟",
         artist: 'はな',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/05.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/05.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/05.lrc',
         theme: '#FFBF58'
     }, {
         name: "DearMyFriend",
         artist: 'はな',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/06.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/06.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/06.lrc',
         theme: '#FFBF58'
     }, {
         name: "在りし日のために",
         artist: 'monet',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/07.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/07.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/07.lrc',
         theme: '#FFBF58'
     }, {
         name: "櫻ノ詩 - Piano Vocal ver",
         artist: 'はな',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/08.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-vc@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/01.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/01.lrc',
         theme: '#FFBF58'
     }, {
         name: "櫻ノ詩 - inst ver",
@@ -127,7 +127,7 @@ const sakurunouta = new APlayer({
         artist: 'はな',
         url: 'https://unpkg.com/sakura-no-uta-pkgms-st@1.0.0/d1/03.m4a',
         cover: 'https://unpkg.com/sakura-no-uta-pkgms-st@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.7/sakura-no-uta/s-03.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-uta/s-03.lrc',
         theme: '#C5C3E1'
     }, {
         name: "舞い上がる因果交流のひかり",
