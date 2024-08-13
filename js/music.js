@@ -11,6 +11,108 @@ const apall = new APlayer({
     lrcType: 3,
     listFolded: false,
     audio: [
+    {   // New
+        name: "ニュー・マイ・ノーマル",
+        artist: 'Mrs. GREEN APPLE',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/others/11.m4a', //yt:E7YAf0O02Ms
+        lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/others/11.lrc',
+        theme: '#44DB56'
+    }, {
+        name: "雪は何色",
+        artist: 'Kotoha',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/01.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/cover.webp',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/01.lrc',
+        theme: '#44DB56'
+    }, {
+        name: "夢と色でできている",
+        artist: '佐咲紗花',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/01.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/cover.webp',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/01.lrc',
+        theme: '#44DB56'
+    }, {
+        name: "これくらいで",
+        artist: '藍月なくる',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/02.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/cover.webp',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/02.lrc',
+        theme: '#44DB56'
+    }, {
+        name: "夢と色でできている Grand End",
+        artist: '佐咲紗花',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/03.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/cover.webp',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/03.lrc',
+        theme: '#44DB56'
+    }, {
+        name: "优しい风が吹くあの场所で -Anime Version-",
+        artist: '三輪学',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/01.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/cover.webp',
+        theme: '#44DB56'
+    }, {
+        name: "未来へ踏み出す一歩 -Anime Version-",
+        artist: '三輪学',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/19.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/cover.webp',
+        theme: '#44DB56'
+    }, {
+        name: "优しい风が吹くあの场所で",
+        artist: '三輪学',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/SPH-003/02.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/SPH-003/cover.jpg',
+        theme: '#44DB56'
+    }, {
+        name: "未来へ踏み出す一歩-",
+        artist: '三輪学',
+        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/SPH-003/19.m4a',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/SPH-003/cover.jpg',
+        theme: '#44DB56'
+    }, {
+        name: "花びらとりぼん",
+        artist: 'Larval Stage Planning',
+        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/01.m4a',
+        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.9/majo-koi-nikki/01.lrc',
+        theme: '#FAC8D8'
+    }, {
+        name: "freak of nature : start",
+        artist: '彩菜',
+        url: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/11.m4a',
+        cover: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/cover.jpg',
+        theme: '#CEE3FA'
+    }, {
+        name: "送る言葉",
+        artist: '水月陵',
+        url: 'https://unpkg.com/hatuyuki-sakura-ost2@1.0.0/17.m4a',
+        cover: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/cover.jpg',
+        theme: '#CEE3FA'
+    }, {
+        name: "桜の心",
+        artist: '水月陵',
+        url: 'https://unpkg.com/hatuyuki-sakura-ost2@1.0.0/18.m4a',
+        cover: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/cover.jpg',
+        theme: '#CEE3FA'
+    }, {
+        name: "夢のなごりを探して",
+        artist: '水月陵',
+        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/03.m4a',
+        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        theme: '#FAC8D8'
+    }, {
+        name: "どこかにありそうで、どこにもない",
+        artist: '水月陵',
+        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/01.m4a',
+        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        theme: '#FAC8D8'
+    }, {
+        name: "砂漠の花",
+        artist: '樋口秀樹',
+        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/02.m4a',
+        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        theme: '#FAC8D8'
+    },
     // sakura no uta
     { 
         name: "美しい音色で世界が鳴った",
@@ -115,7 +217,7 @@ const apall = new APlayer({
         cover: 'https://unpkg.com/lokocdnms-pkg-01@1.0.1/atri/cover.jpg',
         theme: '#7CD5F8'
     },
-    // new songs here
+    // 
     {
         name: "绽放",
         artist: '戴娆',

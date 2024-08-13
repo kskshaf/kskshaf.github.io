@@ -1,0 +1,365 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>一个升压模块的制作 | HAF208 的 Blog</title><meta name="author" content="haf208"><meta name="copyright" content="haf208"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（ 说起 oshwhub 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一个升压模块的制作">
+<meta property="og:url" content="https://blog.haf208.cc/2024/06/06/ele-diy2/index.html">
+<meta property="og:site_name" content="HAF208 的 Blog">
+<meta property="og:description" content="学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（ 说起 oshwhub 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.haf208.cc/cusimg/ava.webp">
+<meta property="article:published_time" content="2024-06-05T16:02:17.000Z">
+<meta property="article:modified_time" content="2024-08-13T19:00:15.000Z">
+<meta property="article:author" content="haf208">
+<meta property="article:tag" content="diy">
+<meta property="article:tag" content="电子">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.haf208.cc/cusimg/ava.webp"><link rel="shortcut icon" href="/cusimg/favicon.webp"><link rel="canonical" href="https://blog.haf208.cc/2024/06/06/ele-diy2/index.html"><link rel="preconnect" href="https://lib.baomitu.com"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css"><link rel="stylesheet" href="https://lib.baomitu.com/fancyapps-ui/5.0.32/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://lib.baomitu.com/egjs-infinitegrid/4.11.0/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: 114514,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '一个升压模块的制作',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-08-14 03:00:15'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><!-- if there is any infringement, please contact delete!: github.com/kskshaf/kskshaf.github.io --><link rel="preconnect" href="//registry.npmmirror.com"/><link rel="stylesheet" href="https://registry.npmmirror.com/loko-aper-mod/1.0.1/files/APlayer.min.css"><style>/*from blog.saop.cc/p/8dc9/#全局吸底伸缩*/@media (max-width:960px){.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}}</style><meta name="generator" content="Hexo 7.1.1"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cusimg/ava.webp" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 收藏</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 歌单</span></a></li><li><a class="site-page child" href="/video/"><i class="fa-fw fas fa-video"></i><span> 视频</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="HAF208 的 Blog"><span class="site-name">HAF208 的 Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 收藏</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 歌单</span></a></li><li><a class="site-page child" href="/video/"><i class="fa-fw fas fa-video"></i><span> 视频</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">一个升压模块的制作</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-06-05T16:02:17.000Z" title="发表于 2024-06-06 00:02:17">2024-06-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-08-13T19:00:15.000Z" title="更新于 2024-08-14 03:00:15">2024-08-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span id="" data-flag-title="一个升压模块的制作"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span class="waline-pageview-count" data-path="/2024/06/06/ele-diy2/"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2024/06/06/ele-diy2/#post-comment"><span class="waline-comment-count" data-path="/2024/06/06/ele-diy2/"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div><article class="post-content" id="article-container"><p>学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（</p>
+<p>说起 <a target="_blank" rel="noopener" href="https://oshwhub.com/">oshwhub</a> 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低成本的升降压工程或方案，接着就是一通折腾：查资料、学用嘉立创EDA、画板子、打板子、买了一大坨工具还有原件回来折腾…… <del>后来才发现总成本已远远超出预期 吐血</del> 这个升压模块的制作就主要是参考oshwhub上面的两个工程的：<a target="_blank" rel="noopener" href="https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701">https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701</a>、<a target="_blank" rel="noopener" href="https://oshwhub.com/aknice/sc8701">https://oshwhub.com/aknice/sc8701</a>，我发的 SC8201 升压模块工程在这里：<a target="_blank" rel="noopener" href="https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya">https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya</a></p>
+<p>接下来就<del>赘述</del>一下折腾的过程吧。</p>
+<p>考虑来考虑去，最终使用了南芯的 <a target="_blank" rel="noopener" href="https://www.semiee.com/file/Specfile/SouthChip-SC8201_v0.2.4.pdf">SC8201</a>升压主控，功率管使用了 TO-220 封装的 <a target="_blank" rel="noopener" href="https://www.infineon.com/dgdl/Infineon-IPP040N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372bbaa5ad4942">IPP040N06N</a> 。本来升压主控是想用 SC8701 的，可以照搬 oshwhub 上已有的工程，但是考虑到损耗&amp;成本的问题<del>（其实就是闲着没事想折腾）</del>，还是选择了 SC8201。PCB 大电流走线部分都有堆锡或者埋铜处理，功率管走线参考了 <a target="_blank" rel="noopener" href="https://www.semiee.com/file/SouthChip/SouthChip-SC880X-NOTES.pdf">SC880x&#x2F;SC870x 的布线指南</a>。接着就是 —— 看图：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image-pro.lceda.cn/pullimages/4274f2f577974f028c427b3585b33ef2.webp" alt="电路图"></p>
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/f892544276aa499e875fe5df0bf93fd5.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/75cb65502d844278bd4755b265ff2c41.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/b251923e83fa46c791154daf0793e8ce.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/1dccea851b644cb9bf71998f6b255552.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/6d0c8c530e644e469b04410de6093083.webp","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+
+<p>板子的话，我也是边学边画的，前前后后估计打了3次板子（不包括中途画错然后取消订单的），花了差不多 60RMB 吧。<br>第一次画的板子打出来后才发现 MOS 的栅极走线太细了，不敢用，于是修改好后又打了一次板子。第二次打的板子，迫不及待地焊接好后，通电，然后久违地体验了一次炸电容（电解电容焊反了。。。）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image.lceda.cn/oshwhub/064c02f6397547289a377b6429a5b931.webp" alt="电容炸了"></p>
+<p>换好电容后，测试。接好 12v 电瓶，升压至 20v，带约1.7欧假负载电阻（俩5.1欧电阻串联，接着并联x6，水冷，见图）测试的时候，一切都似乎挺正常的，测得输入功率 228w，测得纹波应该是 310mv+。</p>
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/943d654a1b6e4701a00ee2e8223414ed.webp","alt":"输入"},{"url":"https://image.lceda.cn/oshwhub/27035f27f6fb4d55844149947172a24e.webp","alt":"输出电流"},{"url":"https://image.lceda.cn/oshwhub/c0d8dacf549843329f5567b5bebe853e.webp","alt":"水冷负载电阻~"}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+<p>接着接上笔记本，在笔记本上进行压力测试，发现模块带不动笔记本（笔记本经常掉电），这才发现模块的电压反馈部分有问题，于是就修改电路、飞线，后恢复正常。总之折腾了挺久的，从早上10点搞到晚上7点左右才搞好（哭笑）</p>
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/15024188a7324d348a63ff47dd169156.webp","alt":"飞线~"},{"url":"https://image.lceda.cn/oshwhub/caa6777675fc4d9fb044e8c67bcb3e7a.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/3707060b92944f41b5387fbb472a8ed0.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/e1201a5d4ff24b9c87ed38ec1fb9b623.webp","alt":"接笔记本测试"}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+<p>第三次打的板子才是比较满意的，测试的时候也有很好的表现。这次给模块供电的是 12v 开关电源，同样是 20v 输出，空载纹波似乎不到 20mv；接1.7欧假负载电阻，测得输入功率 248w，输出功率 240w，纹波 214mv，给笔记本供电也绰绰有余。</p>
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/7ab9b34d617142eb970792d1508d9b94.webp","alt":"某宝的服务器拆机电源"},{"url":"https://image.lceda.cn/oshwhub/25c26e0e641d4585901ef880fbef89ad.webp","alt":"输出20v"},{"url":"https://image.lceda.cn/oshwhub/8002286e968c47b5a57d8abe4f53be00.webp","alt":"空载纹波"},{"url":"https://image.lceda.cn/oshwhub/2a6a3a11d2d7412f906f61bfd1ae56b4.webp","alt":"空载功耗"},{"url":"https://image.lceda.cn/oshwhub/fd7046018cb341e8ae106b5349b5c556.webp","alt":"带1.7欧假负载电阻，输出12A"},{"url":"https://image.lceda.cn/oshwhub/665c28fa9aed417dbf0f4d62f8f740b0.webp","alt":"带1.7欧假负载电阻，输入功耗"},{"url":"https://image.lceda.cn/oshwhub/3123f4b2ea3a44e79c648bfc0cb5d8dc.webp","alt":"带1.7欧假负载电阻时，纹波"},{"url":"https://image.lceda.cn/oshwhub/ef6f9cbcf2fe4f128fd98dfc2b5dc1d0.webp","alt":"带笔记本，双烤"},{"url":"https://image.lceda.cn/oshwhub/b94c0b6704a14dce87bb75c3f8413a85.webp","alt":"带笔记本，双烤"}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+<p>中间还接了一个短路欠压保护板，电路也不是很复杂。至于测纹波，我买的示波器似乎并没有直接测量纹波的功能，于是就简单地用电容和电阻把纹波“过滤”了出来。不清楚这样做是否完全正确，不过目前对于我来说应该是够用了。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image.lceda.cn/oshwhub/76ef4026934045659a01a52bce9526f7.webp"></p>
+<p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.haf208.cc">haf208</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://blog.haf208.cc/2024/06/06/ele-diy2/">https://blog.haf208.cc/2024/06/06/ele-diy2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.haf208.cc" target="_blank">HAF208 的 Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/diy/">diy</a><a class="post-meta__tags" href="/tags/%E7%94%B5%E5%AD%90/">电子</a></div><div class="post_share"><div class="social-share" data-image="/cusimg/ava.webp" data-sites="wechat,weibo,qq,facebook,twitter"></div><link rel="stylesheet" href="https://lib.baomitu.com/butterfly-extsrc/1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://lib.baomitu.com/butterfly-extsrc/1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/07/18/txbox-emmc/" title="给在pdd买的机顶盒扩容"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">给在pdd买的机顶盒扩容</div></div></a></div><div class="next-post pull-right"><a href="/2024/06/01/ele-diy1/" title="整一个铅酸电池欠压保护板"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">整一个铅酸电池欠压保护板</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/03/22/ele-diy/" title="重温电子制作"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-03-22</div><div class="title">重温电子制作</div></div></a></div><div><a href="/2024/06/01/ele-diy1/" title="整一个铅酸电池欠压保护板"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-06-01</div><div class="title">整一个铅酸电池欠压保护板</div></div></a></div><div><a href="/2024/07/18/txbox-emmc/" title="给在pdd买的机顶盒扩容"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-07-18</div><div class="title">给在pdd买的机顶盒扩容</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">Waline</span><span id="switch-btn"></span><span class="second-comment">Gitalk</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cusimg/ava.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">haf208</div><div class="author-info__description"><(￣︶￣)> 欢迎欢迎</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/kskshaf" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/07/18/txbox-emmc/" title="给在pdd买的机顶盒扩容">给在pdd买的机顶盒扩容</a><time datetime="2024-07-17T16:02:17.000Z" title="发表于 2024-07-18 00:02:17">2024-07-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/06/06/ele-diy2/" title="一个升压模块的制作">一个升压模块的制作</a><time datetime="2024-06-05T16:02:17.000Z" title="发表于 2024-06-06 00:02:17">2024-06-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/06/01/ele-diy1/" title="整一个铅酸电池欠压保护板">整一个铅酸电池欠压保护板</a><time datetime="2024-05-31T17:24:57.000Z" title="发表于 2024-06-01 01:24:57">2024-06-01</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/03/22/ele-diy/" title="重温电子制作">重温电子制作</a><time datetime="2024-03-22T15:05:26.000Z" title="发表于 2024-03-22 23:05:26">2024-03-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/03/02/npm/" title="npm 使用笔记">npm 使用笔记</a><time datetime="2024-03-02T15:10:26.000Z" title="发表于 2024-03-02 23:10:26">2024-03-02</time></div></div></div></div></div></div></main><footer id="footer" style="background: url(/cusimg/luma.png)"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By haf208</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="https://lib.baomitu.com/fancyapps-ui/5.0.32/fancybox/fancybox.umd.min.js"></script><script src="https://lib.baomitu.com/vanilla-lazyload/17.8.5/lazyload.iife.min.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://lib.baomitu.com/mermaid/10.6.1/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const initWaline = () => {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://waline-for-blog.haf208.cc',
+      pageview: true,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: true,
+    }, {"turnstileKey":"0x4AAAAAAASOcVhU45l8W4Cf"}))
+
+    const destroyWaline = () => {
+      waline.destroy()
+    }
+
+    btf.addGlobalFn('pjax', destroyWaline, 'destroyWaline')
+
+  }
+
+  const loadWaline = async () => {
+    if (typeof Waline === 'object') initWaline()
+    else {
+      await getCSS('https://lib.baomitu.com/waline/3.1.2/waline.min.css')
+      await getScript('https://lib.baomitu.com/waline/3.1.2/waline.umd.min.js')
+      initWaline()
+    }
+  }
+
+  if ('Waline' === 'Waline' || !false) {
+    if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+    else setTimeout(loadWaline, 0)
+  } else {
+    window.loadOtherComment = loadWaline
+  }
+})()</script><script>(() => {
+  const initGitalk = () => {
+    const gitalk = new Gitalk(Object.assign({
+      clientID: '2d8012f356d7e4cf9d02',
+      clientSecret: 'e478381652e360c10cc9196aeba35c6b1e966bf2',
+      repo: 'blog-gitalk',
+      owner: 'kskshaf',
+      admin: ['kskshaf'],
+      id: 'd407e4f5ca28aabd59732e7fcf0166d6',
+      updateCountCallback: commentCount
+    },null))
+
+    gitalk.render('gitalk-container')
+  }
+
+  const loadGitalk = async() => {
+    if (typeof Gitalk === 'function') initGitalk()
+    else {
+      await getCSS('https://lib.baomitu.com/gitalk/1.8.0/gitalk.min.css')
+      await getScript('https://lib.baomitu.com/gitalk/1.8.0/gitalk.min.js')
+      initGitalk()
+    }
+  }
+  
+  const commentCount = n => {
+    const isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+    if (isCommentCount) {
+      isCommentCount.textContent= n
+    }
+  }
+
+  if ('Waline' === 'Gitalk' || !false) {
+    if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+    else loadGitalk()
+  } else {
+    window.loadOtherComment = loadGitalk
+  }
+})()</script></div><div id="aplayerallpages"><script src="https://registry.npmmirror.com/loko-aper-mod/1.0.1/files/APlayer.min.js"></script><script src="/js/music.js"></script></div><script src="https://npm.elemecdn.com/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="/js/music.js"]):not([href="https://registry.npmmirror.com/loko-aper-mod/1.0.1/files/APlayer.min.js"]):not([href="https://registry.npmmirror.com/loko-aper-mod/1.0.1/files/APlayer.min.css"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.12.0"></script></div></div></body></html>
