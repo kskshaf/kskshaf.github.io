@@ -15,14 +15,14 @@ const apall = new APlayer({
         name: "ニュー・マイ・ノーマル",
         artist: 'Mrs. GREEN APPLE',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/others/11.m4a', //yt:E7YAf0O02Ms
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.91/others/11.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.92/others/11.lrc',
         theme: '#44DB56'
     }, {
         name: "雪は何色",
         artist: 'Kotoha',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/01.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/cover.webp',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/01.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.92/others/PALETTE2308/01.lrc',
         theme: '#C8FFFD'
     }, {
         name: "夢と色でできている",
