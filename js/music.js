@@ -15,7 +15,7 @@ const apall = new APlayer({
         name: "ニュー・マイ・ノーマル",
         artist: 'Mrs. GREEN APPLE',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/others/11.m4a', //yt:E7YAf0O02Ms
-        lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/others/11.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.91/others/11.lrc',
         theme: '#44DB56'
     }, {
         name: "雪は何色",
@@ -23,52 +23,52 @@ const apall = new APlayer({
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/01.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/cover.webp',
         lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/PALETTE2308/01.lrc',
-        theme: '#44DB56'
+        theme: '#C8FFFD'
     }, {
         name: "夢と色でできている",
         artist: '佐咲紗花',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/01.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/cover.webp',
         lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/01.lrc',
-        theme: '#44DB56'
+        theme: '#A4DDFF'
     }, {
         name: "これくらいで",
         artist: '藍月なくる',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/02.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/cover.webp',
         lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/02.lrc',
-        theme: '#44DB56'
+        theme: '#A4DDFF'
     }, {
         name: "夢と色でできている Grand End",
         artist: '佐咲紗花',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/03.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/cover.webp',
         lrc: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/FENG-59/03.lrc',
-        theme: '#44DB56'
+        theme: '#A4DDFF'
     }, {
         name: "优しい风が吹くあの场所で -Anime Version-",
         artist: '三輪学',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/01.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/cover.webp',
-        theme: '#44DB56'
+        theme: '#DCD3DB'
     }, {
         name: "未来へ踏み出す一歩 -Anime Version-",
         artist: '三輪学',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/19.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/cover.webp',
-        theme: '#44DB56'
+        theme: '#DCD3DB'
     }, {
         name: "优しい风が吹くあの场所で",
         artist: '三輪学',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/SPH-003/02.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/SPH-003/cover.jpg',
-        theme: '#44DB56'
+        theme: '#DCD3DB'
     }, {
         name: "未来へ踏み出す一歩-",
         artist: '三輪学',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/SPH-003/19.m4a',
         cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/SPH-003/cover.jpg',
-        theme: '#44DB56'
+        theme: '#DCD3DB'
     }, {
         name: "花びらとりぼん",
         artist: 'Larval Stage Planning',
