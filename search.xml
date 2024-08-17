@@ -1,225 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一些视频 (随缘)</title>
-    <url>/2023/11/18/Others/</url>
-    <content><![CDATA[<h2> 伊朗做死哥 </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2> MAD </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
-      <tags>
-        <tag>hello</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>给博客添加 APlayer 播放器</title>
-    <url>/2024/02/04/use-player/</url>
-    <content><![CDATA[<p>博客一眼看过去，感觉还是单调了些，于是就有了在博客里添加播放器的冲动（虽然加播放器也改变不了多少）。</p>
-<p>看了下 <a href="https://aplayer.js.org/#/zh-Hans/">APlayer的文档</a>，发现似乎还是可行的，然后就动手改了，顺便上了 pjax 来避免切换页面导致音乐播放停止。</p>
-<p>我是直接在主题文件（hexo-theme-landscape）里改的，但有缺点：如果要在其他设备写博客或修改博客，都要用到被修改的主题文件；改 js 有点麻烦。所以可能还是直接装插件更好些。大致修改如下：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 在 hexo-theme-landscape/layout/_partial/head.ejs 引入 APlayer.min.css --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="comment">/* from blog.saop.cc/p/8dc9/#全局吸底伸缩 */</span></span></span><br><span class="line"><span class="language-css">      <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">960px</span>) &#123;</span></span><br><span class="line"><span class="language-css">        <span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-fixed</span><span class="selector-class">.aplayer-narrow</span> <span class="selector-class">.aplayer-body</span> &#123;</span></span><br><span class="line"><span class="language-css">          <span class="attribute">left</span>:-<span class="number">66px</span><span class="meta">!important</span></span></span><br><span class="line"><span class="language-css">        &#125;</span></span><br><span class="line"><span class="language-css">        <span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-fixed</span><span class="selector-class">.aplayer-narrow</span> <span class="selector-class">.aplayer-body</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">          <span class="attribute">left</span>:<span class="number">0</span><span class="meta">!important</span></span></span><br><span class="line"><span class="language-css">        &#125;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">......</span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id=""><a href="#" class="headerlink" title=""></a></h1><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 文件 hexo-theme-landscape/layout/layout.ejs --&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- layout.ejs 原主体部分 --&gt;</span></span><br><span class="line">&lt;%- partial(&#x27;_partial/head&#x27;) %&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;container&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;wrap&quot;</span>&gt;</span></span><br><span class="line">      &lt;%- partial(&#x27;_partial/header&#x27;, null, &#123;cache: !config.relative_link&#125;) %&gt;</span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;outer&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span> <span class="attr">id</span>=<span class="string">&quot;main&quot;</span>&gt;</span>&lt;%- body %&gt;<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &#x27;bottom&#x27;)&#123; %&gt;</span><br><span class="line">          &lt;%- partial(&#x27;_partial/sidebar&#x27;, null, &#123;cache: !config.relative_link&#125;) %&gt;</span><br><span class="line">        &lt;% &#125; %&gt;</span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &lt;%- partial(&#x27;_partial/footer&#x27;, null, &#123;cache: !config.relative_link&#125;) %&gt;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    &lt;%- partial(&#x27;_partial/mobile-nav&#x27;, null, &#123;cache: !config.relative_link&#125;) %&gt;</span><br><span class="line">    &lt;%- partial(&#x27;_partial/after-footer&#x27;) %&gt;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 使用 PJAX 避免播放中断 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript">$(<span class="variable language_">document</span>).<span class="title function_">pjax</span>(<span class="string">&#x27;a[target!=_blank]&#x27;</span>, <span class="string">&#x27;#container&#x27;</span>, &#123;<span class="attr">timeout</span>:<span class="number">3000</span>, <span class="attr">fragment</span>:<span class="string">&#x27;#container&#x27;</span>&#125;);</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 添加 APlayer.min.js 以及播放列表，或者可以在 hexo-theme-landscape/source 内添加 js 播放列表 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;aplayerallpages&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> apall = <span class="keyword">new</span> <span class="title class_">APlayer</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">container</span>: <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;aplayerallpages&#x27;</span>),</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">fixed</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">autoplay</span>: <span class="literal">false</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">loop</span>: <span class="string">&#x27;all&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">order</span>: <span class="string">&#x27;list&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">preload</span>: <span class="string">&#x27;metadata&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">volume</span>: <span class="number">0.5</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">mutex</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">listFolded</span>: <span class="literal">false</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">audio</span>: [</span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">name</span>: <span class="string">&quot;01&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">artist</span>: <span class="string">&#x27;a1&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">url</span>: <span class="string">&#x27;01.flac&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">theme</span>: <span class="string">&#x27;#9F604C&#x27;</span></span></span><br><span class="line"><span class="language-javascript">    &#125;,</span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">name</span>: <span class="string">&quot;02&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">artist</span>: <span class="string">&#x27;a2&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">url</span>: <span class="string">&#x27;02.flac&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">theme</span>: <span class="string">&#x27;#9F604C&#x27;</span></span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript">    ]</span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>2024.02.20更新</strong><br>现在的话使用了 butterfly 主题，直接在主题的配置文件修改就行，<a href="https://butterfly.js.org/posts/507c070f/">详情见文档</a></p>
-]]></content>
-      <tags>
-        <tag>note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>给在pdd买的机顶盒扩容</title>
-    <url>/2024/07/18/txbox-emmc/</url>
-    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器给 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
-<p>于是我就买了个 32GB 的 KLMBG2JETD-B041 换上去。不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圆”，而且特别要注意的是用镊子碰 EMMC 时的幅度不能太大，要不底部很容易连锡从而造成短路。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"></p>
-<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程大家可以自己搜一下。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
-<p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
-]]></content>
-      <tags>
-        <tag>手残</tag>
-        <tag>电子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm 使用笔记</title>
-    <url>/2024/03/02/npm/</url>
-    <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://docs.npmjs.com/</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/nodejs/nodejs-npm.html</span></span><br><span class="line"><span class="comment"># https://akilar.top/posts/3e956346/</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br><span class="line"></span><br><span class="line">npm init</span><br><span class="line">npm publish</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除已发布的包版本</span></span><br><span class="line">npm unpublish you-npm-pack@version --force</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux 使用笔记(还有唠嗑)</title>
-    <url>/2024/01/29/linux-notes/</url>
-    <content><![CDATA[<h2 id="Linux-系统初使用"><a href="#Linux-系统初使用" class="headerlink" title="Linux 系统初使用?"></a>Linux 系统初使用?</h2><p>说来话长了。。。本人小时候家里没有电脑，平时也基本接触不到电脑。在21年的时候，估计是贴吧逛多了，然后按捺不住，想要拥有一台自己的电脑<del>玩些奇奇怪怪的东西</del>，于是偷偷地省父母给的饭钱，在 <code>keng duo duo</code> 买了一堆硬件回来组装电脑。接着，用手机、自己拆充电线焊接的 OTG 转接器、还有内存卡做了个系统盘，装机。显示器用的还是楼下捡的 VGA 监视器……</p>
-<p>开始只是<del>浅浅地</del>看些番玩些 Gal 罢了，但是后来因为沉迷了某部偶像番， 也慢慢地(大概?)接触到了字幕圈还有压制圈，认识了许多的大佬，学到了许多的知识，<del>不过似乎还学了一些好像无关紧要的知识</del>。不过也似乎是因为过于沉迷这些新奇的事物，而且还把这些东西当作了逃避现实世界的避风港，搞得整个高中的学业都没搞好，人际关系也是一团糟，身体素质也差了不少。</p>
-<p>之后因为一些奇奇怪怪的缘由(已经记不清楚了，大概是建站?)，开始用起了 Linux 系统。开始先是用个机顶盒刷了 Armbian，然后又去买了些竞价实例的云服务器玩玩，再后来到实体机安装，发现 Linux 系统还挺省内存的，软件也好编译和开优化，性能也比 Windows 好点<del>(大概是因为内存不够用又不想额外花钱)</del>。</p>
-<p>最近这段时间先是用了 Ubuntu，但发现坑太多，于是听从大佬的建议，上了基于 ArchLinux 的 Manjaro，确实舒服不少。好了不说了，接下来就是一些<del>从杂七杂八的地方搜罗来的</del>笔记了。</p>
-<h3 id="Ubuntu-使用笔记"><a href="#Ubuntu-使用笔记" class="headerlink" title="Ubuntu 使用笔记"></a><em><strong>Ubuntu 使用笔记</strong></em></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># rpm 包转换为 deb 包以及 deb 包的安装</span></span><br><span class="line"><span class="built_in">sudo</span> alien x.rpm</span><br><span class="line"><span class="built_in">sudo</span> dpkg -i x.deb</span><br><span class="line"></span><br><span class="line"><span class="comment"># GCC 编译器版本切换 (Ubuntu 22.04)</span></span><br><span class="line"><span class="built_in">sudo</span> apt install gcc-11 gcc-11-multilib g++-11 g++-11-multilib gcc-12 gcc-12-multilib g++-12 g++-12-multilib ......</span><br><span class="line"></span><br><span class="line"><span class="comment"># --slave能保证gcc和g++保持相同的版本</span></span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 90 --slave /usr/bin/g++ g++ /usr/bin/g++-12 --slave /usr/bin/gcov gcov /usr/bin/gcov-12</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 80 --slave /usr/bin/g++ g++ /usr/bin/g++-11 --slave /usr/bin/gcov gcov /usr/bin/gcov-11</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --config gcc</span><br><span class="line"></span><br><span class="line"><span class="comment"># python 不同版本的安装与配置</span></span><br><span class="line"><span class="built_in">sudo</span> add-apt-repository ppa:deadsnakes/ppa</span><br><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install python3.11</span><br><span class="line"></span><br><span class="line"><span class="comment"># python 的编译与安装</span></span><br><span class="line">apt install build-essential zlib1g-dev libncurses5-dev libncursesw5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libbz2-dev liblzma-dev sqlite3 libsqlite3-dev tk-dev uuid-dev libgdbm-compat-dev libgdbm-dev libc6-dev</span><br><span class="line">wget https://www.python.org/ftp/python/3.11.5/Python-3.11.5.tar.xz</span><br><span class="line">tar xf Python-3.11.5.tar.xz</span><br><span class="line">./configure --enable-optimizations --with-lto --prefix=/home/ubuntu/myenc ...略</span><br><span class="line">make -j$(<span class="built_in">nproc</span>)</span><br><span class="line">make altinstall</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 apt-cache rdepends 找到应用依赖项</span></span><br><span class="line">apt-cache rdepends python3.10</span><br><span class="line"></span><br><span class="line"><span class="comment"># 同上 (非常不建议使用，系统容易炸)</span></span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 10</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.11 20</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --config python3</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -s /usr/local/bin/python3.11 /usr/bin/python3.11</span><br><span class="line"></span><br><span class="line"><span class="comment"># 若碰到 No module named &#x27;apt_pkg&#x27; 的问题，如果apt_pkg.so已存在，则使用 ln -fs xxx (不过系统其他地方还会抽风)</span></span><br><span class="line"><span class="comment"># 其他方法 https://blog.csdn.net/StillOnMyWay/article/details/114492675</span></span><br><span class="line"><span class="built_in">cd</span> /usr/lib/python3/dist-packages/</span><br><span class="line"><span class="built_in">ln</span> -s apt_pkg.cpython-310-x86_64-linux-gnu.so apt_pkg.so</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装不同pip</span></span><br><span class="line">curl -L https://bootstrap.pypa.io/get-pip.py -o get-pip.py</span><br><span class="line">python#.## get-pip.py</span><br><span class="line">pip#.## -V 或 python#.## -m pip -V</span><br><span class="line">  </span><br><span class="line"><span class="comment"># vapoursynth 编译与安装</span></span><br><span class="line"><span class="comment"># 参照 .github/workflows/*.yml</span></span><br><span class="line"><span class="comment"># 首先安装编译依赖项</span></span><br><span class="line">  <span class="built_in">sudo</span> apt install autoconf automake libtool pkg-config cmake nasm ninja-build</span><br><span class="line"></span><br><span class="line">  <span class="comment"># 如果想安装更高版本的nasm：</span></span><br><span class="line">  wget https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/linux/nasm-2.16.01-0.fc36.x86_64.rpm</span><br><span class="line">  <span class="built_in">sudo</span> alien nasm-2.16.01-0.fc36.x86_64.rpm &amp;&amp; <span class="built_in">sudo</span> dpkg -i nasm*.deb</span><br><span class="line"></span><br><span class="line">  <span class="comment"># 编译安装 zimg</span></span><br><span class="line">  git <span class="built_in">clone</span> https://github.com/sekrit-twc/zimg --depth 1 --shallow-submodules --recurse-submodules</span><br><span class="line">  <span class="built_in">pushd</span> zimg</span><br><span class="line">  ./autogen.sh</span><br><span class="line">  ./configure --prefix=/usr</span><br><span class="line">  make -j$(<span class="built_in">nproc</span>)</span><br><span class="line">  <span class="built_in">sudo</span> make install -j$(<span class="built_in">nproc</span>)</span><br><span class="line">  <span class="built_in">popd</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 编译安装vapoursynth</span></span><br><span class="line">  python3 -m pip install -U pip</span><br><span class="line">  pip3 install -U cython setuptools wheel</span><br><span class="line">  git <span class="built_in">clone</span> https://github.com/vapoursynth/vapoursynth</span><br><span class="line">  <span class="built_in">cd</span> vapoursynth</span><br><span class="line">  ./autogen.sh</span><br><span class="line">  ./configure --prefix=/usr</span><br><span class="line">  make -j$(<span class="built_in">nproc</span>)</span><br><span class="line">  <span class="built_in">sudo</span> make install</span><br><span class="line">  python setup.py sdist -d sdist</span><br><span class="line">  <span class="built_in">mkdir</span> empty</span><br><span class="line">  <span class="built_in">pushd</span> empty</span><br><span class="line">  pip install vapoursynth --no-index --find-links ../sdist</span><br><span class="line">  <span class="built_in">popd</span></span><br><span class="line">  python -m unittest discover -s <span class="built_in">test</span> -p <span class="string">&quot;*test.py&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 零零碎碎</span></span><br><span class="line">ldd xxx.so <span class="comment"># 查询依赖库</span></span><br><span class="line"><span class="built_in">du</span> -sh <span class="string">&quot;目录&quot;</span> <span class="comment"># 查看目录占用大小</span></span><br><span class="line"><span class="built_in">df</span> -h <span class="comment"># 查看磁盘使用情况</span></span><br><span class="line">lsblk</span><br><span class="line">blkid</span><br><span class="line">mount -t <span class="string">&quot;disk-type&quot;</span> /dev/the-disk-you-want-to-mount /dir/you/want/to/mount/to</span><br><span class="line">vim /etc/fstab</span><br></pre></td></tr></table></figure>
-
-<h3 id="Manjaro-使用笔记"><a href="#Manjaro-使用笔记" class="headerlink" title="Manjaro 使用笔记"></a><em><strong>Manjaro 使用笔记</strong></em></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 时间配置</span></span><br><span class="line"><span class="built_in">sudo</span> timedatectl set-local-rtc 1</span><br><span class="line"><span class="built_in">sudo</span> ntpdate time.windows.com</span><br><span class="line"><span class="built_in">sudo</span> hwclock --localtime --systohc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 包管理</span></span><br><span class="line"><span class="built_in">sudo</span> pacman-mirrors -c China</span><br><span class="line"></span><br><span class="line"><span class="comment"># https://mirrors.ustc.edu.cn/help/archlinuxcn.html</span></span><br><span class="line"><span class="comment"># 在 /etc/pacman.conf 文件末尾添加两行：</span></span><br><span class="line">[archlinuxcn]</span><br><span class="line">Server = https://mirrors.ustc.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br><span class="line"><span class="comment"># 接着执行</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -Syyu</span><br><span class="line"><span class="built_in">sudo</span> pacman-key --lsign-key <span class="string">&quot;farseerfc@archlinux.org&quot;</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S archlinuxcn-keyring</span><br><span class="line"></span><br><span class="line"><span class="comment"># 不知是系统问题还是我手贱，导致 archlinux-keyring 安装出错了，archlinux-keyring 的所有文件均为 0B，无法更新软件包，遂这样解决（建议还是先看一下 aur 以及 archlinux wiki 才操作，以免误操作）：</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">rm</span> -f /usr/bin/archlinux-keyring-wkd-sync /usr/lib/systemd/system/archlinux-keyring-wkd-sync.service /usr/lib/systemd/system/archlinux-keyring-wkd-sync.timer /usr/lib/systemd/system/timers.target.wants/archlinux-keyring-wkd-sync.timer /usr/share/pacman/keyrings/archlinux-revoked /usr/share/pacman/keyrings/archlinux-trusted /usr/share/pacman/keyrings/archlinux.gpg</span><br><span class="line"><span class="built_in">sudo</span> pacman -Syy archlinux-keyring</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重置软件包 pgp</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">rm</span> -rf /etc/pacman.d/gnupg</span><br><span class="line"><span class="built_in">sudo</span> pacman-key --init</span><br><span class="line"><span class="built_in">sudo</span> pacman-key --populate</span><br><span class="line"><span class="built_in">sudo</span> pacman-key --refresh-keys</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重新生成 grub 引导 (如果系统语言已经改成中文的话，引导界面也会改成中文)</span></span><br><span class="line"><span class="built_in">sudo</span> grub-mkconfig -o /boot/grub/grub.cfg</span><br><span class="line"><span class="comment"># 重新生成 initramfs</span></span><br><span class="line"><span class="built_in">sudo</span> mkinitcpio -P</span><br><span class="line"></span><br><span class="line"><span class="comment"># 字体</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S noto-fonts-cjk noto-fonts-extra</span><br></pre></td></tr></table></figure>
-<h3 id="CentOS7-使用"><a href="#CentOS7-使用" class="headerlink" title="CentOS7 使用"></a><em><strong>CentOS7 使用</strong></em></h3><p>额，本来是不想折腾这个系统的，但是这个学期换专业了，不得不折腾了 [苦笑]<br>镜像的话，我是下载的 Minimal 2009 版本，然后安装在了 VMWare 上，具体过程这里就省略了（<br>接下来的话是安装后的操作。</p>
-<ul>
-<li><ol>
-<li>网络配置<br>发现安装 Minimal 后网络需要另外配置，不过也可以在安装的图形界面修改配置（具体暂时不展开<br>教程：<a href="https://www.cnblogs.com/huanghanyu/articles/17278061.html">https://www.cnblogs.com/huanghanyu/articles/17278061.html</a> （还是习惯使用中文，估计英文文档的话会更详细吧）<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip addr <span class="comment"># 首先查看你的网卡</span></span><br><span class="line">vi /etc/sysconfig/network-scripts/ifcfg-ens33</span><br><span class="line"><span class="comment"># ifcfg-ens33 指的是你可以连接外网的网卡，根据实际修改</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修改或添加：</span></span><br><span class="line">BOOTPROTO=dhcp</span><br><span class="line">ONBOOT=<span class="built_in">yes</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># vi/vim 按 i 切换输入模式，按 ESC 退出模式，接着 :wq 保存退出</span></span><br><span class="line"><span class="comment"># 然后：</span></span><br><span class="line">systemctl restart network</span><br><span class="line"><span class="comment"># 到这里应该就可以使用网络相关的操作了（yum update</span></span><br></pre></td></tr></table></figure></li>
-</ol>
-</li>
-<li><ol start="2">
-<li>安装桌面<br>教程：<a href="https://www.cnblogs.com/u-drive/p/9832356.html">https://www.cnblogs.com/u-drive/p/9832356.html</a></li>
-</ol>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum -y <span class="built_in">groups</span> install <span class="string">&quot;GNOME Desktop&quot;</span></span><br><span class="line">startx</span><br><span class="line">systemctl get-default <span class="comment"># 查看默认使用界面</span></span><br><span class="line">systemctl set-default graphical.target <span class="comment"># 设置默认启动为图形界面</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他?"></a><em><strong>其他?</strong></em></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Rust mirror</span></span><br><span class="line"><span class="comment"># https://mirrors.ustc.edu.cn/help/crates.io-index.html</span></span><br><span class="line"><span class="comment"># 在 $CARGO_HOME/config 中添加如下内容 ($CARGO_HOME 在 Windows 系统默认为：%USERPROFILE%\.cargo，在类 Unix 系统默认为：$HOME/.cargo)：</span></span><br><span class="line">[source.crates-io]</span><br><span class="line">replace-with = <span class="string">&#x27;ustc&#x27;</span></span><br><span class="line"></span><br><span class="line">[source.ustc]</span><br><span class="line">registry = <span class="string">&quot;git://mirrors.ustc.edu.cn/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Pip mirror</span></span><br><span class="line">python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip</span><br><span class="line"></span><br><span class="line"><span class="comment"># Install NGINX Latest Version</span></span><br><span class="line"><span class="comment"># https://nginx.org/en/linux_packages.html</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个升压模块的制作</title>
-    <url>/2024/06/06/ele-diy2/</url>
-    <content><![CDATA[<p>学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（</p>
-<p>说起 <a href="https://oshwhub.com/">oshwhub</a> 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低成本的升降压工程或方案，接着就是一通折腾：查资料、学用嘉立创EDA、画板子、打板子、买了一大坨工具还有原件回来折腾…… <del>后来才发现总成本已远远超出预期 吐血</del> 这个升压模块的制作就主要是参考 oshwhub 上面的两个工程的：<a href="https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701">https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701</a>、<a href="https://oshwhub.com/aknice/sc8701">https://oshwhub.com/aknice/sc8701</a>，我发的 SC8201 升压模块工程在这里：<a href="https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya">https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya</a></p>
-<p>接下来就<del>赘述</del>一下折腾的过程吧。</p>
-<p>考虑来考虑去，最终使用了南芯的 <a href="https://www.semiee.com/file/Specfile/SouthChip-SC8201_v0.2.4.pdf">SC8201</a>升压主控，功率管使用了 TO-220 封装的 <a href="https://www.infineon.com/dgdl/Infineon-IPP040N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372bbaa5ad4942">IPP040N06N</a> 。本来升压主控是想用 SC8701 的，可以照搬 oshwhub 上已有的工程，但是考虑到损耗&amp;成本的问题<del>（其实就是闲着没事想折腾）</del>，还是选择了 SC8201。PCB 大电流走线部分都有堆锡或者埋铜处理，功率管走线参考了 <a href="https://www.semiee.com/file/SouthChip/SouthChip-SC880X-NOTES.pdf">SC880x&#x2F;SC870x 的布线指南</a>。接着就是 —— 看图：<br><img src="https://image-pro.lceda.cn/pullimages/4274f2f577974f028c427b3585b33ef2.webp" alt="电路图"></p>
-<div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/f892544276aa499e875fe5df0bf93fd5.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/75cb65502d844278bd4755b265ff2c41.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/b251923e83fa46c791154daf0793e8ce.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/1dccea851b644cb9bf71998f6b255552.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/6d0c8c530e644e469b04410de6093083.webp","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-
-
-<p>板子的话，我也是边学边画的，前前后后估计打了3次板子（不包括中途画错然后取消订单的），花了差不多 60RMB 吧。<br>第一次画的板子打出来后才发现 MOS 的栅极走线太细了，不敢用，于是修改好后又打了一次板子。第二次打的板子，迫不及待地焊接好后，通电，然后久违地体验了一次炸电容（电解电容焊反了。。。）<br><img src="https://image.lceda.cn/oshwhub/064c02f6397547289a377b6429a5b931.webp" alt="电容炸了"></p>
-<p>换好电容后，测试。接好 12v 电瓶，升压至 20v，带约1.7欧假负载电阻（俩5.1欧电阻串联，接着并联x6，水冷，见图）测试的时候，一切都似乎挺正常的，测得输入功率 228w，测得纹波应该是 310mv+。</p>
-<div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/943d654a1b6e4701a00ee2e8223414ed.webp","alt":"输入"},{"url":"https://image.lceda.cn/oshwhub/27035f27f6fb4d55844149947172a24e.webp","alt":"输出电流"},{"url":"https://image.lceda.cn/oshwhub/c0d8dacf549843329f5567b5bebe853e.webp","alt":"水冷负载电阻~"}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-
-<p>接着接上笔记本，在笔记本上进行压力测试，发现模块带不动笔记本（笔记本经常掉电），这才发现模块的电压反馈部分有问题，于是就修改电路、飞线，后恢复正常。总之折腾了挺久的，从早上10点搞到晚上7点左右才搞好（哭笑）</p>
-<div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/15024188a7324d348a63ff47dd169156.webp","alt":"飞线~"},{"url":"https://image.lceda.cn/oshwhub/caa6777675fc4d9fb044e8c67bcb3e7a.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/3707060b92944f41b5387fbb472a8ed0.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/e1201a5d4ff24b9c87ed38ec1fb9b623.webp","alt":"接笔记本测试"}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-
-<p>第三次打的板子才是比较满意的，测试的时候也有很好的表现。这次给模块供电的是 12v 开关电源，同样是 20v 输出，空载纹波似乎不到 20mv；接1.7欧假负载电阻，测得输入功率 248w，输出功率 240w，纹波 214mv，给笔记本供电也绰绰有余。</p>
-<div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/7ab9b34d617142eb970792d1508d9b94.webp","alt":"某宝的服务器拆机电源"},{"url":"https://image.lceda.cn/oshwhub/25c26e0e641d4585901ef880fbef89ad.webp","alt":"输出20v"},{"url":"https://image.lceda.cn/oshwhub/8002286e968c47b5a57d8abe4f53be00.webp","alt":"空载纹波"},{"url":"https://image.lceda.cn/oshwhub/2a6a3a11d2d7412f906f61bfd1ae56b4.webp","alt":"空载功耗"},{"url":"https://image.lceda.cn/oshwhub/fd7046018cb341e8ae106b5349b5c556.webp","alt":"带1.7欧假负载电阻，输出12A"},{"url":"https://image.lceda.cn/oshwhub/665c28fa9aed417dbf0f4d62f8f740b0.webp","alt":"带1.7欧假负载电阻，输入功耗"},{"url":"https://image.lceda.cn/oshwhub/3123f4b2ea3a44e79c648bfc0cb5d8dc.webp","alt":"带1.7欧假负载电阻时，纹波"},{"url":"https://image.lceda.cn/oshwhub/ef6f9cbcf2fe4f128fd98dfc2b5dc1d0.webp","alt":"带笔记本，双烤"},{"url":"https://image.lceda.cn/oshwhub/b94c0b6704a14dce87bb75c3f8413a85.webp","alt":"带笔记本，双烤"}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-
-<p>中间还接了一个短路欠压保护板，电路也不是很复杂。至于测纹波，我买的示波器似乎并没有直接测量纹波的功能，于是就简单地用电容和电阻把纹波“过滤”了出来。不清楚这样做是否完全正确，不过目前对于我来说应该是够用了。<br><img src="https://image.lceda.cn/oshwhub/76ef4026934045659a01a52bce9526f7.webp"></p>
-<p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>diy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git 使用笔记</title>
-    <url>/2024/02/15/git-notes/</url>
-    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>整一个铅酸电池欠压保护板</title>
-    <url>/2024/06/01/ele-diy1/</url>
-    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
-<p>贴上电路：<img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/circurt.webp"></p>
-<table>
-<thead>
-<tr>
-<th align="center">制作所用原件</th>
-<th align="center">型号 (或参数)</th>
-<th align="center">数量</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">MOS 管</td>
-<td align="center">NCEP40PT15D</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">三级管</td>
-<td align="center">S8050 &#x2F; S8550</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电压基准芯片</td>
-<td align="center">TL431</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电阻</td>
-<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
-<td align="center">10kΩ x2, 其余都是x1</td>
-</tr>
-<tr>
-<td align="center">电容</td>
-<td align="center">0603 10nF</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">其他</td>
-<td align="center">undefined</td>
-<td align="center">undefined</td>
-</tr>
-</tbody></table>
-<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/02.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/03.webp"></p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>diy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搞了N天，终于搞出来了</title>
-    <url>/2023/08/24/blog-his/</url>
-    <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
-<p>先是 lnmp 环境的搭建（没用云服务端开箱即用的，买不起，用的是 <a href="https://github.com/linuxeye/lnmp">gayhub</a> 上的自动化脚本），然后是 WordPress 的安装、总体的配置等等。最初用的是普通的云服务器安装 lnmp，很快搞掂；但，后来我想安装到在 pdd 花费了不到 50RMB 买的机顶盒，可总是安装失败，以我目前的水平是解决不了的啦[哭笑]<br><del>（目前就随便装了个主题应付一下，有空再搞了</del></p>
-<p><strong>2024.02.17更新</strong><br>现在的话就是使用 hexo，部署在 github pages 上了，还套上了<del>减速器</del> cloudflare，方便且成本低。<br>后面的话打算进一步完善主题外观（也可能会更换主题），并加上评论系统。</p>
-<p><strong>2024.02.20更新</strong><br>经过了这几天的折腾，终于还是换了 butterfly 主题，并开启了评论系统（Waline &amp; Twikoo, 使用了 vercel or netlify + mongodb 的部署方案）。<br>但由于 Turnsite 在两个评论系统中同时启用会出 bug, 目前关闭了 Twikoo，只开启了 Waline。<br>原来的 landscape 主题实在是无能力折腾，遂弃之[死鱼眼]。</p>
-<p><strong>2024.03.08更新</strong><br>开启了 Gitalk。</p>
-<h3 id="文档-参考"><a href="#文档-参考" class="headerlink" title="文档 &amp; 参考:"></a>文档 &amp; 参考:</h3><ul>
-<li><a href="https://waline.js.org/">https://waline.js.org/</a></li>
-<li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1418">https://github.com/jerryc127/hexo-theme-butterfly/issues/1418</a></li>
-<li><a href="https://twikoo.js.org/">https://twikoo.js.org/</a></li>
-<li><a href="https://blog.saop.cc/">https://blog.saop.cc/</a></li>
-<li><a href="https://runtimes.cc/8693/">https://runtimes.cc/8693/</a><br><br> </br></li>
-<li><em>发布时间: 2023.08.24, 最后更新: 2024.03.08</em></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>old</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>重温电子制作</title>
     <url>/2024/03/22/ele-diy/</url>
     <content><![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SSTC、调频电台等等，初中学了化学后还自己电解水制氢来做氢气球…… 还拆坏了不少东西（不过当然也有修好的）。虽然折腾了这么多东西，但惭愧的是对大部分电路的原理还是不甚了解。</p>
@@ -306,9 +87,228 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>电子</tag>
         <tag>diy</tag>
+        <tag>电子</tag>
         <tag>作死</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搞了N天，终于搞出来了</title>
+    <url>/2023/08/24/blog-his/</url>
+    <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
+<p>先是 lnmp 环境的搭建（没用云服务端开箱即用的，买不起，用的是 <a href="https://github.com/linuxeye/lnmp">gayhub</a> 上的自动化脚本），然后是 WordPress 的安装、总体的配置等等。最初用的是普通的云服务器安装 lnmp，很快搞掂；但，后来我想安装到在 pdd 花费了不到 50RMB 买的机顶盒，可总是安装失败，以我目前的水平是解决不了的啦[哭笑]<br><del>（目前就随便装了个主题应付一下，有空再搞了</del></p>
+<p><strong>2024.02.17更新</strong><br>现在的话就是使用 hexo，部署在 github pages 上了，还套上了<del>减速器</del> cloudflare，方便且成本低。<br>后面的话打算进一步完善主题外观（也可能会更换主题），并加上评论系统。</p>
+<p><strong>2024.02.20更新</strong><br>经过了这几天的折腾，终于还是换了 butterfly 主题，并开启了评论系统（Waline &amp; Twikoo, 使用了 vercel or netlify + mongodb 的部署方案）。<br>但由于 Turnsite 在两个评论系统中同时启用会出 bug, 目前关闭了 Twikoo，只开启了 Waline。<br>原来的 landscape 主题实在是无能力折腾，遂弃之[死鱼眼]。</p>
+<p><strong>2024.03.08更新</strong><br>开启了 Gitalk。</p>
+<h3 id="文档-参考"><a href="#文档-参考" class="headerlink" title="文档 &amp; 参考:"></a>文档 &amp; 参考:</h3><ul>
+<li><a href="https://waline.js.org/">https://waline.js.org/</a></li>
+<li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1418">https://github.com/jerryc127/hexo-theme-butterfly/issues/1418</a></li>
+<li><a href="https://twikoo.js.org/">https://twikoo.js.org/</a></li>
+<li><a href="https://blog.saop.cc/">https://blog.saop.cc/</a></li>
+<li><a href="https://runtimes.cc/8693/">https://runtimes.cc/8693/</a><br><br> </br></li>
+<li><em>发布时间: 2023.08.24, 最后更新: 2024.03.08</em></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>old</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些视频 (随缘)</title>
+    <url>/2023/11/18/Others/</url>
+    <content><![CDATA[<h2> 伊朗做死哥 </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2> MAD </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
+      <tags>
+        <tag>hello</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给博客添加 APlayer 播放器</title>
+    <url>/2024/02/04/use-player/</url>
+    <content><![CDATA[<p>博客一眼看过去，感觉还是单调了些，于是就有了在博客里添加播放器的冲动（虽然加播放器也改变不了多少）。</p>
+<p>看了下 <a href="https://aplayer.js.org/#/zh-Hans/">APlayer的文档</a>，发现似乎还是可行的，然后就动手改了，顺便上了 pjax 来避免切换页面导致音乐播放停止。</p>
+<p>我是直接在主题文件（hexo-theme-landscape）里改的，但有缺点：如果要在其他设备写博客或修改博客，都要用到被修改的主题文件；改 js 有点麻烦。所以可能还是直接装插件更好些。大致修改如下：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 在 hexo-theme-landscape/layout/_partial/head.ejs 引入 APlayer.min.css --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="comment">/* from blog.saop.cc/p/8dc9/#全局吸底伸缩 */</span></span></span><br><span class="line"><span class="language-css">      <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">960px</span>) &#123;</span></span><br><span class="line"><span class="language-css">        <span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-fixed</span><span class="selector-class">.aplayer-narrow</span> <span class="selector-class">.aplayer-body</span> &#123;</span></span><br><span class="line"><span class="language-css">          <span class="attribute">left</span>:-<span class="number">66px</span><span class="meta">!important</span></span></span><br><span class="line"><span class="language-css">        &#125;</span></span><br><span class="line"><span class="language-css">        <span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-fixed</span><span class="selector-class">.aplayer-narrow</span> <span class="selector-class">.aplayer-body</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">          <span class="attribute">left</span>:<span class="number">0</span><span class="meta">!important</span></span></span><br><span class="line"><span class="language-css">        &#125;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">......</span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 文件 hexo-theme-landscape/layout/layout.ejs --&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- layout.ejs 原主体部分 --&gt;</span></span><br><span class="line">&lt;%- partial(&#x27;_partial/head&#x27;) %&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;container&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;wrap&quot;</span>&gt;</span></span><br><span class="line">      &lt;%- partial(&#x27;_partial/header&#x27;, null, &#123;cache: !config.relative_link&#125;) %&gt;</span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;outer&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span> <span class="attr">id</span>=<span class="string">&quot;main&quot;</span>&gt;</span>&lt;%- body %&gt;<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &#x27;bottom&#x27;)&#123; %&gt;</span><br><span class="line">          &lt;%- partial(&#x27;_partial/sidebar&#x27;, null, &#123;cache: !config.relative_link&#125;) %&gt;</span><br><span class="line">        &lt;% &#125; %&gt;</span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      &lt;%- partial(&#x27;_partial/footer&#x27;, null, &#123;cache: !config.relative_link&#125;) %&gt;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    &lt;%- partial(&#x27;_partial/mobile-nav&#x27;, null, &#123;cache: !config.relative_link&#125;) %&gt;</span><br><span class="line">    &lt;%- partial(&#x27;_partial/after-footer&#x27;) %&gt;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 使用 PJAX 避免播放中断 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript">$(<span class="variable language_">document</span>).<span class="title function_">pjax</span>(<span class="string">&#x27;a[target!=_blank]&#x27;</span>, <span class="string">&#x27;#container&#x27;</span>, &#123;<span class="attr">timeout</span>:<span class="number">3000</span>, <span class="attr">fragment</span>:<span class="string">&#x27;#container&#x27;</span>&#125;);</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 添加 APlayer.min.js 以及播放列表，或者可以在 hexo-theme-landscape/source 内添加 js 播放列表 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;aplayerallpages&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> apall = <span class="keyword">new</span> <span class="title class_">APlayer</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">container</span>: <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;aplayerallpages&#x27;</span>),</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">fixed</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">autoplay</span>: <span class="literal">false</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">loop</span>: <span class="string">&#x27;all&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">order</span>: <span class="string">&#x27;list&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">preload</span>: <span class="string">&#x27;metadata&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">volume</span>: <span class="number">0.5</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">mutex</span>: <span class="literal">true</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">listFolded</span>: <span class="literal">false</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">audio</span>: [</span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">name</span>: <span class="string">&quot;01&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">artist</span>: <span class="string">&#x27;a1&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">url</span>: <span class="string">&#x27;01.flac&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">theme</span>: <span class="string">&#x27;#9F604C&#x27;</span></span></span><br><span class="line"><span class="language-javascript">    &#125;,</span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">name</span>: <span class="string">&quot;02&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">artist</span>: <span class="string">&#x27;a2&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">url</span>: <span class="string">&#x27;02.flac&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">theme</span>: <span class="string">&#x27;#9F604C&#x27;</span></span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript">    ]</span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>2024.02.20更新</strong><br>现在的话使用了 butterfly 主题，直接在主题的配置文件修改就行，<a href="https://butterfly.js.org/posts/507c070f/">详情见文档</a></p>
+]]></content>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给在pdd买的机顶盒扩容</title>
+    <url>/2024/07/18/txbox-emmc/</url>
+    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器给 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
+<p>于是我就买了个 32GB 的 KLMBG2JETD-B041 换上去。不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圆”，而且特别要注意的是用镊子碰 EMMC 时的幅度不能太大，要不底部很容易连锡从而造成短路。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"></p>
+<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程大家可以自己搜一下。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
+<p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
+]]></content>
+      <tags>
+        <tag>电子</tag>
+        <tag>手残</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm 使用笔记</title>
+    <url>/2024/03/02/npm/</url>
+    <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://docs.npmjs.com/</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/nodejs/nodejs-npm.html</span></span><br><span class="line"><span class="comment"># https://akilar.top/posts/3e956346/</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br><span class="line"></span><br><span class="line">npm init</span><br><span class="line">npm publish</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除已发布的包版本</span></span><br><span class="line">npm unpublish you-npm-pack@version --force</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git 使用笔记</title>
+    <url>/2024/02/15/git-notes/</url>
+    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux 使用笔记(还有唠嗑)</title>
+    <url>/2024/01/29/linux-notes/</url>
+    <content><![CDATA[<h2 id="Linux-系统初使用"><a href="#Linux-系统初使用" class="headerlink" title="Linux 系统初使用?"></a>Linux 系统初使用?</h2><p>说来话长了。。。本人小时候家里没有电脑，平时也基本接触不到电脑。在21年的时候，估计是贴吧逛多了，然后按捺不住，想要拥有一台自己的电脑<del>玩些奇奇怪怪的东西</del>，于是偷偷地省父母给的饭钱，在 <code>keng duo duo</code> 买了一堆硬件回来组装电脑。接着，用手机、自己拆充电线焊接的 OTG 转接器、还有内存卡做了个系统盘，装机。显示器用的还是楼下捡的 VGA 监视器……</p>
+<p>开始只是<del>浅浅地</del>看些番玩些 Gal 罢了，但是后来因为沉迷了某部偶像番， 也慢慢地(大概?)接触到了字幕圈还有压制圈，认识了许多的大佬，学到了许多的知识，<del>不过似乎还学了一些好像无关紧要的知识</del>。不过也似乎是因为过于沉迷这些新奇的事物，而且还把这些东西当作了逃避现实世界的避风港，搞得整个高中的学业都没搞好，人际关系也是一团糟，身体素质也差了不少。</p>
+<p>之后因为一些奇奇怪怪的缘由(已经记不清楚了，大概是建站?)，开始用起了 Linux 系统。开始先是用个机顶盒刷了 Armbian，然后又去买了些竞价实例的云服务器玩玩，再后来到实体机安装，发现 Linux 系统还挺省内存的，软件也好编译和开优化，性能也比 Windows 好点<del>(大概是因为内存不够用又不想额外花钱)</del>。</p>
+<p>最近这段时间先是用了 Ubuntu，但发现坑太多，于是听从大佬的建议，上了基于 ArchLinux 的 Manjaro，确实舒服不少。好了不说了，接下来就是一些<del>从杂七杂八的地方搜罗来的</del>笔记了。</p>
+<h3 id="Ubuntu-使用笔记"><a href="#Ubuntu-使用笔记" class="headerlink" title="Ubuntu 使用笔记"></a><em><strong>Ubuntu 使用笔记</strong></em></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># rpm 包转换为 deb 包以及 deb 包的安装</span></span><br><span class="line"><span class="built_in">sudo</span> alien x.rpm</span><br><span class="line"><span class="built_in">sudo</span> dpkg -i x.deb</span><br><span class="line"></span><br><span class="line"><span class="comment"># GCC 编译器版本切换 (Ubuntu 22.04)</span></span><br><span class="line"><span class="built_in">sudo</span> apt install gcc-11 gcc-11-multilib g++-11 g++-11-multilib gcc-12 gcc-12-multilib g++-12 g++-12-multilib ......</span><br><span class="line"></span><br><span class="line"><span class="comment"># --slave能保证gcc和g++保持相同的版本</span></span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 90 --slave /usr/bin/g++ g++ /usr/bin/g++-12 --slave /usr/bin/gcov gcov /usr/bin/gcov-12</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 80 --slave /usr/bin/g++ g++ /usr/bin/g++-11 --slave /usr/bin/gcov gcov /usr/bin/gcov-11</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --config gcc</span><br><span class="line"></span><br><span class="line"><span class="comment"># python 不同版本的安装与配置</span></span><br><span class="line"><span class="built_in">sudo</span> add-apt-repository ppa:deadsnakes/ppa</span><br><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install python3.11</span><br><span class="line"></span><br><span class="line"><span class="comment"># python 的编译与安装</span></span><br><span class="line">apt install build-essential zlib1g-dev libncurses5-dev libncursesw5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libbz2-dev liblzma-dev sqlite3 libsqlite3-dev tk-dev uuid-dev libgdbm-compat-dev libgdbm-dev libc6-dev</span><br><span class="line">wget https://www.python.org/ftp/python/3.11.5/Python-3.11.5.tar.xz</span><br><span class="line">tar xf Python-3.11.5.tar.xz</span><br><span class="line">./configure --enable-optimizations --with-lto --prefix=/home/ubuntu/myenc ...略</span><br><span class="line">make -j$(<span class="built_in">nproc</span>)</span><br><span class="line">make altinstall</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 apt-cache rdepends 找到应用依赖项</span></span><br><span class="line">apt-cache rdepends python3.10</span><br><span class="line"></span><br><span class="line"><span class="comment"># 同上 (非常不建议使用，系统容易炸)</span></span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 10</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.11 20</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --config python3</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -s /usr/local/bin/python3.11 /usr/bin/python3.11</span><br><span class="line"></span><br><span class="line"><span class="comment"># 若碰到 No module named &#x27;apt_pkg&#x27; 的问题，如果apt_pkg.so已存在，则使用 ln -fs xxx (不过系统其他地方还会抽风)</span></span><br><span class="line"><span class="comment"># 其他方法 https://blog.csdn.net/StillOnMyWay/article/details/114492675</span></span><br><span class="line"><span class="built_in">cd</span> /usr/lib/python3/dist-packages/</span><br><span class="line"><span class="built_in">ln</span> -s apt_pkg.cpython-310-x86_64-linux-gnu.so apt_pkg.so</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装不同pip</span></span><br><span class="line">curl -L https://bootstrap.pypa.io/get-pip.py -o get-pip.py</span><br><span class="line">python#.## get-pip.py</span><br><span class="line">pip#.## -V 或 python#.## -m pip -V</span><br><span class="line">  </span><br><span class="line"><span class="comment"># vapoursynth 编译与安装</span></span><br><span class="line"><span class="comment"># 参照 .github/workflows/*.yml</span></span><br><span class="line"><span class="comment"># 首先安装编译依赖项</span></span><br><span class="line">  <span class="built_in">sudo</span> apt install autoconf automake libtool pkg-config cmake nasm ninja-build</span><br><span class="line"></span><br><span class="line">  <span class="comment"># 如果想安装更高版本的nasm：</span></span><br><span class="line">  wget https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/linux/nasm-2.16.01-0.fc36.x86_64.rpm</span><br><span class="line">  <span class="built_in">sudo</span> alien nasm-2.16.01-0.fc36.x86_64.rpm &amp;&amp; <span class="built_in">sudo</span> dpkg -i nasm*.deb</span><br><span class="line"></span><br><span class="line">  <span class="comment"># 编译安装 zimg</span></span><br><span class="line">  git <span class="built_in">clone</span> https://github.com/sekrit-twc/zimg --depth 1 --shallow-submodules --recurse-submodules</span><br><span class="line">  <span class="built_in">pushd</span> zimg</span><br><span class="line">  ./autogen.sh</span><br><span class="line">  ./configure --prefix=/usr</span><br><span class="line">  make -j$(<span class="built_in">nproc</span>)</span><br><span class="line">  <span class="built_in">sudo</span> make install -j$(<span class="built_in">nproc</span>)</span><br><span class="line">  <span class="built_in">popd</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 编译安装vapoursynth</span></span><br><span class="line">  python3 -m pip install -U pip</span><br><span class="line">  pip3 install -U cython setuptools wheel</span><br><span class="line">  git <span class="built_in">clone</span> https://github.com/vapoursynth/vapoursynth</span><br><span class="line">  <span class="built_in">cd</span> vapoursynth</span><br><span class="line">  ./autogen.sh</span><br><span class="line">  ./configure --prefix=/usr</span><br><span class="line">  make -j$(<span class="built_in">nproc</span>)</span><br><span class="line">  <span class="built_in">sudo</span> make install</span><br><span class="line">  python setup.py sdist -d sdist</span><br><span class="line">  <span class="built_in">mkdir</span> empty</span><br><span class="line">  <span class="built_in">pushd</span> empty</span><br><span class="line">  pip install vapoursynth --no-index --find-links ../sdist</span><br><span class="line">  <span class="built_in">popd</span></span><br><span class="line">  python -m unittest discover -s <span class="built_in">test</span> -p <span class="string">&quot;*test.py&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 零零碎碎</span></span><br><span class="line">ldd xxx.so <span class="comment"># 查询依赖库</span></span><br><span class="line"><span class="built_in">du</span> -sh <span class="string">&quot;目录&quot;</span> <span class="comment"># 查看目录占用大小</span></span><br><span class="line"><span class="built_in">df</span> -h <span class="comment"># 查看磁盘使用情况</span></span><br><span class="line">lsblk</span><br><span class="line">blkid</span><br><span class="line">mount -t <span class="string">&quot;disk-type&quot;</span> /dev/the-disk-you-want-to-mount /dir/you/want/to/mount/to</span><br><span class="line">vim /etc/fstab</span><br></pre></td></tr></table></figure>
+
+<h3 id="Manjaro-使用笔记"><a href="#Manjaro-使用笔记" class="headerlink" title="Manjaro 使用笔记"></a><em><strong>Manjaro 使用笔记</strong></em></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 时间配置</span></span><br><span class="line"><span class="built_in">sudo</span> timedatectl set-local-rtc 1</span><br><span class="line"><span class="built_in">sudo</span> ntpdate time.windows.com</span><br><span class="line"><span class="built_in">sudo</span> hwclock --localtime --systohc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 包管理</span></span><br><span class="line"><span class="built_in">sudo</span> pacman-mirrors -c China</span><br><span class="line"></span><br><span class="line"><span class="comment"># https://mirrors.ustc.edu.cn/help/archlinuxcn.html</span></span><br><span class="line"><span class="comment"># 在 /etc/pacman.conf 文件末尾添加两行：</span></span><br><span class="line">[archlinuxcn]</span><br><span class="line">Server = https://mirrors.ustc.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br><span class="line"><span class="comment"># 接着执行</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -Syyu</span><br><span class="line"><span class="built_in">sudo</span> pacman-key --lsign-key <span class="string">&quot;farseerfc@archlinux.org&quot;</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S archlinuxcn-keyring</span><br><span class="line"></span><br><span class="line"><span class="comment"># 不知是系统问题还是我手贱，导致 archlinux-keyring 安装出错了，archlinux-keyring 的所有文件均为 0B，无法更新软件包，遂这样解决（建议还是先看一下 aur 以及 archlinux wiki 才操作，以免误操作）：</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">rm</span> -f /usr/bin/archlinux-keyring-wkd-sync /usr/lib/systemd/system/archlinux-keyring-wkd-sync.service /usr/lib/systemd/system/archlinux-keyring-wkd-sync.timer /usr/lib/systemd/system/timers.target.wants/archlinux-keyring-wkd-sync.timer /usr/share/pacman/keyrings/archlinux-revoked /usr/share/pacman/keyrings/archlinux-trusted /usr/share/pacman/keyrings/archlinux.gpg</span><br><span class="line"><span class="built_in">sudo</span> pacman -Syy archlinux-keyring</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重置软件包 pgp</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">rm</span> -rf /etc/pacman.d/gnupg</span><br><span class="line"><span class="built_in">sudo</span> pacman-key --init</span><br><span class="line"><span class="built_in">sudo</span> pacman-key --populate</span><br><span class="line"><span class="built_in">sudo</span> pacman-key --refresh-keys</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重新生成 grub 引导 (如果系统语言已经改成中文的话，引导界面也会改成中文)</span></span><br><span class="line"><span class="built_in">sudo</span> grub-mkconfig -o /boot/grub/grub.cfg</span><br><span class="line"><span class="comment"># 重新生成 initramfs</span></span><br><span class="line"><span class="built_in">sudo</span> mkinitcpio -P</span><br><span class="line"></span><br><span class="line"><span class="comment"># 字体</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S noto-fonts-cjk noto-fonts-extra</span><br></pre></td></tr></table></figure>
+<h3 id="CentOS7-使用"><a href="#CentOS7-使用" class="headerlink" title="CentOS7 使用"></a><em><strong>CentOS7 使用</strong></em></h3><p>额，本来是不想折腾这个系统的，但是这个学期换专业了，不得不折腾了 [苦笑]<br>镜像的话，我是下载的 Minimal 2009 版本，然后安装在了 VMWare 上，具体过程这里就省略了（<br>接下来的话是安装后的操作。</p>
+<ul>
+<li><ol>
+<li>网络配置<br>发现安装 Minimal 后网络需要另外配置，不过也可以在安装的图形界面修改配置（具体暂时不展开<br>教程：<a href="https://www.cnblogs.com/huanghanyu/articles/17278061.html">https://www.cnblogs.com/huanghanyu/articles/17278061.html</a> （还是习惯使用中文，估计英文文档的话会更详细吧）<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip addr <span class="comment"># 首先查看你的网卡</span></span><br><span class="line">vi /etc/sysconfig/network-scripts/ifcfg-ens33</span><br><span class="line"><span class="comment"># ifcfg-ens33 指的是你可以连接外网的网卡，根据实际修改</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修改或添加：</span></span><br><span class="line">BOOTPROTO=dhcp</span><br><span class="line">ONBOOT=<span class="built_in">yes</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># vi/vim 按 i 切换输入模式，按 ESC 退出模式，接着 :wq 保存退出</span></span><br><span class="line"><span class="comment"># 然后：</span></span><br><span class="line">systemctl restart network</span><br><span class="line"><span class="comment"># 到这里应该就可以使用网络相关的操作了（yum update</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+</li>
+<li><ol start="2">
+<li>安装桌面<br>教程：<a href="https://www.cnblogs.com/u-drive/p/9832356.html">https://www.cnblogs.com/u-drive/p/9832356.html</a></li>
+</ol>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum -y <span class="built_in">groups</span> install <span class="string">&quot;GNOME Desktop&quot;</span></span><br><span class="line">startx</span><br><span class="line">systemctl get-default <span class="comment"># 查看默认使用界面</span></span><br><span class="line">systemctl set-default graphical.target <span class="comment"># 设置默认启动为图形界面</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他?"></a><em><strong>其他?</strong></em></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Rust mirror</span></span><br><span class="line"><span class="comment"># https://mirrors.ustc.edu.cn/help/crates.io-index.html</span></span><br><span class="line"><span class="comment"># 在 $CARGO_HOME/config 中添加如下内容 ($CARGO_HOME 在 Windows 系统默认为：%USERPROFILE%\.cargo，在类 Unix 系统默认为：$HOME/.cargo)：</span></span><br><span class="line">[source.crates-io]</span><br><span class="line">replace-with = <span class="string">&#x27;ustc&#x27;</span></span><br><span class="line"></span><br><span class="line">[source.ustc]</span><br><span class="line">registry = <span class="string">&quot;git://mirrors.ustc.edu.cn/crates.io-index&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Pip mirror</span></span><br><span class="line">python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip</span><br><span class="line"></span><br><span class="line"><span class="comment"># Install NGINX Latest Version</span></span><br><span class="line"><span class="comment"># https://nginx.org/en/linux_packages.html</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>整一个铅酸电池欠压保护板</title>
+    <url>/2024/06/01/ele-diy1/</url>
+    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
+<p>贴上电路：<img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/circurt.webp"></p>
+<table>
+<thead>
+<tr>
+<th align="center">制作所用原件</th>
+<th align="center">型号 (或参数)</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">MOS 管</td>
+<td align="center">NCEP40PT15D</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">三级管</td>
+<td align="center">S8050 &#x2F; S8550</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电压基准芯片</td>
+<td align="center">TL431</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电阻</td>
+<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
+<td align="center">10kΩ x2, 其余都是x1</td>
+</tr>
+<tr>
+<td align="center">电容</td>
+<td align="center">0603 10nF</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">其他</td>
+<td align="center">undefined</td>
+<td align="center">undefined</td>
+</tr>
+</tbody></table>
+<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/02.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/03.webp"></p>
+]]></content>
+      <tags>
+        <tag>diy</tag>
+        <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个升压模块的制作</title>
+    <url>/2024/06/06/ele-diy2/</url>
+    <content><![CDATA[<p>学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（</p>
+<p>说起 <a href="https://oshwhub.com/">oshwhub</a> 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低成本的升降压工程或方案，接着就是一通折腾：查资料、学用嘉立创EDA、画板子、打板子、买了一大坨工具还有原件回来折腾…… <del>后来才发现总成本已远远超出预期 吐血</del> 这个升压模块的制作就主要是参考 oshwhub 上面的两个工程的：<a href="https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701">https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701</a>、<a href="https://oshwhub.com/aknice/sc8701">https://oshwhub.com/aknice/sc8701</a>，我发的 SC8201 升压模块工程在这里：<a href="https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya">https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya</a></p>
+<p>接下来就<del>赘述</del>一下折腾的过程吧。</p>
+<p>考虑来考虑去，最终使用了南芯的 <a href="https://www.semiee.com/file/Specfile/SouthChip-SC8201_v0.2.4.pdf">SC8201</a>升压主控，功率管使用了 TO-220 封装的 <a href="https://www.infineon.com/dgdl/Infineon-IPP040N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372bbaa5ad4942">IPP040N06N</a> 。本来升压主控是想用 SC8701 的，可以照搬 oshwhub 上已有的工程，但是考虑到损耗&amp;成本的问题<del>（其实就是闲着没事想折腾）</del>，还是选择了 SC8201。PCB 大电流走线部分都有堆锡或者埋铜处理，功率管走线参考了 <a href="https://www.semiee.com/file/SouthChip/SouthChip-SC880X-NOTES.pdf">SC880x&#x2F;SC870x 的布线指南</a>。接着就是 —— 看图：<br><img src="https://image-pro.lceda.cn/pullimages/4274f2f577974f028c427b3585b33ef2.webp" alt="电路图"></p>
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/f892544276aa499e875fe5df0bf93fd5.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/75cb65502d844278bd4755b265ff2c41.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/b251923e83fa46c791154daf0793e8ce.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/1dccea851b644cb9bf71998f6b255552.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/6d0c8c530e644e469b04410de6093083.webp","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+
+<p>板子的话，我也是边学边画的，前前后后估计打了3次板子（不包括中途画错然后取消订单的），花了差不多 60RMB 吧。<br>第一次画的板子打出来后才发现 MOS 的栅极走线太细了，不敢用，于是修改好后又打了一次板子。第二次打的板子，迫不及待地焊接好后，通电，然后久违地体验了一次炸电容（电解电容焊反了。。。）<br><img src="https://image.lceda.cn/oshwhub/064c02f6397547289a377b6429a5b931.webp" alt="电容炸了"></p>
+<p>换好电容后，测试。接好 12v 电瓶，升压至 20v，带约1.7欧假负载电阻（俩5.1欧电阻串联，接着并联x6，水冷，见图）测试的时候，一切都似乎挺正常的，测得输入功率 228w，测得纹波应该是 310mv+。</p>
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/943d654a1b6e4701a00ee2e8223414ed.webp","alt":"输入"},{"url":"https://image.lceda.cn/oshwhub/27035f27f6fb4d55844149947172a24e.webp","alt":"输出电流"},{"url":"https://image.lceda.cn/oshwhub/c0d8dacf549843329f5567b5bebe853e.webp","alt":"水冷负载电阻~"}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+<p>接着接上笔记本，在笔记本上进行压力测试，发现模块带不动笔记本（笔记本经常掉电），这才发现模块的电压反馈部分有问题，于是就修改电路、飞线，后恢复正常。总之折腾了挺久的，从早上10点搞到晚上7点左右才搞好（哭笑）</p>
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/15024188a7324d348a63ff47dd169156.webp","alt":"飞线~"},{"url":"https://image.lceda.cn/oshwhub/caa6777675fc4d9fb044e8c67bcb3e7a.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/3707060b92944f41b5387fbb472a8ed0.webp","alt":""},{"url":"https://image.lceda.cn/oshwhub/e1201a5d4ff24b9c87ed38ec1fb9b623.webp","alt":"接笔记本测试"}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+<p>第三次打的板子才是比较满意的，测试的时候也有很好的表现。这次给模块供电的是 12v 开关电源，同样是 20v 输出，空载纹波似乎不到 20mv；接1.7欧假负载电阻，测得输入功率 248w，输出功率 240w，纹波 214mv，给笔记本供电也绰绰有余。</p>
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://image.lceda.cn/oshwhub/7ab9b34d617142eb970792d1508d9b94.webp","alt":"某宝的服务器拆机电源"},{"url":"https://image.lceda.cn/oshwhub/25c26e0e641d4585901ef880fbef89ad.webp","alt":"输出20v"},{"url":"https://image.lceda.cn/oshwhub/8002286e968c47b5a57d8abe4f53be00.webp","alt":"空载纹波"},{"url":"https://image.lceda.cn/oshwhub/2a6a3a11d2d7412f906f61bfd1ae56b4.webp","alt":"空载功耗"},{"url":"https://image.lceda.cn/oshwhub/fd7046018cb341e8ae106b5349b5c556.webp","alt":"带1.7欧假负载电阻，输出12A"},{"url":"https://image.lceda.cn/oshwhub/665c28fa9aed417dbf0f4d62f8f740b0.webp","alt":"带1.7欧假负载电阻，输入功耗"},{"url":"https://image.lceda.cn/oshwhub/3123f4b2ea3a44e79c648bfc0cb5d8dc.webp","alt":"带1.7欧假负载电阻时，纹波"},{"url":"https://image.lceda.cn/oshwhub/ef6f9cbcf2fe4f128fd98dfc2b5dc1d0.webp","alt":"带笔记本，双烤"},{"url":"https://image.lceda.cn/oshwhub/b94c0b6704a14dce87bb75c3f8413a85.webp","alt":"带笔记本，双烤"}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+<p>中间还接了一个短路欠压保护板，电路也不是很复杂。至于测纹波，我买的示波器似乎并没有直接测量纹波的功能，于是就简单地用电容和电阻把纹波“过滤”了出来。不清楚这样做是否完全正确，不过目前对于我来说应该是够用了。<br><img src="https://image.lceda.cn/oshwhub/76ef4026934045659a01a52bce9526f7.webp"></p>
+<p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
+]]></content>
+      <tags>
+        <tag>diy</tag>
+        <tag>电子</tag>
       </tags>
   </entry>
 </search>
