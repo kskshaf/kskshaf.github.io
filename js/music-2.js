@@ -58,7 +58,7 @@ const musicpages = new APlayer({
         cover: 'https://unpkg.com/sakura-no-toki-pkgms-01@1.0.0/vc/cover.webp',
 		lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.8/sakura-no-toki/01.lrc',
         theme: '#FFC5E2'
-    }
+    },
     // wonderful everyday
     {
         name: "空気力学少女と少年の詩 -Piano Ver.-",

@@ -49,13 +49,13 @@ const apall = new APlayer({
         name: "优しい风が吹くあの场所で -Anime Version-",
         artist: '三輪学',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/01.m4a',
-        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/cover.webp',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/cover.jpg',
         theme: '#DCD3DB'
     }, {
         name: "未来へ踏み出す一歩 -Anime Version-",
         artist: '三輪学',
         url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/19.m4a',
-        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/cover.webp',
+        cover: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/KIXA-75-Vol1/cover.jpg',
         theme: '#DCD3DB'
     }, {
         name: "优しい风が吹くあの场所で",

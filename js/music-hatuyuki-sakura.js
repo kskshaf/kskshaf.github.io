@@ -196,9 +196,10 @@ const hatuyuki = new APlayer({
         theme: '#CEE3FA'
     }, {
         name: "メリーゴーランドをぶっ壊せ",
-        artist: '水月陵',
+        artist: '結衣菜',
         url: 'https://unpkg.com/hatuyuki-sakura-ost2@1.0.0/11.m4a',
         cover: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/cover.jpg',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.93/hatuyuki-sakura/04.lrc',
         theme: '#CEE3FA'
     }, {
         name: "Snow light",
@@ -247,7 +248,7 @@ const hatuyuki = new APlayer({
         artist: 'monet',
         url: 'https://unpkg.com/hatuyuki-sakura-ost2@1.0.0/19.m4a',
         cover: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.9/hatuyuki-sakura/03.lrc',
+        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.93/hatuyuki-sakura/03.lrc',
         theme: '#CEE3FA'
     }, {
         name: "GHOST×GRADUATION Inst",
