@@ -213,8 +213,8 @@
   const loadWaline = async () => {
     if (typeof Waline === 'object') initWaline()
     else {
-      await getCSS('https://lib.baomitu.com/waline/3.1.2/waline.min.css')
-      await getScript('https://lib.baomitu.com/waline/3.1.2/waline.umd.min.js')
+      await getCSS('https://lib.baomitu.com/waline/3.3.0/waline.min.css')
+      await getScript('https://lib.baomitu.com/waline/3.3.0/waline.umd.min.js')
       initWaline()
     }
   }
