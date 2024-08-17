@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>整一个铅酸电池欠压保护板</title>
+    <url>/2024/06/01/ele-diy1/</url>
+    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
+<p>贴上电路：<img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/circurt.webp"></p>
+<table>
+<thead>
+<tr>
+<th align="center">制作所用原件</th>
+<th align="center">型号 (或参数)</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">MOS 管</td>
+<td align="center">NCEP40PT15D</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">三级管</td>
+<td align="center">S8050 &#x2F; S8550</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电压基准芯片</td>
+<td align="center">TL431</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电阻</td>
+<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
+<td align="center">10kΩ x2, 其余都是x1</td>
+</tr>
+<tr>
+<td align="center">电容</td>
+<td align="center">0603 10nF</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">其他</td>
+<td align="center">undefined</td>
+<td align="center">undefined</td>
+</tr>
+</tbody></table>
+<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/02.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/03.webp"></p>
+]]></content>
+      <tags>
+        <tag>diy</tag>
+        <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搞了N天，终于搞出来了</title>
+    <url>/2023/08/24/blog-his/</url>
+    <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
+<p>先是 lnmp 环境的搭建（没用云服务端开箱即用的，买不起，用的是 <a href="https://github.com/linuxeye/lnmp">gayhub</a> 上的自动化脚本），然后是 WordPress 的安装、总体的配置等等。最初用的是普通的云服务器安装 lnmp，很快搞掂；但，后来我想安装到在 pdd 花费了不到 50RMB 买的机顶盒，可总是安装失败，以我目前的水平是解决不了的啦[哭笑]<br><del>（目前就随便装了个主题应付一下，有空再搞了</del></p>
+<p><strong>2024.02.17更新</strong><br>现在的话就是使用 hexo，部署在 github pages 上了，还套上了<del>减速器</del> cloudflare，方便且成本低。<br>后面的话打算进一步完善主题外观（也可能会更换主题），并加上评论系统。</p>
+<p><strong>2024.02.20更新</strong><br>经过了这几天的折腾，终于还是换了 butterfly 主题，并开启了评论系统（Waline &amp; Twikoo, 使用了 vercel or netlify + mongodb 的部署方案）。<br>但由于 Turnsite 在两个评论系统中同时启用会出 bug, 目前关闭了 Twikoo，只开启了 Waline。<br>原来的 landscape 主题实在是无能力折腾，遂弃之[死鱼眼]。</p>
+<p><strong>2024.03.08更新</strong><br>开启了 Gitalk。</p>
+<h3 id="文档-参考"><a href="#文档-参考" class="headerlink" title="文档 &amp; 参考:"></a>文档 &amp; 参考:</h3><ul>
+<li><a href="https://waline.js.org/">https://waline.js.org/</a></li>
+<li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1418">https://github.com/jerryc127/hexo-theme-butterfly/issues/1418</a></li>
+<li><a href="https://twikoo.js.org/">https://twikoo.js.org/</a></li>
+<li><a href="https://blog.saop.cc/">https://blog.saop.cc/</a></li>
+<li><a href="https://runtimes.cc/8693/">https://runtimes.cc/8693/</a><br><br> </br></li>
+<li><em>发布时间: 2023.08.24, 最后更新: 2024.03.08</em></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>old</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>重温电子制作</title>
     <url>/2024/03/22/ele-diy/</url>
     <content><![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SSTC、调频电台等等，初中学了化学后还自己电解水制氢来做氢气球…… 还拆坏了不少东西（不过当然也有修好的）。虽然折腾了这么多东西，但惭愧的是对大部分电路的原理还是不甚了解。</p>
@@ -93,27 +165,6 @@
       </tags>
   </entry>
   <entry>
-    <title>搞了N天，终于搞出来了</title>
-    <url>/2023/08/24/blog-his/</url>
-    <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
-<p>先是 lnmp 环境的搭建（没用云服务端开箱即用的，买不起，用的是 <a href="https://github.com/linuxeye/lnmp">gayhub</a> 上的自动化脚本），然后是 WordPress 的安装、总体的配置等等。最初用的是普通的云服务器安装 lnmp，很快搞掂；但，后来我想安装到在 pdd 花费了不到 50RMB 买的机顶盒，可总是安装失败，以我目前的水平是解决不了的啦[哭笑]<br><del>（目前就随便装了个主题应付一下，有空再搞了</del></p>
-<p><strong>2024.02.17更新</strong><br>现在的话就是使用 hexo，部署在 github pages 上了，还套上了<del>减速器</del> cloudflare，方便且成本低。<br>后面的话打算进一步完善主题外观（也可能会更换主题），并加上评论系统。</p>
-<p><strong>2024.02.20更新</strong><br>经过了这几天的折腾，终于还是换了 butterfly 主题，并开启了评论系统（Waline &amp; Twikoo, 使用了 vercel or netlify + mongodb 的部署方案）。<br>但由于 Turnsite 在两个评论系统中同时启用会出 bug, 目前关闭了 Twikoo，只开启了 Waline。<br>原来的 landscape 主题实在是无能力折腾，遂弃之[死鱼眼]。</p>
-<p><strong>2024.03.08更新</strong><br>开启了 Gitalk。</p>
-<h3 id="文档-参考"><a href="#文档-参考" class="headerlink" title="文档 &amp; 参考:"></a>文档 &amp; 参考:</h3><ul>
-<li><a href="https://waline.js.org/">https://waline.js.org/</a></li>
-<li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1418">https://github.com/jerryc127/hexo-theme-butterfly/issues/1418</a></li>
-<li><a href="https://twikoo.js.org/">https://twikoo.js.org/</a></li>
-<li><a href="https://blog.saop.cc/">https://blog.saop.cc/</a></li>
-<li><a href="https://runtimes.cc/8693/">https://runtimes.cc/8693/</a><br><br> </br></li>
-<li><em>发布时间: 2023.08.24, 最后更新: 2024.03.08</em></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>old</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一些视频 (随缘)</title>
     <url>/2023/11/18/Others/</url>
     <content><![CDATA[<h2> 伊朗做死哥 </h2>
@@ -151,19 +202,6 @@
       </tags>
   </entry>
   <entry>
-    <title>给在pdd买的机顶盒扩容</title>
-    <url>/2024/07/18/txbox-emmc/</url>
-    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器给 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
-<p>于是我就买了个 32GB 的 KLMBG2JETD-B041 换上去。不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圆”，而且特别要注意的是用镊子碰 EMMC 时的幅度不能太大，要不底部很容易连锡从而造成短路。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"></p>
-<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程大家可以自己搜一下。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
-<p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>手残</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>npm 使用笔记</title>
     <url>/2024/03/02/npm/</url>
     <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
@@ -178,13 +216,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Git 使用笔记</title>
-    <url>/2024/02/15/git-notes/</url>
-    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+    <title>给在pdd买的机顶盒扩容</title>
+    <url>/2024/07/18/txbox-emmc/</url>
+    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器给 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
+<p>于是我就买了个 32GB 的 KLMBG2JETD-B041 换上去。不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圆”，而且特别要注意的是用镊子碰 EMMC 时的幅度不能太大，要不底部很容易连锡从而造成短路。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"></p>
+<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程大家可以自己搜一下。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
+<p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
 ]]></content>
       <tags>
-        <tag>note</tag>
+        <tag>电子</tag>
+        <tag>手残</tag>
       </tags>
   </entry>
   <entry>
@@ -217,54 +258,13 @@
       </tags>
   </entry>
   <entry>
-    <title>整一个铅酸电池欠压保护板</title>
-    <url>/2024/06/01/ele-diy1/</url>
-    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
-<p>贴上电路：<img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/circurt.webp"></p>
-<table>
-<thead>
-<tr>
-<th align="center">制作所用原件</th>
-<th align="center">型号 (或参数)</th>
-<th align="center">数量</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">MOS 管</td>
-<td align="center">NCEP40PT15D</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">三级管</td>
-<td align="center">S8050 &#x2F; S8550</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电压基准芯片</td>
-<td align="center">TL431</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电阻</td>
-<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
-<td align="center">10kΩ x2, 其余都是x1</td>
-</tr>
-<tr>
-<td align="center">电容</td>
-<td align="center">0603 10nF</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">其他</td>
-<td align="center">undefined</td>
-<td align="center">undefined</td>
-</tr>
-</tbody></table>
-<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/02.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/03.webp"></p>
+    <title>Git 使用笔记</title>
+    <url>/2024/02/15/git-notes/</url>
+    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
-        <tag>diy</tag>
-        <tag>电子</tag>
+        <tag>note</tag>
       </tags>
   </entry>
   <entry>
