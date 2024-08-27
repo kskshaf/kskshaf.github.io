@@ -11,12 +11,12 @@ const apall = new APlayer({
     lrcType: 3,
     listFolded: false,
     audio: [
-    {   // New
-        name: "ニュー・マイ・ノーマル",
-        artist: 'Mrs. GREEN APPLE',
-        url: 'https://unpkg.com/lokocdnms-pkg-06@1.0.0/others/11.m4a', //yt:E7YAf0O02Ms
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.92/others/11.lrc',
-        theme: '#44DB56'
+    {   // new
+	    name: "freak of nature : start",
+        artist: '彩菜',
+        url: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/11.m4a',
+        cover: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/cover.jpg',
+        theme: '#CEE3FA'
     }, {
         name: "雪は何色",
         artist: 'Kotoha',
@@ -76,12 +76,6 @@ const apall = new APlayer({
         cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
         lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.9/majo-koi-nikki/01.lrc',
         theme: '#FAC8D8'
-    }, {
-        name: "freak of nature : start",
-        artist: '彩菜',
-        url: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/11.m4a',
-        cover: 'https://unpkg.com/hatuyuki-sakura-ost1@1.0.0/cover.jpg',
-        theme: '#CEE3FA'
     }, {
         name: "送る言葉",
         artist: '水月陵',
