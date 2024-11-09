@@ -14,222 +14,222 @@ const majokoinikki = new APlayer({
     {   // DISC 1
         name: "花びらとりぼん",
         artist: 'Larval Stage Planning',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/01.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.9/majo-koi-nikki/01.lrc',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/01.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
+        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/majo-koi-nikki/01.lrc',
         theme: '#FAC8D8'
     }, {
         name: "小さな薔薇が咲く朝に",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/02.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/02.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "夢のなごりを探して",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/03.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/03.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "少女が歩く森",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/04.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/04.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "陽気な楽隊",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/05.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/05.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "昼下がりのお茶会",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/06.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/06.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "Dragon Burger",
         artist: '薬師るり',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/07.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/07.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "満腹気分",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/08.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/08.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "お散歩",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/09.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/09.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "星の導き",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/10.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/10.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "そびえる古き時計塔",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/11.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/11.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "舞踏会の時を告げる",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/12.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/12.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "シンデレラ",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/13.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/13.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "ALICE",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/14.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/14.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "やがて、もっとも古く静かな眠りへ",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/15.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/15.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "永遠の魔法使い",
         artist: 'monet',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/16.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.9/majo-koi-nikki/02.lrc',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/16.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
+        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/majo-koi-nikki/02.lrc',
         theme: '#FAC8D8'
     }, {
         name: "花びらとりぼん (Instrumental)",
         artist: '中沢伴行',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/17.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/17.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "永遠の魔法使い (Instrumental)",
         artist: 'ピクセルビー',
-        url: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/18.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/18.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {// DISC 2
         name: "どこかにありそうで、どこにもない",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/01.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/01.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "砂漠の花",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/02.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/02.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "もっとも勇気ある冒険者",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/03.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/03.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "蜃気楼の果て",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/04.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/04.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "オアシス",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/05.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/05.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "風が休む場所",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/06.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/06.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "落ちる太陽",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/07.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/07.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "のぼる月",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/08.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/08.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "語り部達が顔よせあって",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/09.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/09.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "ジャバウォック王",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/10.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/10.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "物語はひそやかに",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/11.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/11.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "一夜の語り",
         artist: 'ピクセルビー',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/12.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/12.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "千夜の語り",
         artist: 'ピクセルビー',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/13.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/13.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "それは、とある王国の物語",
         artist: '水月陵',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/14.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/14.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "初恋",
         artist: 'WHITE-LIPS',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/15.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.9/majo-koi-nikki/03.lrc',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/15.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
+        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/majo-koi-nikki/03.lrc',
         theme: '#FAC8D8'
     }, {
         name: "Hysteria",
         artist: 'TERRA',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/16.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
-        lrc: 'https://unpkg.com/lokocdnms-pkg-exlrc@1.0.9/majo-koi-nikki/04.lrc',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/16.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
+        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/majo-koi-nikki/04.lrc',
         theme: '#FAC8D8'
     }, {
         name: "初恋 (Instrumental)",
         artist: '樋口秀樹',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/17.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/17.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }, {
         name: "Hysteria (Instrumental)",
         artist: 'TERRA',
-        url: 'https://unpkg.com/majo-koi-nikki-st2@1.0.0/18.m4a',
-        cover: 'https://unpkg.com/majo-koi-nikki-st1@1.0.0/cover.jpg',
+        url: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st2/18.m4a',
+        cover: 'https://music-for-blog.haf208.cc/majo-koi-nikki-st1/cover.jpg',
         theme: '#FAC8D8'
     }
     ]
