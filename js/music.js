@@ -212,22 +212,22 @@ const apall = new APlayer({
         name: "アイマイモコ",
         artist: "水瀬いのり",
         url: 'https://music-for-blog.haf208.cc//local-pkg/Inori_Minase/KICM-1783/01.m4a',
-        cover: 'https://pic-lrc-bed.haf208.cc/music//local-pkg/Inori_Minase/KICM-1783/cover.jpg',
-        lrc: 'https://pic-lrc-bed.haf208.cc/music//local-pkg/Inori_Minase/KICM-1783/01.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/Inori_Minase/KICM-1783/cover.jpg',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/Inori_Minase/KICM-1783/01.lrc',
         theme: '#FF98BB'
     }, {
         name: "リトルシューゲイザー",
         artist: "水瀬いのり",
         url: 'https://music-for-blog.haf208.cc//local-pkg/Inori_Minase/KICM-1783/02.m4a',
-        cover: 'https://pic-lrc-bed.haf208.cc/music//local-pkg/Inori_Minase/KICM-1783/cover.jpg',
-        lrc: 'https://pic-lrc-bed.haf208.cc/music//local-pkg/Inori_Minase/KICM-1783/02.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/Inori_Minase/KICM-1783/cover.jpg',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/Inori_Minase/KICM-1783/02.lrc',
         theme: '#FF98BB'
     }, {
         name: "夏夢",
         artist: "水瀬いのり",
         url: 'https://music-for-blog.haf208.cc//local-pkg/Inori_Minase/KICM-1783/03.m4a',
-        cover: 'https://pic-lrc-bed.haf208.cc/music//local-pkg/Inori_Minase/KICM-1783/cover.jpg',
-        lrc: 'https://pic-lrc-bed.haf208.cc/music//local-pkg/Inori_Minase/KICM-1783/03.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/Inori_Minase/KICM-1783/cover.jpg',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/Inori_Minase/KICM-1783/03.lrc',
         theme: '#FF98BB'
     }, {// KICS-93785
         name: "Step Up!",
