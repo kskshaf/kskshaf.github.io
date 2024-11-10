@@ -47,7 +47,7 @@
     <title>整一个铅酸电池欠压保护板</title>
     <url>/posts/9718/</url>
     <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
-<p>贴上电路：<img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/circurt.webp"></p>
+<p>贴上电路：<img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/circurt.webp"></p>
 <table>
 <thead>
 <tr>
@@ -87,7 +87,7 @@
 <td align="center">undefined</td>
 </tr>
 </tbody></table>
-<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/02.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy1/03.webp"></p>
+<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp"></p>
 ]]></content>
       <tags>
         <tag>diy</tag>
@@ -100,7 +100,7 @@
     <content><![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SSTC、调频电台等等，初中学了化学后还自己电解水制氢来做氢气球…… 还拆坏了不少东西（不过当然也有修好的）。虽然折腾了这么多东西，但惭愧的是对大部分电路的原理还是不甚了解。</p>
 <p>最近闲了下来，同时又手痒痒想玩电路了，于是又有了理由去鼓捣这些东西。由于手头资金有限，于是只好制作个简单的 ZVS 电路来拉下电弧玩玩了。<br>由于某些原因，cloudflare 的连接性不一定那么好，遇到图片加载不出来的话可以刷新解决，或者自行解决网络问题。</p>
 <ul>
-<li><strong>电路图：</strong><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy/zvs-driver.webp"></li>
+<li><strong>电路图：</strong><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/zvs-driver.webp"></li>
 </ul>
 <p>MOS 的话，我不想用型号太旧的管子，东找西找才找到 <code>NCEP090N20</code> 这个我比较满意的管子。（炸了后再砸开看看管芯大小）</p>
 <table>
@@ -157,21 +157,21 @@
 <td align="center">undefined</td>
 </tr>
 </tbody></table>
-<h4 id="一些图片："><a href="#一些图片：" class="headerlink" title="一些图片："></a><em>一些图片：</em></h4><p><img src="https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy01.webp" alt="刚做好时拍的，有点乱"></p>
+<h4 id="一些图片："><a href="#一些图片：" class="headerlink" title="一些图片："></a><em>一些图片：</em></h4><p><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy01.webp" alt="刚做好时拍的，有点乱"></p>
 <div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy02.webp","alt":""},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy03.webp","alt":""},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy04.webp","alt":""}]</div>
+      <div class="gallery-data">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy02.webp","alt":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy03.webp","alt":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy04.webp","alt":""}]</div>
       <div class="gallery-items">
       </div>
     </div>
-<p><br></br><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy05.webp" alt="准备测试"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy06.webp" alt="12V 9AH 铅酸电池和 20A 电流表"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy07.webp" alt="12.8V 输入，示波器连接高压包最外面的初级线圈。后面才发现示波器探测表笔的档数打错了，实际峰值应该除以10，还好没烧表。。。"><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy08.webp" alt="拉弧"></p>
+<p><br></br><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy05.webp" alt="准备测试"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy06.webp" alt="12V 9AH 铅酸电池和 20A 电流表"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy07.webp" alt="12.8V 输入，示波器连接高压包最外面的初级线圈。后面才发现示波器探测表笔的档数打错了，实际峰值应该除以10，还好没烧表。。。"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy08.webp" alt="拉弧"></p>
 <div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy09.webp","alt":""},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy10.webp","alt":"烧电阻引脚"},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy11.webp","alt":"烧电阻引脚"},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy12.webp","alt":"另一个高压包，拉弧更长"},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy13.webp","alt":""},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy14.webp","alt":""},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy15.webp","alt":""}]</div>
+      <div class="gallery-data">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy09.webp","alt":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy10.webp","alt":"烧电阻引脚"},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy11.webp","alt":"烧电阻引脚"},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy12.webp","alt":"另一个高压包，拉弧更长"},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy13.webp","alt":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy14.webp","alt":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy15.webp","alt":""}]</div>
       <div class="gallery-items">
       </div>
     </div>
-<p><br></br><br><img src="https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy16.webp" alt="感应加热铁片"></p>
+<p><br></br><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy16.webp" alt="感应加热铁片"></p>
 <div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy17.webp","alt":"感应加热铁片"},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy18.webp","alt":"感应加热线圈空载时单边 MOS 的 DS 波形"},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy19.webp","alt":"拿了个烙铁头来加热（"},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy20.webp","alt":"输入12V左右的加热电流"},{"url":"https://blog.haf208.cc/cusimg/extra/ele-diy/ele-diy21.webp","alt":"（经过折腾后的线圈"}]</div>
+      <div class="gallery-data">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy17.webp","alt":"感应加热铁片"},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy18.webp","alt":"感应加热线圈空载时单边 MOS 的 DS 波形"},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy19.webp","alt":"拿了个烙铁头来加热（"},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy20.webp","alt":"输入12V左右的加热电流"},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy21.webp","alt":"（经过折腾后的线圈"}]</div>
       <div class="gallery-items">
       </div>
     </div>
@@ -286,9 +286,9 @@
   <entry>
     <title>给在pdd买的机顶盒扩容</title>
     <url>/posts/ddbf/</url>
-    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器给 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/01.webp"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
-<p>于是我就买了个 32GB 的 KLMBG2JETD-B041 换上去。不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圆”，而且特别要注意的是用镊子碰 EMMC 时的幅度不能太大，要不底部很容易连锡从而造成短路。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"></p>
-<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程大家可以自己搜一下。<br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src="https://blog.haf208.cc/cusimg/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
+    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器给 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/01.webp"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
+<p>于是我就买了个 32GB 的 KLMBG2JETD-B041 换上去。不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圆”，而且特别要注意的是用镊子碰 EMMC 时的幅度不能太大，要不底部很容易连锡从而造成短路。<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"></p>
+<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程大家可以自己搜一下。<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
 <p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
 ]]></content>
       <tags>
