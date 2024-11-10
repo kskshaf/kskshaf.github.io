@@ -15,358 +15,358 @@ const sakurunotoki = new APlayer({
         name: "刻ト詩",
         artist: 'Luna',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/01.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
-        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/sakura-no-toki/01.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/sakura-no-toki/01.lrc',
         theme: '#FFC5E2'
     }, {
         name: "櫻ト向日葵",
         artist: '狩野七夏',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/02.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
-        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/sakura-no-toki/02.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/sakura-no-toki/02.lrc',
         theme: '#FFC5E2'
     }, {
         name: "幾望—既望—希望",
         artist: 'viewtorino',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/03.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
-        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/sakura-no-toki/03.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/sakura-no-toki/03.lrc',
         theme: '#FFC5E2'
     }, {
         name: "虚無の先で愛を見つける",
         artist: 'はな',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/04.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
-        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/sakura-no-toki/04.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/sakura-no-toki/04.lrc',
         theme: '#FFC5E2'
     }, {
         name: "Mon Panache !",
         artist: 'Luna',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/05.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
-        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/sakura-no-toki/05.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/sakura-no-toki/05.lrc',
         theme: '#FFC5E2'
     }, {
         name: "櫻ノ詩 - 2023Mix",
         artist: 'はな',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/06.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
-        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/sakura-no-toki/06.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/sakura-no-toki/06.lrc',
         theme: '#FFC5E2'
     }, {
         name: "刻ト詩 -inst ver",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/07.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "櫻ト向日葵 -inst ver",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/08.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "幾望―既望―希望 -inst ver-",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/09.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "虚無の先で愛を見つける -inst ver-",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/10.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "Mon Panache ! -inst ver-",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/11.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "櫻ノ詩 -2023Mix inst ver-",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/12.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/vc/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/vc/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "刻ト詩 ピアノアレンジ",
         artist: 'Luna',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/op-piano/01.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/op-piano/cover.webp',
-        lrc: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/op-piano/01.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/op-piano/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/op-piano/01.lrc',
         theme: '#FFC6CC'
     }, {
         name: "刻ト詩 ピアノアレンジ inst.",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/op-piano/02.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/op-piano/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/op-piano/cover.webp',
         theme: '#FFC6CC'
     },  // Soundtrack
     {   // DISC1
         name: "木履と横道",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/01.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "花よ乙女よ弾けよ可憐",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/02.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "藍方石に流れる雲の下",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/03.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "風景はせはしく明滅し",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/04.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "夢浮の大地",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/05.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "石版刷のあぜ道",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/06.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "画用紙の通り道",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/07.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "新奇な骨董箱",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/08.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "ジムノペディ",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/09.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "砂金水晶の街路樹",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/10.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "筆射す光",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/11.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "黒曜石の天球図",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/12.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "天球の大曲線",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/13.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "夏の夜の展覧会は",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/14.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "向日葵の嵐が過ぎ去り",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/15.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "交差視覚の季節",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/16.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "吹き上がる音と言葉",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/17.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "サッケード交流",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/18.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "散策夜雲",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/19.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "夜の絵画",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/20.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "どろぼうかささぎ序曲",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/21.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "展覧会の絵",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d1-p2/22.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {// DISC2
         name: "刻の繭の外へ",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/01.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "風景は流れ音楽が舞う",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/02.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "舞い降りる風景画",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/03.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "禿山の一夜",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/04.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "詩に届くのなら",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/05.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "鏡像の籠",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/06.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "色彩時計",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/07.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "絵画ルーレット",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/08.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "欠けた絵画は盈ちて",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/09.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "幾望までの梯子",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/10.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "火花散る筆水",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/11.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "我々は弱いから此処に来た",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/12.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "夢水の調べ",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/13.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "既に望ちた月",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/14.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "幾望に向かう夜",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/15.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "刻ト詩/Piano ver",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/16.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "櫻ト向日葵/Piano ver",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/17.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "幾望―既望―希望/Piano ver",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/18.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "虚無の先で愛を見つける/Piano ver",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/19.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "羽飾り/Piano ver",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/20.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "刻ト詩/Orgel ver",
         artist: '枕',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/21.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
         theme: '#FFC5E2'
     }, {
         name: "刻ト詩/OP Short ver",
         artist: 'Luna',
         url: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-02/d2/22.m4a',
-        cover: 'https://music-for-blog.haf208.cc/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
-        lrc: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/sakura-no-toki/07.lrc',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-toki-pkgms-01/st-d1-p1/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/sakura-no-toki/07.lrc',
         theme: '#FFC5E2'
     }
     ]
