@@ -44,6 +44,72 @@
       </tags>
   </entry>
   <entry>
+    <title>浅拆一来电断电报警器</title>
+    <url>/posts/9235/</url>
+    <content><![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/00.webp" alt="在淘宝花47.97RMB买的断电报警器"></p>
+<p>由于外壳不太好拆，于是我就直接拿钳子把外壳钳开了（后面的话就裸板用了）：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/01.webp" alt="上壳正面"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/02.webp" alt="上壳反面，粘有天线，拆的时候不小心把信号线扯断了"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/03.webp" alt="电路板正面"></p>
+<p>拆出整块电路板：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/05.webp" alt="电路板正面，有一个物联网模块，等坏了再进一步拆解"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/07.webp" alt="电路板正面，200毫安的锂电池"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/08.webp" alt="电路板反面"></p>
+<p>开关电源模块降压到5v给其他部分供电：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/06.webp" alt="开关电源模块背面"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/04.webp" alt="电压测量"></p>
+<p>拆完后，外壳也不成样子了，于是就只能接5v然后裸板用了（</p>
+]]></content>
+      <tags>
+        <tag>拆解</tag>
+        <tag>手残</tag>
+        <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>整一个铅酸电池欠压保护板</title>
+    <url>/posts/9718/</url>
+    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
+<p>贴上电路：<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/circurt.webp"></p>
+<table>
+<thead>
+<tr>
+<th align="center">制作所用原件</th>
+<th align="center">型号 (或参数)</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">MOS 管</td>
+<td align="center">NCEP40PT15D</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">三级管</td>
+<td align="center">S8050 &#x2F; S8550</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电压基准芯片</td>
+<td align="center">TL431</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电阻</td>
+<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
+<td align="center">10kΩ x2, 其余都是x1</td>
+</tr>
+<tr>
+<td align="center">电容</td>
+<td align="center">0603 10nF</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">其他</td>
+<td align="center">undefined</td>
+<td align="center">undefined</td>
+</tr>
+</tbody></table>
+<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp"></p>
+]]></content>
+      <tags>
+        <tag>电子</tag>
+        <tag>diy</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>重温电子制作</title>
     <url>/posts/e15/</url>
     <content><![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SSTC、调频电台等等，初中学了化学后还自己电解水制氢来做氢气球…… 还拆坏了不少东西（不过当然也有修好的）。虽然折腾了这么多东西，但惭愧的是对大部分电路的原理还是不甚了解。</p>
@@ -124,60 +190,9 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>diy</tag>
         <tag>电子</tag>
+        <tag>diy</tag>
         <tag>作死</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>整一个铅酸电池欠压保护板</title>
-    <url>/posts/9718/</url>
-    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
-<p>贴上电路：<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/circurt.webp"></p>
-<table>
-<thead>
-<tr>
-<th align="center">制作所用原件</th>
-<th align="center">型号 (或参数)</th>
-<th align="center">数量</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">MOS 管</td>
-<td align="center">NCEP40PT15D</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">三级管</td>
-<td align="center">S8050 &#x2F; S8550</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电压基准芯片</td>
-<td align="center">TL431</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电阻</td>
-<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
-<td align="center">10kΩ x2, 其余都是x1</td>
-</tr>
-<tr>
-<td align="center">电容</td>
-<td align="center">0603 10nF</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">其他</td>
-<td align="center">undefined</td>
-<td align="center">undefined</td>
-</tr>
-</tbody></table>
-<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp"></p>
-]]></content>
-      <tags>
-        <tag>diy</tag>
-        <tag>电子</tag>
       </tags>
   </entry>
   <entry>
@@ -212,23 +227,8 @@
 <p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
 ]]></content>
       <tags>
+        <tag>电子</tag>
         <tag>diy</tag>
-        <tag>电子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>浅拆一来电断电报警器</title>
-    <url>/posts/9235/</url>
-    <content><![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/00.webp" alt="在淘宝花47.97RMB买的断电报警器"></p>
-<p>由于外壳不太好拆，于是我就直接拿钳子把外壳钳开了（后面的话就裸板用了）：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/01.webp" alt="上壳正面"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/02.webp" alt="上壳反面，粘有天线，拆的时候不小心把信号线扯断了"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/03.webp" alt="电路板正面"></p>
-<p>拆出整块电路板：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/05.webp" alt="电路板正面，有一个物联网模块，等坏了再进一步拆解"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/07.webp" alt="电路板正面，200毫安的锂电池"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/08.webp" alt="电路板反面"></p>
-<p>开关电源模块降压到5v给其他部分供电：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/06.webp" alt="开关电源模块背面"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/04.webp" alt="电压测量"></p>
-<p>拆完后，外壳也不成样子了，于是就只能接5v然后裸板用了（</p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>拆解</tag>
-        <tag>手残</tag>
       </tags>
   </entry>
   <entry>
@@ -240,21 +240,6 @@
       <tags>
         <tag>note</tag>
         <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm 使用笔记</title>
-    <url>/posts/637e/</url>
-    <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://docs.npmjs.com/</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/nodejs/nodejs-npm.html</span></span><br><span class="line"><span class="comment"># https://akilar.top/posts/3e956346/</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br><span class="line"></span><br><span class="line">npm init</span><br><span class="line">npm publish</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除已发布的包版本</span></span><br><span class="line">npm unpublish you-npm-pack@version --force</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>note</tag>
-        <tag>npm</tag>
       </tags>
   </entry>
   <entry>
@@ -288,16 +273,18 @@
       </tags>
   </entry>
   <entry>
-    <title>给在pdd买的机顶盒扩容</title>
-    <url>/posts/ddbf/</url>
-    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器，然后装 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
-<p>于是我就去买了个 32GB 的 KLMBG2JETD-B041，然后换上去。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"><br>不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圈”，而且特别要注意的是：用镊子碰 EMMC 的时候，幅度不能太大，要不底部很容易连锡，从而造成短路。</p>
-<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程其他地方有很多，我这里就不再赘述。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
-<p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
+    <title>npm 使用笔记</title>
+    <url>/posts/637e/</url>
+    <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://docs.npmjs.com/</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/nodejs/nodejs-npm.html</span></span><br><span class="line"><span class="comment"># https://akilar.top/posts/3e956346/</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br><span class="line"></span><br><span class="line">npm init</span><br><span class="line">npm publish</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除已发布的包版本</span></span><br><span class="line">npm unpublish you-npm-pack@version --force</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
+</ul>
 ]]></content>
       <tags>
-        <tag>电子</tag>
-        <tag>手残</tag>
+        <tag>note</tag>
+        <tag>npm</tag>
       </tags>
   </entry>
   <entry>
@@ -317,6 +304,19 @@
         <tag>server</tag>
         <tag>服务器</tag>
         <tag>nas</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给在pdd买的机顶盒扩容</title>
+    <url>/posts/ddbf/</url>
+    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器，然后装 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
+<p>于是我就去买了个 32GB 的 KLMBG2JETD-B041，然后换上去。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"><br>不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圈”，而且特别要注意的是：用镊子碰 EMMC 的时候，幅度不能太大，要不底部很容易连锡，从而造成短路。</p>
+<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程其他地方有很多，我这里就不再赘述。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
+<p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
+]]></content>
+      <tags>
+        <tag>手残</tag>
+        <tag>电子</tag>
       </tags>
   </entry>
   <entry>
@@ -360,8 +360,8 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>电子</tag>
         <tag>手残</tag>
+        <tag>电子</tag>
         <tag>闲鱼</tag>
         <tag>小黄鱼</tag>
       </tags>
