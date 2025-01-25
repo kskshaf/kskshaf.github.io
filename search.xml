@@ -59,57 +59,6 @@
       </tags>
   </entry>
   <entry>
-    <title>整一个铅酸电池欠压保护板</title>
-    <url>/posts/9718/</url>
-    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
-<p>贴上电路：<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/circurt.webp"></p>
-<table>
-<thead>
-<tr>
-<th align="center">制作所用原件</th>
-<th align="center">型号 (或参数)</th>
-<th align="center">数量</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">MOS 管</td>
-<td align="center">NCEP40PT15D</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">三级管</td>
-<td align="center">S8050 &#x2F; S8550</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电压基准芯片</td>
-<td align="center">TL431</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电阻</td>
-<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
-<td align="center">10kΩ x2, 其余都是x1</td>
-</tr>
-<tr>
-<td align="center">电容</td>
-<td align="center">0603 10nF</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">其他</td>
-<td align="center">undefined</td>
-<td align="center">undefined</td>
-</tr>
-</tbody></table>
-<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp"></p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>diy</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>重温电子制作</title>
     <url>/posts/e15/</url>
     <content><![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SSTC、调频电台等等，初中学了化学后还自己电解水制氢来做氢气球…… 还拆坏了不少东西（不过当然也有修好的）。虽然折腾了这么多东西，但惭愧的是对大部分电路的原理还是不甚了解。</p>
@@ -225,6 +174,57 @@
 
 <p>中间还接了一个短路欠压保护板，电路也不是很复杂。至于测纹波，我买的示波器似乎并没有直接测量纹波的功能，于是就简单地用电容和电阻把纹波“过滤”了出来。不清楚这样做是否完全正确，不过目前对于我来说应该是够用了。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image.lceda.cn/oshwhub/76ef4026934045659a01a52bce9526f7.webp"></p>
 <p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
+]]></content>
+      <tags>
+        <tag>电子</tag>
+        <tag>diy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>整一个铅酸电池欠压保护板</title>
+    <url>/posts/9718/</url>
+    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
+<p>贴上电路：<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/circurt.webp"></p>
+<table>
+<thead>
+<tr>
+<th align="center">制作所用原件</th>
+<th align="center">型号 (或参数)</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">MOS 管</td>
+<td align="center">NCEP40PT15D</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">三级管</td>
+<td align="center">S8050 &#x2F; S8550</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电压基准芯片</td>
+<td align="center">TL431</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电阻</td>
+<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
+<td align="center">10kΩ x2, 其余都是x1</td>
+</tr>
+<tr>
+<td align="center">电容</td>
+<td align="center">0603 10nF</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">其他</td>
+<td align="center">undefined</td>
+<td align="center">undefined</td>
+</tr>
+</tbody></table>
+<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp"></p>
 ]]></content>
       <tags>
         <tag>电子</tag>
