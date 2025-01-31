@@ -145,42 +145,6 @@
       </tags>
   </entry>
   <entry>
-    <title>一个升压模块的制作</title>
-    <url>/posts/2ced/</url>
-    <content><![CDATA[<p>学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（</p>
-<p>说起 <a href="https://oshwhub.com/">oshwhub</a> 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低成本的升降压工程或方案，接着就是一通折腾：查资料、学用嘉立创EDA、画板子、打板子、买了一大坨工具还有原件回来折腾…… <del>后来才发现总成本已远远超出预期 吐血</del> 这个升压模块的制作就主要是参考 oshwhub 上面的两个工程的：<a href="https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701">https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701</a>、<a href="https://oshwhub.com/aknice/sc8701">https://oshwhub.com/aknice/sc8701</a>，我发的 SC8201 升压模块工程在这里：<a href="https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya">https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya</a></p>
-<p>接下来就<del>赘述</del>一下折腾的过程吧。</p>
-<p>考虑来考虑去，最终使用了南芯的 <a href="https://www.semiee.com/file/Specfile/SouthChip-SC8201_v0.2.4.pdf">SC8201</a>升压主控，功率管使用了 TO-220 封装的 <a href="https://www.infineon.com/dgdl/Infineon-IPP040N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372bbaa5ad4942">IPP040N06N</a> 。本来升压主控是想用 SC8701 的，可以照搬 oshwhub 上已有的工程，但是考虑到损耗&amp;成本的问题<del>（其实就是闲着没事想折腾）</del>，还是选择了 SC8201。PCB 大电流走线部分都有堆锡或者埋铜处理，功率管走线参考了 <a href="https://www.semiee.com/file/SouthChip/SouthChip-SC880X-NOTES.pdf">SC880x&#x2F;SC870x 的布线指南</a>。接着就是 —— 看图：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image-pro.lceda.cn/pullimages/4274f2f577974f028c427b3585b33ef2.webp" alt="电路图"></p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/f892544276aa499e875fe5df0bf93fd5.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/75cb65502d844278bd4755b265ff2c41.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/b251923e83fa46c791154daf0793e8ce.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/1dccea851b644cb9bf71998f6b255552.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/6d0c8c530e644e469b04410de6093083.webp","alt":"","title":""}]</div>
-  </div>
-
-
-<p>板子的话，我也是边学边画的，前前后后估计打了3次板子（不包括中途画错然后取消订单的），花了差不多 60RMB 吧。<br>第一次画的板子打出来后才发现 MOS 的栅极走线太细了，不敢用，于是修改好后又打了一次板子。第二次打的板子，迫不及待地焊接好后，通电，然后久违地体验了一次炸电容（电解电容焊反了。。。）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image.lceda.cn/oshwhub/064c02f6397547289a377b6429a5b931.webp" alt="电容炸了"></p>
-<p>换好电容后，测试。接好 12v 电瓶，升压至 20v，带约1.7欧假负载电阻（俩5.1欧电阻串联，接着并联x6，水冷，见图）测试的时候，一切都似乎挺正常的，测得输入功率 228w，测得纹波应该是 310mv+。</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/943d654a1b6e4701a00ee2e8223414ed.webp","alt":"输入","title":""},{"url":"https://image.lceda.cn/oshwhub/27035f27f6fb4d55844149947172a24e.webp","alt":"输出电流","title":""},{"url":"https://image.lceda.cn/oshwhub/c0d8dacf549843329f5567b5bebe853e.webp","alt":"水冷负载电阻~","title":""}]</div>
-  </div>
-
-<p>接着接上笔记本，在笔记本上进行压力测试，发现模块带不动笔记本（笔记本经常掉电），这才发现模块的电压反馈部分有问题，于是就修改电路、飞线，后恢复正常。总之折腾了挺久的，从早上10点搞到晚上7点左右才搞好（哭笑）</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/15024188a7324d348a63ff47dd169156.webp","alt":"飞线~","title":""},{"url":"https://image.lceda.cn/oshwhub/caa6777675fc4d9fb044e8c67bcb3e7a.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/3707060b92944f41b5387fbb472a8ed0.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/e1201a5d4ff24b9c87ed38ec1fb9b623.webp","alt":"接笔记本测试","title":""}]</div>
-  </div>
-
-<p>第三次打的板子才是比较满意的，测试的时候也有很好的表现。这次给模块供电的是 12v 开关电源，同样是 20v 输出，空载纹波似乎不到 20mv；接1.7欧假负载电阻，测得输入功率 248w，输出功率 240w，纹波 214mv，给笔记本供电也绰绰有余。</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/7ab9b34d617142eb970792d1508d9b94.webp","alt":"某宝的服务器拆机电源","title":""},{"url":"https://image.lceda.cn/oshwhub/25c26e0e641d4585901ef880fbef89ad.webp","alt":"输出20v","title":""},{"url":"https://image.lceda.cn/oshwhub/8002286e968c47b5a57d8abe4f53be00.webp","alt":"空载纹波","title":""},{"url":"https://image.lceda.cn/oshwhub/2a6a3a11d2d7412f906f61bfd1ae56b4.webp","alt":"空载功耗","title":""},{"url":"https://image.lceda.cn/oshwhub/fd7046018cb341e8ae106b5349b5c556.webp","alt":"带1.7欧假负载电阻，输出12A","title":""},{"url":"https://image.lceda.cn/oshwhub/665c28fa9aed417dbf0f4d62f8f740b0.webp","alt":"带1.7欧假负载电阻，输入功耗","title":""},{"url":"https://image.lceda.cn/oshwhub/3123f4b2ea3a44e79c648bfc0cb5d8dc.webp","alt":"带1.7欧假负载电阻时，纹波","title":""},{"url":"https://image.lceda.cn/oshwhub/ef6f9cbcf2fe4f128fd98dfc2b5dc1d0.webp","alt":"带笔记本，双烤","title":""},{"url":"https://image.lceda.cn/oshwhub/b94c0b6704a14dce87bb75c3f8413a85.webp","alt":"带笔记本，双烤","title":""}]</div>
-  </div>
-
-<p>中间还接了一个短路欠压保护板，电路也不是很复杂。至于测纹波，我买的示波器似乎并没有直接测量纹波的功能，于是就简单地用电容和电阻把纹波“过滤”了出来。不清楚这样做是否完全正确，不过目前对于我来说应该是够用了。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image.lceda.cn/oshwhub/76ef4026934045659a01a52bce9526f7.webp"></p>
-<p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>diy</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>整一个铅酸电池欠压保护板</title>
     <url>/posts/9718/</url>
     <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
@@ -225,6 +189,42 @@
 </tr>
 </tbody></table>
 <p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp"></p>
+]]></content>
+      <tags>
+        <tag>电子</tag>
+        <tag>diy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个升压模块的制作</title>
+    <url>/posts/2ced/</url>
+    <content><![CDATA[<p>学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（</p>
+<p>说起 <a href="https://oshwhub.com/">oshwhub</a> 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低成本的升降压工程或方案，接着就是一通折腾：查资料、学用嘉立创EDA、画板子、打板子、买了一大坨工具还有原件回来折腾…… <del>后来才发现总成本已远远超出预期 吐血</del> 这个升压模块的制作就主要是参考 oshwhub 上面的两个工程的：<a href="https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701">https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701</a>、<a href="https://oshwhub.com/aknice/sc8701">https://oshwhub.com/aknice/sc8701</a>，我发的 SC8201 升压模块工程在这里：<a href="https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya">https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya</a></p>
+<p>接下来就<del>赘述</del>一下折腾的过程吧。</p>
+<p>考虑来考虑去，最终使用了南芯的 <a href="https://www.semiee.com/file/Specfile/SouthChip-SC8201_v0.2.4.pdf">SC8201</a>升压主控，功率管使用了 TO-220 封装的 <a href="https://www.infineon.com/dgdl/Infineon-IPP040N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372bbaa5ad4942">IPP040N06N</a> 。本来升压主控是想用 SC8701 的，可以照搬 oshwhub 上已有的工程，但是考虑到损耗&amp;成本的问题<del>（其实就是闲着没事想折腾）</del>，还是选择了 SC8201。PCB 大电流走线部分都有堆锡或者埋铜处理，功率管走线参考了 <a href="https://www.semiee.com/file/SouthChip/SouthChip-SC880X-NOTES.pdf">SC880x&#x2F;SC870x 的布线指南</a>。接着就是 —— 看图：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image-pro.lceda.cn/pullimages/4274f2f577974f028c427b3585b33ef2.webp" alt="电路图"></p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/f892544276aa499e875fe5df0bf93fd5.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/75cb65502d844278bd4755b265ff2c41.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/b251923e83fa46c791154daf0793e8ce.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/1dccea851b644cb9bf71998f6b255552.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/6d0c8c530e644e469b04410de6093083.webp","alt":"","title":""}]</div>
+  </div>
+
+
+<p>板子的话，我也是边学边画的，前前后后估计打了3次板子（不包括中途画错然后取消订单的），花了差不多 60RMB 吧。<br>第一次画的板子打出来后才发现 MOS 的栅极走线太细了，不敢用，于是修改好后又打了一次板子。第二次打的板子，迫不及待地焊接好后，通电，然后久违地体验了一次炸电容（电解电容焊反了。。。）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image.lceda.cn/oshwhub/064c02f6397547289a377b6429a5b931.webp" alt="电容炸了"></p>
+<p>换好电容后，测试。接好 12v 电瓶，升压至 20v，带约1.7欧假负载电阻（俩5.1欧电阻串联，接着并联x6，水冷，见图）测试的时候，一切都似乎挺正常的，测得输入功率 228w，测得纹波应该是 310mv+。</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/943d654a1b6e4701a00ee2e8223414ed.webp","alt":"输入","title":""},{"url":"https://image.lceda.cn/oshwhub/27035f27f6fb4d55844149947172a24e.webp","alt":"输出电流","title":""},{"url":"https://image.lceda.cn/oshwhub/c0d8dacf549843329f5567b5bebe853e.webp","alt":"水冷负载电阻~","title":""}]</div>
+  </div>
+
+<p>接着接上笔记本，在笔记本上进行压力测试，发现模块带不动笔记本（笔记本经常掉电），这才发现模块的电压反馈部分有问题，于是就修改电路、飞线，后恢复正常。总之折腾了挺久的，从早上10点搞到晚上7点左右才搞好（哭笑）</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/15024188a7324d348a63ff47dd169156.webp","alt":"飞线~","title":""},{"url":"https://image.lceda.cn/oshwhub/caa6777675fc4d9fb044e8c67bcb3e7a.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/3707060b92944f41b5387fbb472a8ed0.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/e1201a5d4ff24b9c87ed38ec1fb9b623.webp","alt":"接笔记本测试","title":""}]</div>
+  </div>
+
+<p>第三次打的板子才是比较满意的，测试的时候也有很好的表现。这次给模块供电的是 12v 开关电源，同样是 20v 输出，空载纹波似乎不到 20mv；接1.7欧假负载电阻，测得输入功率 248w，输出功率 240w，纹波 214mv，给笔记本供电也绰绰有余。</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/7ab9b34d617142eb970792d1508d9b94.webp","alt":"某宝的服务器拆机电源","title":""},{"url":"https://image.lceda.cn/oshwhub/25c26e0e641d4585901ef880fbef89ad.webp","alt":"输出20v","title":""},{"url":"https://image.lceda.cn/oshwhub/8002286e968c47b5a57d8abe4f53be00.webp","alt":"空载纹波","title":""},{"url":"https://image.lceda.cn/oshwhub/2a6a3a11d2d7412f906f61bfd1ae56b4.webp","alt":"空载功耗","title":""},{"url":"https://image.lceda.cn/oshwhub/fd7046018cb341e8ae106b5349b5c556.webp","alt":"带1.7欧假负载电阻，输出12A","title":""},{"url":"https://image.lceda.cn/oshwhub/665c28fa9aed417dbf0f4d62f8f740b0.webp","alt":"带1.7欧假负载电阻，输入功耗","title":""},{"url":"https://image.lceda.cn/oshwhub/3123f4b2ea3a44e79c648bfc0cb5d8dc.webp","alt":"带1.7欧假负载电阻时，纹波","title":""},{"url":"https://image.lceda.cn/oshwhub/ef6f9cbcf2fe4f128fd98dfc2b5dc1d0.webp","alt":"带笔记本，双烤","title":""},{"url":"https://image.lceda.cn/oshwhub/b94c0b6704a14dce87bb75c3f8413a85.webp","alt":"带笔记本，双烤","title":""}]</div>
+  </div>
+
+<p>中间还接了一个短路欠压保护板，电路也不是很复杂。至于测纹波，我买的示波器似乎并没有直接测量纹波的功能，于是就简单地用电容和电阻把纹波“过滤”了出来。不清楚这样做是否完全正确，不过目前对于我来说应该是够用了。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://image.lceda.cn/oshwhub/76ef4026934045659a01a52bce9526f7.webp"></p>
+<p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
 ]]></content>
       <tags>
         <tag>电子</tag>
