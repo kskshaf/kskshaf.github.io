@@ -1100,28 +1100,28 @@ const apall = new APlayer({
         artist: 'ClariS',
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-03/madoka/SECL-946/01.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-03/madoka/SECL-946/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/madoka/SECL-946/01.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/madoka/SECL-946/01.lrc',
         theme: '#FFC0D3'
     }, {
         name: "また あした",
         artist: '鹿目まどか (悠木碧)',
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-03/madoka/SVWC-7980/23.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-03/madoka/SVWC-7980/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/madoka/SVWC-7980/23.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/madoka/SVWC-7980/23.lrc',
         theme: '#FFC0D3'
     }, {
         name: "ルミナス",
         artist: 'ClariS',
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-03/madoka/SECL-1196/01.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-03/madoka/SECL-1196/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/madoka/SECL-1196/01.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/madoka/SECL-1196/01.lrc',
         theme: '#FFC0D3'
     }, {
         name: "Friends",
         artist: 'ClariS',
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-03/madoka/SECL-1196/02.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-03/madoka/SECL-1196/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/madoka/SECL-1196/02.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/madoka/SECL-1196/02.lrc',
         theme: '#FFC0D3'
     }, {
         name: "we're here for you",
@@ -1157,28 +1157,28 @@ const apall = new APlayer({
         name: "カラフル -movie MIX-",
         artist: 'ClariS',
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-03/madoka/SECL-1416/04.m4a',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/madoka/SECL-1416/04.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/madoka/SECL-1416/04.lrc',
         theme: '#FFC0D3'
     }, {
         name: "君の銀の庭",
         artist: 'Kalafina',
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-03/madoka/SECL-1422/01.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-03/madoka/SECL-1422/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/madoka/SECL-1422/01.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/madoka/SECL-1422/01.lrc',
         theme: '#0066CC'
     }, {// ATRI
         name: "光放て!",
         artist: '柳麻美',
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-01/atri/21.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-01/atri/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/atri/21.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/atri/21.lrc',
         theme: '#7CD5F8'
     }, {
         name: "Dear Moments",
         artist: '赤尾ひかる',
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-01/atri/24.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-01/atri/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/atri/24.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/atri/24.lrc',
         theme: '#7CD5F8'
     }, {// LoveLive
         name: "始まりの朝(メインテーマ)",
@@ -1198,77 +1198,77 @@ const apall = new APlayer({
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/02.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/02.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/02.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/02.lrc',
         theme: '#E1E1E1'
     }, {
         name: "ススメ→トゥモロウ",
         artist: "高坂穂乃果...",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/03.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/03.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/03.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/03.lrc',
         theme: '#FFAE2E'
     }, {
         name: "START：DASH！！",
         artist: "高坂穂乃果...",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/04.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/03.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/04.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/04.lrc',
         theme: '#7AEBF9'
     }, {
         name: "僕らは今のなかで",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/05.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/05.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/05.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/05.lrc',
         theme: '#FFAE2E'
     }, {
         name: "きっと青春が聞こえる",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/07.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/07.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/07.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/07.lrc',
         theme: '#FFAE2E'
     }, {
         name: "それは僕たちの奇跡",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/08.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/08.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/08.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/08.lrc',
         theme: '#FFAE2E'
     }, {
         name: "ユメノトビラ",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/09.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/09.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/09.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/09.lrc',
         theme: '#8DF9F6'
     }, {
         name: "Dancing stars on me！",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/06.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/06.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/06.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/06.lrc',
         theme: '#FFAE2E'
     }, {
         name: "Love wing bell",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/10.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/06.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/10.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/10.lrc',
         theme: '#FFADC0'
     }, {
         name: "KiRa-KiRa Sensation！",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/11.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/11.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/11.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/11.lrc',
         theme: '#FFADC0'
     }, {
         name: "どんなときもずっと",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/12.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/12.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/12.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/12.lrc',
         theme: '#FFB800'
     }, {
         name: "ステージへと続く道",
@@ -1281,21 +1281,21 @@ const apall = new APlayer({
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/16.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/16.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/16.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/16.lrc',
         theme: '#FF9B00'
     }, {
         name: "僕たちはひとつの光",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/17.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/17.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/17.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/17.lrc',
         theme: '#F2C7D3'
     }, {
         name: "冬がくれた予感",
         artist: "BiBi",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/13.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/13.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/13.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/13.lrc',
         theme: '#DAFFF9'
     }, {
         name: "Cutie Panther",
@@ -1316,28 +1316,28 @@ const apall = new APlayer({
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/14.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/14.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/14.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/14.lrc',
         theme: '#DAFFF9'
     }, {
         name: "MOMENT RING",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/18.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/15.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/18.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/18.lrc',
         theme: '#FFB800'
     }, {
         name: "さようならへさよなら！",
         artist: "μ's",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-05/lovelive/us/15.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-05/lovelive/us/15.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/us/15.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/us/15.lrc',
         theme: '#FFB800'
     }, {
         name: "青空Jumping Heart",
         artist: "Apours",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-01/lovelive/aqours/01.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-01/lovelive/aqours/01.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/aqours/01.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/aqours/01.lrc',
         theme: '#4DCAFF'
     }, {
         name: "Awaken the power",
@@ -1393,21 +1393,21 @@ const apall = new APlayer({
         artist: "虹ヶ咲学園スクールアイドル同好会",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-01/lovelive/nijigasaki/01.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-01/lovelive/nijigasaki/01.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/nijigasaki/01.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/nijigasaki/01.lrc',
         theme: '#D7D7D7'
     }, {
         name: "Colorful Dreams! Colorful Smiles!",
         artist: "虹ヶ咲学園...",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-01/lovelive/nijigasaki/02.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-01/lovelive/nijigasaki/02.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/nijigasaki/02.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/nijigasaki/02.lrc',
         theme: '#D7D7D7'
     }, {
         name: "START!! True dreams",
         artist: "Liella!",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-01/lovelive/liella/01.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-01/lovelive/liella/01.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/liella/01.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/liella/01.lrc',
         theme: '#FF5757'
     }, {
         name: "始まりは君の空",
@@ -1442,7 +1442,7 @@ const apall = new APlayer({
         artist: "Apours&ニジガク&Liella!",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-01/lovelive/01.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-01/lovelive/01.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/lovelive/01.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/lovelive/01.lrc',
         theme: '#EE6A82'
     }, {// 227
         name: "曇り空の向こうは晴れている",
@@ -1471,35 +1471,35 @@ const apall = new APlayer({
         artist: "MyGO!!!!!",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/02.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/02.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/02.lrc',
         theme: '#8DABC2'
     }, {
         name: "潜在表明",
         artist: "MyGO!!!!!",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/06.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/06.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/06.lrc',
         theme: '#8DABC2'
     }, {
         name: "春日影",
         artist: "MyGO!!!!!",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/08.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/08.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/08.lrc',
         theme: '#8DABC2'
     }, {
         name: "詩超絆",
         artist: "MyGO!!!!!",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/09.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/09.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/09.lrc',
         theme: '#8DABC2'
     }, {
         name: "栞",
         artist: "MyGO!!!!!",
         url: 'https://music-for-blog.haf208.cc/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/13.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg',
-        lrc:'https://music-for-blog.haf208.cc/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/13.lrc',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/13.lrc',
         theme: '#F8D9B6'
     }, {//Ave Mujica
         name: "Ave Mujica",
