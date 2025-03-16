@@ -31,6 +31,33 @@ const apall = new APlayer({
         url: 'https://music-for-blog.haf208.cc/sakura-no-uta-pkgms-st/d2/15.m4a',
         cover: 'https://pic-lrc-bed.haf208.cc/music/sakura-no-uta-pkgms-st/cover.jpg',
         theme: '#C5C3E1'
+    }, {
+        name: "Answer",
+        artist: "片雾烈火",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/g-senjou/d1/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/g-senjou/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/g-senjou/d1/03.lrc',
+        theme: '#A59484'
+    }, {
+        name: "G線上のアリア #1",
+        artist: "J.S. Bach",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/g-senjou/d1/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/g-senjou/cover.webp',
+        theme: '#A59484'
+    }, {
+        name: "Close Your Eyes",
+        artist: "彩音",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/g-senjou/d2/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/g-senjou/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/g-senjou/d2/03.lrc',
+        theme: '#A59484'
+    }, {
+        name: "雪の羽 時の風",
+        artist: "Barbarian on the Groove feat. Chata",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/g-senjou/d3/18.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/g-senjou/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/g-senjou/d3/18.lrc',
+        theme: '#A59484'
     }, {// New
         name: "ニュー・マイ・ノーマル",
         artist: 'Mrs. GREEN APPLE',
@@ -1509,6 +1536,13 @@ const apall = new APlayer({
         lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10672/06.lrc',
         theme: '#472459'
     }, {//Poppin'Party
+        name: "Yes! BanG_Dream!",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10032/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10032/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10032/01.lrc',
+        theme: '#67D9EE'
+    }, {
         name: "STAR BEAT! ～ホシノコドウ～",
         artist: "Poppin'Party",
         url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10044/01.m4a',
@@ -1599,6 +1633,97 @@ const apall = new APlayer({
         cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10222/cover.jpg',
         lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10222/03.lrc',
         theme: '#FFABBA'
+    }, {
+        name: "Breakthrough!",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10253/d1/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/d1/01.lrc',
+        theme: '#F8D637'
+    }, {
+        name: "イニシャル",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10253/d1/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/d1/03.lrc',
+        theme: '#F8D637'
+    }, {
+        name: "Step×Step！",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10253/d1/05.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/d1/05.lrc',
+        theme: '#F8D637'
+    }, {
+        name: "White Afternoon",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10253/d1/07.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/d1/07.lrc',
+        theme: '#F8D637'
+    }, {
+        name: "Dreamers Go!",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10253/d1/10.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/d1/10.lrc',
+        theme: '#F8D637'
+    }, {
+        name: "キズナミュージック♪",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10253/d1/11.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10253/d1/11.lrc',
+        theme: '#F8D637'
+    }, {
+        name: "Live Beyond!!",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10424/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10424/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10424/01.lrc',
+        theme: '#FA868C'
+    }, {
+        name: "ここから先は歌にならない",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10424/05.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10424/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10424/05.lrc',
+        theme: '#FA868C'
+    }, {
+        name: "ぽっぴん'どりーむ！",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10489/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10489/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10489/01.lrc',
+        theme: '#FBB214'
+    }, {
+        name: "星の約束",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10489/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10489/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10489/02.lrc',
+        theme: '#FBB214'
+    }, {
+        name: "イントロダクション",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10489/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10489/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10489/03.lrc',
+        theme: '#FBB214'
+    }, {
+        name: "夏に閉じこめて",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10563/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10563/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10563/01.lrc',
+        theme: '#EDB676'
+    }, {
+        name: "最強☆ソング",
+        artist: "Poppin'Party",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10640/05.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10640/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10640/05.lrc',
+        theme: '#FA87AF'
     }, {//Afterglow
         name: "ツナグ、ソラモヨウ",
         artist: "Afterglow",
@@ -1606,28 +1731,98 @@ const apall = new APlayer({
         cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10133/cover.webp',
         lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10133/01.lrc',
         theme: '#E53344'
-    }, {//RAISE A SUILEN
-        name: "DRIVE US CRAZY",
-        artist: "RAISE A SUILEN",
-        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10228/01.m4a',
-        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10228/cover.webp',
-        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10228/01.lrc',
-        theme: '#535353'
     }, {
-        name: "HELL! or HELL?",
-        artist: "RAISE A SUILEN",
-        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10228/02.m4a',
-        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10228/cover.webp',
-        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10228/02.lrc',
-        theme: '#535353'
+        name: "ON YOUR MARK",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/01.lrc',
+        theme: '#EA5175'
     }, {
-        name: "CORUSCATE-DNA-",
-        artist: "RAISE A SUILEN",
-        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10519/01.m4a',
-        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10519/cover.webp',
-        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10519/01.lrc',
-        theme: '#535353'
+        name: "That is How I Roll!",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/02.lrc',
+        theme: '#EA5175'
+    }, {
+        name: "SENSENFUKOKU",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/03.lrc',
+        theme: '#EA5175'
+    }, {
+        name: "I knew it!",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/04.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/04.lrc',
+        theme: '#EA5175'
+    }, {
+        name: "Hey-day狂騒曲(カプリチオ)",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/06.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/06.lrc',
+        theme: '#EA5175'
+    }, {
+        name: "Easy come, Easy go!",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/07.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/07.lrc',
+        theme: '#EA5175'
+    }, {
+        name: "Sasanqua",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/08.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/08.lrc',
+        theme: '#EA5175'
+    }, {
+        name: "RED RED RED",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/09.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/09.lrc',
+        theme: '#EA5175'
+    }, {
+        name: "ONE OF US",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/10.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/10.lrc',
+        theme: '#EA5175'
+    }, {
+        name: "Y.O.L.O!!!!!",
+        artist: "Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10348/11.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10348/11.lrc',
+        theme: '#EA5175'
     }, {//Roselia
+        name: "BLACK SHOUT",
+        artist: "Roselia",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10086/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10086/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10086/01.lrc',
+        theme: '#3344AA'
+    }, {
+        name: "LOUDER",
+        artist: "Roselia",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10086/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10086/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10086/02.lrc',
+        theme: '#3344AA'
+    }, {
+        name: "Determination Symphony",
+        artist: "Roselia",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10267/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10267/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10267/03.lrc',
+        theme: '#3344AA'
+    }, {
         name: "FIRE BIRD",
         artist: "Roselia",
         url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10267/04.m4a',
@@ -1662,6 +1857,173 @@ const apall = new APlayer({
         cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10473/cover.webp',
         lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10473/01.lrc',
         theme: '#3344AA'
-    }
-    ]
+    }, {
+        name: "THE HISTORIC...",
+        artist: "Roselia",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10537/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10537/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10537/03.lrc',
+        theme: '#3344AA'
+    }, {
+        name: "ROZEN HORIZON",
+        artist: "Roselia",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10537/04.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10537/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10537/04.lrc',
+        theme: '#3344AA'
+    }, {//RAISE A SUILEN
+        name: "DRIVE US CRAZY",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10228/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10228/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10228/01.lrc',
+        theme: '#535353'
+    }, {
+        name: "HELL! or HELL?",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10228/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10228/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10228/02.lrc',
+        theme: '#535353'
+    }, {
+        name: "Invincible Fighter",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/01.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "A DECLARATION OF ×××",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/02.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "SOUL SOLDIER",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/03.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "UNSTOPPABLE",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/04.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/04.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "Beautiful Birthday",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/06.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/06.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "Takin’ my Heart",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/07.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/07.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "!NVADE SHOW!",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/09.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/09.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "REIGNING",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/10.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/10.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "EXPOSE ‘Burn out!!!’",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/11.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/11.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "R･I･O･T",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10268/12.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10268/12.lrc',
+        theme: '#8844DD'
+    }, {
+        name: "CORUSCATE-DNA-",
+        artist: "RAISE A SUILEN",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10519/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10519/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10519/01.lrc',
+        theme: '#535353'
+    }, {//Morfonica
+        name: "ブルームブルーム",
+        artist: "Morfonica",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10326/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10326/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10326/01.lrc',
+        theme: '#33AAFF'
+    }, {
+        name: "flame of hope",
+        artist: "Morfonica",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10326/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10326/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10326/02.lrc',
+        theme: '#33AAFF'
+    }, {
+        name: "fly with the night",
+        artist: "Morfonica",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10516/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10516/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10516/01.lrc',
+        theme: '#33AAFF'
+    }, {
+        name: "Secret Dawn",
+        artist: "Morfonica",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10516/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10516/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10516/02.lrc',
+        theme: '#33AAFF'
+    }, {
+        name: "寄る辺のSunny, Sunny",
+        artist: "Morfonica",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10561/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10561/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10561/01.lrc',
+        theme: '#33AAFF'
+    }, {
+        name: "One step at a time",
+        artist: "Morfonica",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10561/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10561/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10561/02.lrc',
+        theme: '#33AAFF'
+    }, {// xxx
+        name: "絆色のアンサンブル",
+        artist: "PPP x PP x Monf",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10409/01.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10409/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10409/01.lrc',
+        theme: '#FF8183'
+    }, {
+        name: "競宴Red×Violet",
+        artist: "Roselia x Afterglow",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10409/02.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10409/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10409/02.lrc',
+        theme: '#FF8183'
+    }, {
+        name: "ラスハピーポー！",
+        artist: "RAS x HHW",
+        url: 'https://music-for-blog.haf208.cc/local-pkg/bangdream/BRMM-10409/03.m4a',
+        cover: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10409/cover.webp',
+        lrc: 'https://pic-lrc-bed.haf208.cc/music/local-pkg/bangdream/BRMM-10409/03.lrc',
+        theme: '#FF8183'
+    }]
 });
