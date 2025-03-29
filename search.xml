@@ -44,6 +44,21 @@
       </tags>
   </entry>
   <entry>
+    <title>浅拆一来电断电报警器</title>
+    <url>/posts/9235/</url>
+    <content><![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/00.webp" alt="在淘宝花47.97RMB买的断电报警器"></p>
+<p>由于外壳不太好拆，于是我就直接拿钳子把外壳钳开了（后面的话就裸板用了）：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/01.webp" alt="上壳正面"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/02.webp" alt="上壳反面，粘有天线，拆的时候不小心把信号线扯断了"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/03.webp" alt="电路板正面"></p>
+<p>拆出整块电路板：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/05.webp" alt="电路板正面，有一个物联网模块，等坏了再进一步拆解"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/07.webp" alt="电路板正面，200毫安的锂电池"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/08.webp" alt="电路板反面"></p>
+<p>开关电源模块降压到5v给其他部分供电：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/06.webp" alt="开关电源模块背面"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/04.webp" alt="电压测量"></p>
+<p>拆完后，外壳也不成样子了，于是就只能接5v然后裸板用了（</p>
+]]></content>
+      <tags>
+        <tag>拆解</tag>
+        <tag>手残</tag>
+        <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>重温电子制作</title>
     <url>/posts/e15/</url>
     <content><![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SSTC、调频电台等等，初中学了化学后还自己电解水制氢来做氢气球…… 还拆坏了不少东西（不过当然也有修好的）。虽然折腾了这么多东西，但惭愧的是对大部分电路的原理还是不甚了解。</p>
@@ -124,24 +139,9 @@
 </ul>
 ]]></content>
       <tags>
+        <tag>电子</tag>
         <tag>diy</tag>
-        <tag>电子</tag>
         <tag>作死</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>浅拆一来电断电报警器</title>
-    <url>/posts/9235/</url>
-    <content><![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/00.webp" alt="在淘宝花47.97RMB买的断电报警器"></p>
-<p>由于外壳不太好拆，于是我就直接拿钳子把外壳钳开了（后面的话就裸板用了）：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/01.webp" alt="上壳正面"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/02.webp" alt="上壳反面，粘有天线，拆的时候不小心把信号线扯断了"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/03.webp" alt="电路板正面"></p>
-<p>拆出整块电路板：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/05.webp" alt="电路板正面，有一个物联网模块，等坏了再进一步拆解"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/07.webp" alt="电路板正面，200毫安的锂电池"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/08.webp" alt="电路板反面"></p>
-<p>开关电源模块降压到5v给其他部分供电：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/06.webp" alt="开关电源模块背面"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/04.webp" alt="电压测量"></p>
-<p>拆完后，外壳也不成样子了，于是就只能接5v然后裸板用了（</p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>拆解</tag>
-        <tag>手残</tag>
       </tags>
   </entry>
   <entry>
@@ -191,19 +191,8 @@
 <p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp"></p>
 ]]></content>
       <tags>
-        <tag>diy</tag>
         <tag>电子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git 使用笔记</title>
-    <url>/posts/3e60/</url>
-    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>note</tag>
-        <tag>git</tag>
+        <tag>diy</tag>
       </tags>
   </entry>
   <entry>
@@ -238,8 +227,19 @@
 <p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
 ]]></content>
       <tags>
-        <tag>diy</tag>
         <tag>电子</tag>
+        <tag>diy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git 使用笔记</title>
+    <url>/posts/3e60/</url>
+    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>note</tag>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -332,8 +332,8 @@
 <p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
 ]]></content>
       <tags>
-        <tag>电子</tag>
         <tag>手残</tag>
+        <tag>电子</tag>
       </tags>
   </entry>
   <entry>
@@ -377,8 +377,8 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>电子</tag>
         <tag>手残</tag>
+        <tag>电子</tag>
         <tag>闲鱼</tag>
         <tag>小黄鱼</tag>
       </tags>

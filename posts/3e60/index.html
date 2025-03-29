@@ -252,8 +252,8 @@ btf.addGlobalFn('pjaxSend', () => {
   const loadWaline = (el, path) => {
     if (initFn) initWaline(initFn, el, path)
     else {
-      btf.getCSS('https://s4.zstatic.net/ajax/libs/waline/3.4.3/waline.min.css')
-        .then(() => import('https://s4.zstatic.net/ajax/libs/waline/3.4.3/waline.umd.min.js'))
+      btf.getCSS('https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.css')
+        .then(() => import('https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.js'))
         .then(({ init }) => {
           initFn = init || Waline.init
           initWaline(initFn, el, path)
