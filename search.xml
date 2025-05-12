@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一些视频 (随缘)</title>
-    <url>/posts/9aa0/</url>
-    <content><![CDATA[<h2> 伊朗做死哥 </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2> MAD </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
-      <tags>
-        <tag>hello</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搞了N天，终于搞出来了</title>
     <url>/posts/14e8/</url>
     <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
@@ -56,6 +34,28 @@
         <tag>拆解</tag>
         <tag>手残</tag>
         <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些视频 (随缘)</title>
+    <url>/posts/9aa0/</url>
+    <content><![CDATA[<h2> 伊朗做死哥 </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2> MAD </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
+      <tags>
+        <tag>hello</tag>
       </tags>
   </entry>
   <entry>
@@ -296,6 +296,7 @@
 <p>博主已有一台 x86 的电脑和一台 ARM 的机顶盒，机顶盒已装好 Armbian，不接 UPS；电脑装了 ArchLinux 且开启了 WOL，接UPS。于是就可以写个脚本，让电脑在发现了机顶盒不在线（即断电）的一定时间后自动关机；当电脑关机且来电后，机顶盒开机，然后通过 WOL 唤醒电脑。</p>
 <p><strong>2024.02.09</strong><br>经过十多天的测试发现，开启 WOL 后似乎会造成电脑没法完全关机，受限于个人能力和精力，只好放弃 WOL，转用 USB 串口继电器。。。<br>继电器连接着电脑的开关机线，然后机顶盒控制 USB 串口继电器吸合&#x2F;断开，以此来操控电脑的开关机，详情请看图片&amp;脚本：</p>
 <p><strong>2024.03.05</strong><br>额……现在发现似乎是新 bios 的问题来着，有空再回退 bios 版本试试了。不过好在现在有可以远程控制的继电器。</p>
+<p><strong>2024.05.12</strong><br>似乎确实是 bios 的问题，回退到上一个版本的就好了。不过现在依旧在使用继电器方案开关机。</p>
 <div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
     <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/01.webp","alt":"10.2RMB 的 USB 串口继电器模块","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/02.webp","alt":"模块控制参数","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/03.webp","alt":"USB 串口继电器模块","title":""}]</div>
   </div>
@@ -321,19 +322,6 @@
         <tag>server</tag>
         <tag>服务器</tag>
         <tag>nas</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>给在pdd买的机顶盒扩容</title>
-    <url>/posts/ddbf/</url>
-    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器，然后装 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
-<p>于是我就去买了个 32GB 的 KLMBG2JETD-B041，然后换上去。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"><br>不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圈”，而且特别要注意的是：用镊子碰 EMMC 的时候，幅度不能太大，要不底部很容易连锡，从而造成短路。</p>
-<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程其他地方有很多，我这里就不再赘述。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
-<p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
-]]></content>
-      <tags>
-        <tag>手残</tag>
-        <tag>电子</tag>
       </tags>
   </entry>
   <entry>
@@ -381,6 +369,19 @@
         <tag>电子</tag>
         <tag>闲鱼</tag>
         <tag>小黄鱼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给在pdd买的机顶盒扩容</title>
+    <url>/posts/ddbf/</url>
+    <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器，然后装 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/01.webp"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
+<p>于是我就去买了个 32GB 的 KLMBG2JETD-B041，然后换上去。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/04.webp" alt="下单！"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块"><br>不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圈”，而且特别要注意的是：用镊子碰 EMMC 的时候，幅度不能太大，要不底部很容易连锡，从而造成短路。</p>
+<p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程其他地方有很多，我这里就不再赘述。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/08.webp" alt="USB Burning Tool"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试"></p>
+<p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
+]]></content>
+      <tags>
+        <tag>手残</tag>
+        <tag>电子</tag>
       </tags>
   </entry>
   <entry>
