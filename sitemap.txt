@@ -20,11 +20,11 @@ https://blog.haf208.cc/tags/index.html
 https://blog.haf208.cc/
 https://blog.haf208.cc/tags/hello/
 https://blog.haf208.cc/tags/old/
+https://blog.haf208.cc/tags/diy/
+https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/
+https://blog.haf208.cc/tags/%E4%BD%9C%E6%AD%BB/
 https://blog.haf208.cc/tags/%E6%8B%86%E8%A7%A3/
 https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/
-https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/
-https://blog.haf208.cc/tags/diy/
-https://blog.haf208.cc/tags/%E4%BD%9C%E6%AD%BB/
 https://blog.haf208.cc/tags/note/
 https://blog.haf208.cc/tags/git/
 https://blog.haf208.cc/tags/npm/
