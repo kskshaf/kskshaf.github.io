@@ -6,7 +6,7 @@
   <link href="https://blog.haf208.cc/atom.xml" rel="self"/>
   
   <link href="https://blog.haf208.cc/"/>
-  <updated>2025-06-10T14:22:22.000Z</updated>
+  <updated>2025-08-17T13:14:17.000Z</updated>
   <id>https://blog.haf208.cc/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>断电不断网 —— 给光猫和路由器制作一个 UPS 模块</title>
+    <link href="https://blog.haf208.cc/posts/4f8b/"/>
+    <id>https://blog.haf208.cc/posts/4f8b/</id>
+    <published>2025-08-17T13:14:17.000Z</published>
+    <updated>2025-08-17T13:14:17.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;del&gt;又是一个瞎折腾的东东&lt;/del&gt;&lt;br&gt;为了实现“断电不断网”，去年我就给家里的光猫和路由器加上了 UPS。不同于之前的&lt;a href=&quot;https://blog.haf208.cc/posts/c720/&quot;&gt;市电 UPS&lt;/a&gt;，这个 UPS</summary>
+        
+      
+    
+    
+    
+    
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
+    
+  </entry>
   
   <entry>
     <title>NAS来电断电自动开关机脚本</title>
@@ -35,13 +60,13 @@
     
     
     
-    <category term="linux" scheme="https://blog.haf208.cc/tags/linux/"/>
-    
     <category term="server" scheme="https://blog.haf208.cc/tags/server/"/>
     
     <category term="服务器" scheme="https://blog.haf208.cc/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     <category term="nas" scheme="https://blog.haf208.cc/tags/nas/"/>
+    
+    <category term="linux" scheme="https://blog.haf208.cc/tags/linux/"/>
     
   </entry>
   
@@ -64,11 +89,11 @@
     
     
     
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
     <category term="拆解" scheme="https://blog.haf208.cc/tags/%E6%8B%86%E8%A7%A3/"/>
     
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
+    
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     
   </entry>
   
@@ -77,7 +102,7 @@
     <link href="https://blog.haf208.cc/posts/c720/"/>
     <id>https://blog.haf208.cc/posts/c720/</id>
     <published>2025-01-23T15:33:33.000Z</published>
-    <updated>2025-01-23T19:49:11.366Z</updated>
+    <updated>2025-08-17T13:15:56.106Z</updated>
     
     
       
@@ -91,9 +116,9 @@
     
     
     
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
+    
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     
     <category term="闲鱼" scheme="https://blog.haf208.cc/tags/%E9%97%B2%E9%B1%BC/"/>
     
@@ -120,9 +145,9 @@
     
     
     
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
+    
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     
   </entry>
   
@@ -145,9 +170,9 @@
     
     
     
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
-    
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     
   </entry>
   
@@ -170,9 +195,9 @@
     
     
     
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
-    
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     
   </entry>
   
@@ -195,9 +220,9 @@
     
     
     
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
-    
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     
     <category term="作死" scheme="https://blog.haf208.cc/tags/%E4%BD%9C%E6%AD%BB/"/>
     
