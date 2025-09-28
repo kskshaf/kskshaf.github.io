@@ -205,7 +205,14 @@
   </url>
   
   <url>
-    <loc>https://blog.haf208.cc/tags/diy/</loc>
+    <loc>https://blog.haf208.cc/tags/%E6%8B%86%E8%A7%A3/</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/</loc>
     <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -219,21 +226,14 @@
   </url>
   
   <url>
+    <loc>https://blog.haf208.cc/tags/diy/</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.haf208.cc/tags/%E4%BD%9C%E6%AD%BB/</loc>
-    <lastmod>2025-09-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haf208.cc/tags/%E6%8B%86%E8%A7%A3/</loc>
-    <lastmod>2025-09-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/</loc>
     <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -254,14 +254,14 @@
   </url>
   
   <url>
-    <loc>https://blog.haf208.cc/tags/npm/</loc>
+    <loc>https://blog.haf208.cc/tags/linux/</loc>
     <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.haf208.cc/tags/linux/</loc>
+    <loc>https://blog.haf208.cc/tags/npm/</loc>
     <lastmod>2025-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
