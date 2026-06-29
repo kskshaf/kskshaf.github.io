@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一些视频 (随缘)</title>
-    <url>/posts/9aa0/</url>
-    <content><![CDATA[<h2> 伊朗做死哥 </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2> MAD </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
-      <tags>
-        <tag>hello</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搞了N天，终于搞出来了</title>
     <url>/posts/14e8/</url>
     <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
@@ -47,6 +25,28 @@
       </tags>
   </entry>
   <entry>
+    <title>一些视频 (随缘)</title>
+    <url>/posts/9aa0/</url>
+    <content><![CDATA[<h2> 伊朗做死哥 </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2> MAD </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
+      <tags>
+        <tag>hello</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>浅拆一来电断电报警器</title>
     <url>/posts/9235/</url>
     <content><![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/00.webp" alt="在淘宝花47.97RMB买的断电报警器"></p>
@@ -59,6 +59,92 @@
         <tag>拆解</tag>
         <tag>手残</tag>
         <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重温电子制作</title>
+    <url>/posts/e15/</url>
+    <content><![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SSTC、调频电台等等，初中学了化学后还自己电解水制氢来做氢气球…… 还拆坏了不少东西（不过当然也有修好的）。虽然折腾了这么多东西，但惭愧的是对大部分电路的原理还是不甚了解。</p>
+<p>最近闲了下来，同时又手痒痒想玩电路了，于是又有了理由去鼓捣这些东西。由于手头资金有限，于是只好制作个简单的 ZVS 电路来拉下电弧玩玩了。<br>由于某些原因，cloudflare 的连接性不一定那么好，遇到图片加载不出来的话可以刷新解决，或者自行解决网络问题。</p>
+<ul>
+<li><strong>电路图：</strong><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/zvs-driver.webp"></li>
+</ul>
+<p>MOS 的话，我不想用型号太旧的管子，东找西找才找到 <code>NCEP090N20</code> 这个我比较满意的管子。（炸了后再砸开看看管芯大小）</p>
+<table>
+<thead>
+<tr>
+<th align="center">制作所用原件</th>
+<th align="center">型号 (或参数)</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">MOS 管</td>
+<td align="center">NCEP090N20</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">12v 稳压二级管</td>
+<td align="center">1N4742</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">快恢复二极管</td>
+<td align="center">FR207</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">电阻</td>
+<td align="center">470Ω 2W, 10KΩ 0.25W</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">电容</td>
+<td align="center">MKPH 0.33 μF</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">电感</td>
+<td align="center">100 μH</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">高压包</td>
+<td align="center"><del>不炸就行</del></td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">导线</td>
+<td align="center"><del>不冒烟就好</del></td>
+<td align="center">若干</td>
+</tr>
+<tr>
+<td align="center">其他</td>
+<td align="center">undefined</td>
+<td align="center">undefined</td>
+</tr>
+</tbody></table>
+<h4 id="一些图片："><a href="#一些图片：" class="headerlink" title="一些图片："></a><em>一些图片：</em></h4><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy01.webp" alt="刚做好时拍的，有点乱"></p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy02.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy03.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy04.webp","alt":"","title":""}]</div>
+  </div>
+<p><br></br><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy05.webp" alt="准备测试"><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy06.webp" alt="12V 9AH 铅酸电池和 20A 电流表"><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy07.webp" alt="12.8V 输入，示波器连接高压包最外面的初级线圈。后面才发现示波器探测表笔的档数打错了，实际峰值应该除以10，还好没烧表。。。"><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy08.webp" alt="拉弧"></p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy09.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy10.webp","alt":"烧电阻引脚","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy11.webp","alt":"烧电阻引脚","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy12.webp","alt":"另一个高压包，拉弧更长","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy13.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy14.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy15.webp","alt":"","title":""}]</div>
+  </div>
+<p><br></br><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy16.webp" alt="感应加热铁片"></p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy17.webp","alt":"感应加热铁片","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy18.webp","alt":"感应加热线圈空载时单边 MOS 的 DS 波形","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy19.webp","alt":"拿了个烙铁头来加热（","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy20.webp","alt":"输入12V左右的加热电流","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy21.webp","alt":"（经过折腾后的线圈","title":""}]</div>
+  </div>
+
+<ul>
+<li>以下是一些 ZVS 的相关资料和制作教程：<br><a href="https://www.instructables.com/ZVS-Driver/">https://www.instructables.com/ZVS-Driver/</a><br><a href="https://forum.eepw.com.cn/thread/245105/1">https://forum.eepw.com.cn/thread/245105/1</a><br><a href="https://blog.csdn.net/qq_25164233/article/details/87940006">https://blog.csdn.net/qq_25164233/article/details/87940006</a><br><a href="https://www.eet-china.com/mp/a177970.html">https://www.eet-china.com/mp/a177970.html</a><br><a href="https://www.bilibili.com/read/cv10389969/">https://www.bilibili.com/read/cv10389969/</a><br><a href="https://zhuanlan.zhihu.com/p/30735646">https://zhuanlan.zhihu.com/p/30735646</a><br><a href="https://baike.baidu.com/item/%E9%9B%B6%E7%94%B5%E5%8E%8B%E5%BC%80%E5%85%B3">https://baike.baidu.com/item/零电压开关</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>电子</tag>
+        <tag>diy</tag>
+        <tag>作死</tag>
       </tags>
   </entry>
   <entry>
@@ -149,103 +235,6 @@
       </tags>
   </entry>
   <entry>
-    <title>重温电子制作</title>
-    <url>/posts/e15/</url>
-    <content><![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SSTC、调频电台等等，初中学了化学后还自己电解水制氢来做氢气球…… 还拆坏了不少东西（不过当然也有修好的）。虽然折腾了这么多东西，但惭愧的是对大部分电路的原理还是不甚了解。</p>
-<p>最近闲了下来，同时又手痒痒想玩电路了，于是又有了理由去鼓捣这些东西。由于手头资金有限，于是只好制作个简单的 ZVS 电路来拉下电弧玩玩了。<br>由于某些原因，cloudflare 的连接性不一定那么好，遇到图片加载不出来的话可以刷新解决，或者自行解决网络问题。</p>
-<ul>
-<li><strong>电路图：</strong><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/zvs-driver.webp"></li>
-</ul>
-<p>MOS 的话，我不想用型号太旧的管子，东找西找才找到 <code>NCEP090N20</code> 这个我比较满意的管子。（炸了后再砸开看看管芯大小）</p>
-<table>
-<thead>
-<tr>
-<th align="center">制作所用原件</th>
-<th align="center">型号 (或参数)</th>
-<th align="center">数量</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">MOS 管</td>
-<td align="center">NCEP090N20</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">12v 稳压二级管</td>
-<td align="center">1N4742</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">快恢复二极管</td>
-<td align="center">FR207</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">电阻</td>
-<td align="center">470Ω 2W, 10KΩ 0.25W</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">电容</td>
-<td align="center">MKPH 0.33 μF</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">电感</td>
-<td align="center">100 μH</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">高压包</td>
-<td align="center"><del>不炸就行</del></td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">导线</td>
-<td align="center"><del>不冒烟就好</del></td>
-<td align="center">若干</td>
-</tr>
-<tr>
-<td align="center">其他</td>
-<td align="center">undefined</td>
-<td align="center">undefined</td>
-</tr>
-</tbody></table>
-<h4 id="一些图片："><a href="#一些图片：" class="headerlink" title="一些图片："></a><em>一些图片：</em></h4><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy01.webp" alt="刚做好时拍的，有点乱"></p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy02.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy03.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy04.webp","alt":"","title":""}]</div>
-  </div>
-<p><br></br><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy05.webp" alt="准备测试"><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy06.webp" alt="12V 9AH 铅酸电池和 20A 电流表"><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy07.webp" alt="12.8V 输入，示波器连接高压包最外面的初级线圈。后面才发现示波器探测表笔的档数打错了，实际峰值应该除以10，还好没烧表。。。"><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy08.webp" alt="拉弧"></p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy09.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy10.webp","alt":"烧电阻引脚","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy11.webp","alt":"烧电阻引脚","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy12.webp","alt":"另一个高压包，拉弧更长","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy13.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy14.webp","alt":"","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy15.webp","alt":"","title":""}]</div>
-  </div>
-<p><br></br><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy16.webp" alt="感应加热铁片"></p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy17.webp","alt":"感应加热铁片","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy18.webp","alt":"感应加热线圈空载时单边 MOS 的 DS 波形","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy19.webp","alt":"拿了个烙铁头来加热（","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy20.webp","alt":"输入12V左右的加热电流","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/ele-diy/ele-diy21.webp","alt":"（经过折腾后的线圈","title":""}]</div>
-  </div>
-
-<ul>
-<li>以下是一些 ZVS 的相关资料和制作教程：<br><a href="https://www.instructables.com/ZVS-Driver/">https://www.instructables.com/ZVS-Driver/</a><br><a href="https://forum.eepw.com.cn/thread/245105/1">https://forum.eepw.com.cn/thread/245105/1</a><br><a href="https://blog.csdn.net/qq_25164233/article/details/87940006">https://blog.csdn.net/qq_25164233/article/details/87940006</a><br><a href="https://www.eet-china.com/mp/a177970.html">https://www.eet-china.com/mp/a177970.html</a><br><a href="https://www.bilibili.com/read/cv10389969/">https://www.bilibili.com/read/cv10389969/</a><br><a href="https://zhuanlan.zhihu.com/p/30735646">https://zhuanlan.zhihu.com/p/30735646</a><br><a href="https://baike.baidu.com/item/%E9%9B%B6%E7%94%B5%E5%8E%8B%E5%BC%80%E5%85%B3">https://baike.baidu.com/item/零电压开关</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>diy</tag>
-        <tag>作死</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git 使用笔记</title>
-    <url>/posts/3e60/</url>
-    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 丢弃未提交的更改</span></span><br><span class="line">git checkout .</span><br><span class="line"></span><br><span class="line"><span class="comment"># commit 时带上其他人</span></span><br><span class="line">git commit --author=<span class="string">&quot;aaa &lt;aaa@xxx.com&gt;&quot;</span> -a -m <span class="string">&quot;xxxx</span></span><br><span class="line"><span class="string">xxxxxxxx</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Co-authored-by: bbb &lt;bbb@bbb.de&gt;</span></span><br><span class="line"><span class="string">Co-authored-by: ccc &lt;ccc@users.noreply.github.com&gt;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>note</tag>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>断电不断网 —— 给光猫和路由器制作一个 UPS 模块</title>
     <url>/posts/4f8b/</url>
     <content><![CDATA[<p><del>又是一个瞎折腾的东东</del><br>为了实现“断电不断网”，去年我就给家里的光猫和路由器加上了 UPS。不同于之前的<a href="https://blog.haf208.cc/posts/c720/">市电 UPS</a>，这个 UPS 采用的是<code>两节 6Ah 的软包锂电池 + UPS模块</code>，续航时间可达5小时以上。</p>
@@ -274,6 +263,17 @@
       <tags>
         <tag>电子</tag>
         <tag>diy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git 使用笔记</title>
+    <url>/posts/3e60/</url>
+    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 丢弃未提交的更改</span></span><br><span class="line">git checkout .</span><br><span class="line"></span><br><span class="line"><span class="comment"># commit 时带上其他人</span></span><br><span class="line">git commit --author=<span class="string">&quot;aaa &lt;aaa@xxx.com&gt;&quot;</span> -a -m <span class="string">&quot;xxxx</span></span><br><span class="line"><span class="string">xxxxxxxx</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Co-authored-by: bbb &lt;bbb@bbb.de&gt;</span></span><br><span class="line"><span class="string">Co-authored-by: ccc &lt;ccc@users.noreply.github.com&gt;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>note</tag>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -351,6 +351,42 @@
       </tags>
   </entry>
   <entry>
+    <title>NAS来电断电自动开关机脚本</title>
+    <url>/posts/3452/</url>
+    <content><![CDATA[<p>前情回顾：博主已经<a href="https://blog.haf208.cc/posts/c720/">买了个 UPS</a>来保证家里断电后，电脑还能有足够的时间来处理未完成的任务并关机，从而保证数据还有硬件的安全。来电断电报警器也是为此准备的：断电后报警器发出信息，接着我可以远程关机，但避免不了我没法及时操作的情况，于是便有了此文。</p>
+<p>博主已有一台 x86 的电脑和一台 ARM 的机顶盒，机顶盒已装好 Armbian，不接 UPS；电脑装了 ArchLinux 且开启了 WOL，接UPS。于是就可以写个脚本，让电脑在发现了机顶盒不在线（即断电）的一定时间后自动关机；当电脑关机且来电后，机顶盒开机，然后通过 WOL 唤醒电脑。</p>
+<p><strong>2025.02.09</strong><br>经过十多天的测试发现，开启 WOL 后似乎会造成电脑没法完全关机，受限于个人能力和精力，只好放弃 WOL，转用 USB 串口继电器。。。<br>继电器连接着电脑的开关机线，然后机顶盒控制 USB 串口继电器吸合&#x2F;断开，以此来操控电脑的开关机，详情请看图片&amp;脚本：</p>
+<p><strong>2025.03.05</strong><br>额……现在发现似乎是新 bios 的问题来着，有空再回退 bios 版本试试了。不过好在现在有可以远程控制的继电器。</p>
+<p><strong>2025.05.12</strong><br>似乎确实是 bios 的问题，回退到上一个版本的就好了。现在依旧在使用继电器方案开关机，然后让 Copilot 优化了下代码。</p>
+<p><strong>2025.05.24</strong><br>脚本更新：机顶盒端脚本同样使用 crontab 定时执行。</p>
+<p><strong>2025.06.10</strong><br>脚本更新：机顶盒端脚本增加网关状态判断，如果网关 ping 不通则不动作。<br>起因：可能是因为上上个星期修改了路由器的配置，然后昨天光猫重新拨号后，路由器无法正确配置网络地址，接着电脑自动关机，机顶盒的脚本也没法正常工作，全部机器都失联了。。。<br>后续打算改用现成的电能计量模块来判断市电状态。</p>
+<p><strong>2026.01.02</strong><br>现已使用电能计量模块来判断市电状态，也是使用串口连接的模块，程序见：<a href="https://github.com/kskshaf/im1281b_home_power">im1281b_home_power</a><br>另外给机顶盒端脚本添加了邮件发送功能。</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/01.webp","alt":"10.2RMB 的 USB 串口继电器模块","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/02.webp","alt":"模块控制参数","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/03.webp","alt":"USB 串口继电器模块","title":""}]</div>
+  </div>
+<br>
+
+<p>连接好后，Armbian里可以看到连接的 CH340：<br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/06.webp"></p>
+<p>然后接线</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/04.webp","alt":"线已接好，同时也并联了机箱开关","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/05.webp","alt":"线已接好，同时也并联了机箱开关","title":""}]</div>
+  </div>
+<br>
+
+<p>机顶盒端脚本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/bash</span></span><br><span class="line"><span class="built_in">set</span> -o nounset</span><br><span class="line"><span class="built_in">set</span> -o pipefail</span><br><span class="line"></span><br><span class="line"><span class="comment"># https://blog.csdn.net/ZJXCSDN_/article/details/115396258</span></span><br><span class="line"><span class="comment"># https://post.smzdm.com/p/awze04lg/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># crontab: */3 * * * *    flock -xn /root/.local/ping_wol_open.lock -c &quot;bash /root/.local/ping_wol_open.sh&quot;</span></span><br><span class="line"></span><br><span class="line">gateway=<span class="string">&#x27;192.168.1.1&#x27;</span></span><br><span class="line">server=<span class="string">&#x27;192.168.1.5&#x27;</span></span><br><span class="line">log_file=<span class="string">&#x27;/var/log/ping_eth_restart.log&#x27;</span></span><br><span class="line">count_file=<span class="string">&#x27;/tmp/ping_eth_restart.count&#x27;</span></span><br><span class="line">post_mail=<span class="string">&#x27;your@mail.com&#x27;</span></span><br><span class="line">count_max=2</span><br><span class="line">retry_count=0</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">up_time</span></span>() &#123;</span><br><span class="line">    <span class="built_in">cat</span> /proc/uptime | <span class="built_in">cut</span> -d. -f1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">date_time</span></span>() &#123;</span><br><span class="line">    <span class="built_in">date</span> <span class="string">&quot;+%Y/%m/%d %H:%M:%S&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">send_mail</span></span>() &#123;</span><br><span class="line">    (<span class="built_in">echo</span> -e <span class="string">&quot;<span class="variable">$2</span>\n时间：`date_time`&quot;</span> | mail -s <span class="string">&quot;<span class="variable">$1</span>&quot;</span> -r <span class="variable">$post_mail</span> <span class="variable">$post_mail</span>)&amp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (($(up_time) &lt; <span class="number">120</span>)); <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">sleep</span> 30</span><br><span class="line">    send_mail <span class="string">&quot;server监测脚本已启动&quot;</span> <span class="string">&quot;server监测脚本已启动&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># create/load count file</span></span><br><span class="line"><span class="keyword">if</span> [ -f <span class="variable">$count_file</span> ]; <span class="keyword">then</span></span><br><span class="line">    count=$(<span class="built_in">cat</span> <span class="variable">$count_file</span>)</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> -n 0 &gt; <span class="variable">$count_file</span></span><br><span class="line">    count=0</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">count_0</span></span>() &#123;</span><br><span class="line">  <span class="keyword">if</span> ((count != <span class="number">0</span>)); <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> -n 0 &gt; <span class="variable">$count_file</span></span><br><span class="line">  <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">log_w</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;[`date_time`] $*&quot;</span> &gt;&gt; <span class="variable">$log_file</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">ping_server</span></span>() &#123;</span><br><span class="line">    ping -c 2 <span class="variable">$server</span> &gt; /dev/null</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">open_server</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> -ne <span class="string">&#x27;\xa0\x01\x01\xa2&#x27;</span> &gt; /dev/ttyUSB0   <span class="comment"># 开启继电器</span></span><br><span class="line">    <span class="built_in">sleep</span> 0.2</span><br><span class="line">    <span class="built_in">echo</span> -ne <span class="string">&#x27;\xa0\x01\x00\xa1&#x27;</span> &gt; /dev/ttyUSB0   <span class="comment"># 关闭继电器</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">main_func</span></span>() &#123;</span><br><span class="line">    <span class="comment"># gateway test</span></span><br><span class="line">    ping -c 2 <span class="variable">$gateway</span> &amp;&gt; /dev/null</span><br><span class="line">    <span class="keyword">if</span> [ $? -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">sleep</span> 120</span><br><span class="line">        ping -c 5 <span class="variable">$gateway</span> &amp;&gt; /dev/null</span><br><span class="line">        <span class="keyword">if</span> [ $? -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">            log_w <span class="string">&quot;网关无法连接，退出进程&quot;</span></span><br><span class="line">            <span class="built_in">exit</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> ! ping_server; <span class="keyword">then</span></span><br><span class="line">        <span class="comment"># if exec count &gt; count_max, no retry to start the server anymore.</span></span><br><span class="line">        <span class="keyword">if</span> ((count &gt; count_max)); <span class="keyword">then</span></span><br><span class="line">            log_w <span class="string">&quot;count &gt; count_max, no retry anymore.&quot;</span></span><br><span class="line">            <span class="built_in">exit</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">        <span class="built_in">sleep</span> 20  <span class="comment"># 防止误判</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> ! ping_server; <span class="keyword">then</span></span><br><span class="line">            <span class="comment"># wakeonlan -i 192.168.1.255 $server_mac</span></span><br><span class="line">            open_server</span><br><span class="line">            retry_count=1</span><br><span class="line">            log_w <span class="string">&quot;Waking up server...&quot;</span></span><br><span class="line">            send_mail <span class="string">&quot;启动服务器中&quot;</span> <span class="string">&quot;正在启动服务器...&quot;</span></span><br><span class="line">            <span class="built_in">sleep</span> 60</span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Retry</span></span><br><span class="line">        <span class="keyword">while</span> ! ping_server; <span class="keyword">do</span></span><br><span class="line">            <span class="keyword">if</span> ((retry_count &gt;= <span class="number">3</span>)); <span class="keyword">then</span></span><br><span class="line">                log_w <span class="string">&quot;Server maybe down...&quot;</span></span><br><span class="line">                ((count++))</span><br><span class="line">                <span class="built_in">echo</span> -n <span class="variable">$count</span> &gt; <span class="variable">$count_file</span></span><br><span class="line">                (<span class="built_in">echo</span> -e <span class="string">&quot;服务器无法连接，请联系管理员处理！！！\n时间：`date_time`&quot;</span> | mail -s <span class="string">&#x27;服务器无法连接&#x27;</span> -r <span class="variable">$post_mail</span> <span class="variable">$post_mail</span>  other@mail.com)&amp;</span><br><span class="line">                <span class="built_in">exit</span> 1</span><br><span class="line">            <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> ((retry_count == <span class="number">2</span>)); <span class="keyword">then</span></span><br><span class="line">                <span class="built_in">sleep</span> 60</span><br><span class="line">                log_w <span class="string">&quot;Server maybe stuck, try force shutdown...&quot;</span></span><br><span class="line">                <span class="built_in">echo</span> -ne <span class="string">&#x27;\xa0\x01\x01\xa2&#x27;</span> &gt; /dev/ttyUSB0   <span class="comment"># 开启继电器</span></span><br><span class="line">                <span class="built_in">sleep</span> 5</span><br><span class="line">                <span class="built_in">echo</span> -ne <span class="string">&#x27;\xa0\x01\x00\xa1&#x27;</span> &gt; /dev/ttyUSB0   <span class="comment"># 关闭继电器</span></span><br><span class="line">                <span class="built_in">sleep</span> 10</span><br><span class="line">            <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">            <span class="comment"># wakeonlan -i 192.168.1.255 $server_mac</span></span><br><span class="line">            open_server</span><br><span class="line">            ((retry_count++))</span><br><span class="line">            log_w <span class="string">&quot;Server maybe off, retrying...(<span class="variable">$retry_count</span>)&quot;</span></span><br><span class="line">            <span class="built_in">sleep</span> 60</span><br><span class="line">        <span class="keyword">done</span></span><br><span class="line"></span><br><span class="line">        log_w <span class="string">&quot;Server is stared.&quot;</span></span><br><span class="line">        send_mail <span class="string">&quot;服务器已启动&quot;</span> <span class="string">&quot;服务器已启动&quot;</span></span><br><span class="line">        <span class="comment">#retry_count=0</span></span><br><span class="line">        count_0</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        count_0</span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ $(<span class="built_in">cat</span> /usr/share/test-web/index.html) == <span class="string">&quot;ciallo-114514-status-ok&quot;</span> ]]; <span class="keyword">then</span></span><br><span class="line">    main_func</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    log_w <span class="string">&quot;市电异常，退出进程&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>服务器端脚本（机顶盒需开启 http 服务，然后 index.html 里的内容为 “status-ok”）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/bash</span></span><br><span class="line"><span class="built_in">set</span> -o nounset</span><br><span class="line"><span class="built_in">set</span> -o pipefail</span><br><span class="line"></span><br><span class="line"><span class="comment"># 脚本参考：</span></span><br><span class="line"><span class="comment"># - https://blog.csdn.net/ZJXCSDN_/article/details/115396258</span></span><br><span class="line"><span class="comment"># - https://post.smzdm.com/p/awze04lg/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># crontab: * * * * *    flock -xn /path/to/http_shutdown.lock -c &quot;bash /path/to/http_shutdown.sh&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">readonly</span> server=<span class="string">&#x27;192.168.1.6&#x27;</span> <span class="comment"># index.html: status-ok</span></span><br><span class="line"><span class="built_in">readonly</span> log_file=<span class="string">&#x27;/var/log/http_shutdown.log&#x27;</span></span><br><span class="line">retry_count=0</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">log_w</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;[<span class="subst">$(date &#x27;+%Y/%m/%d %H:%M:%S&#x27;)</span>] $*&quot;</span> &gt;&gt; <span class="variable">$log_file</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">check_box_status</span></span>() &#123;</span><br><span class="line">    [[ `curl -A <span class="string">&#x27;Manjaro&#x27;</span> -s -m 1 <span class="variable">$server</span>` == <span class="string">&quot;ciallo-114514-status-ok&quot;</span> ]]</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">main_func</span></span>() &#123;</span><br><span class="line">    <span class="keyword">if</span> ! check_box_status; <span class="keyword">then</span></span><br><span class="line">        <span class="comment"># 防止误判</span></span><br><span class="line">        <span class="built_in">sleep</span> 30</span><br><span class="line">        <span class="keyword">if</span> check_box_status; <span class="keyword">then</span></span><br><span class="line">            <span class="built_in">exit</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">        shutdown 10</span><br><span class="line">        log_w <span class="string">&quot;Power failure detected. System will shutdown in 10 minutes if power not restored.&quot;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Retry</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">true</span>; <span class="keyword">do</span></span><br><span class="line">            <span class="keyword">if</span> ! check_box_status; <span class="keyword">then</span></span><br><span class="line">                ((retry_count++))</span><br><span class="line">                <span class="keyword">if</span> ((retry_count &gt; <span class="number">25</span>)); <span class="keyword">then</span> poweroff; <span class="keyword">fi</span> <span class="comment"># 感觉没啥作用，但为了保险还是加了这一行</span></span><br><span class="line">                log_w <span class="string">&quot;Power maybe off, retrying...(<span class="variable">$retry_count</span>)&quot;</span></span><br><span class="line">                <span class="built_in">sleep</span> 30</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                shutdown -c</span><br><span class="line">                log_w <span class="string">&quot;Power restored. Shutdown Canceled.&quot;</span></span><br><span class="line">                retry_count=0</span><br><span class="line">                <span class="built_in">break</span></span><br><span class="line">            <span class="keyword">fi</span></span><br><span class="line">        <span class="keyword">done</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">main_func</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>linux</tag>
+        <tag>server</tag>
+        <tag>服务器</tag>
+        <tag>nas</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>给在pdd买的机顶盒扩容</title>
     <url>/posts/ddbf/</url>
     <content><![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器，然后装 WordPress 用，结果没成，接着就丢在家里吃灰了。寒假那会回来也只是重装了下系统而已。<br>这次暑假回来，想挑战一下，看看能不拿他当个网页服务器之类的。但奈何 EMMC 的容量才8G，有点小。虽然可以外接U盘，但USB2.0速度没 EMMC 快，就很蛋疼。于是咱就想把它 EMMC 给换成大容量的。<br>查了下， EMMC 是三星的 KLM8G1GETF-B041，同系列的还有 16GB、32GB、64GB的版本。<br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/01.webp"><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/02.webp" alt="拆下来的 KLM8G1GETF-B041"><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/03.webp" alt="热风枪"></p>
@@ -410,42 +446,6 @@
         <tag>电子</tag>
         <tag>闲鱼</tag>
         <tag>小黄鱼</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NAS来电断电自动开关机脚本</title>
-    <url>/posts/3452/</url>
-    <content><![CDATA[<p>前情回顾：博主已经<a href="https://blog.haf208.cc/posts/c720/">买了个 UPS</a>来保证家里断电后，电脑还能有足够的时间来处理未完成的任务并关机，从而保证数据还有硬件的安全。来电断电报警器也是为此准备的：断电后报警器发出信息，接着我可以远程关机，但避免不了我没法及时操作的情况，于是便有了此文。</p>
-<p>博主已有一台 x86 的电脑和一台 ARM 的机顶盒，机顶盒已装好 Armbian，不接 UPS；电脑装了 ArchLinux 且开启了 WOL，接UPS。于是就可以写个脚本，让电脑在发现了机顶盒不在线（即断电）的一定时间后自动关机；当电脑关机且来电后，机顶盒开机，然后通过 WOL 唤醒电脑。</p>
-<p><strong>2025.02.09</strong><br>经过十多天的测试发现，开启 WOL 后似乎会造成电脑没法完全关机，受限于个人能力和精力，只好放弃 WOL，转用 USB 串口继电器。。。<br>继电器连接着电脑的开关机线，然后机顶盒控制 USB 串口继电器吸合&#x2F;断开，以此来操控电脑的开关机，详情请看图片&amp;脚本：</p>
-<p><strong>2025.03.05</strong><br>额……现在发现似乎是新 bios 的问题来着，有空再回退 bios 版本试试了。不过好在现在有可以远程控制的继电器。</p>
-<p><strong>2025.05.12</strong><br>似乎确实是 bios 的问题，回退到上一个版本的就好了。现在依旧在使用继电器方案开关机，然后让 Copilot 优化了下代码。</p>
-<p><strong>2025.05.24</strong><br>脚本更新：机顶盒端脚本同样使用 crontab 定时执行。</p>
-<p><strong>2025.06.10</strong><br>脚本更新：机顶盒端脚本增加网关状态判断，如果网关 ping 不通则不动作。<br>起因：可能是因为上上个星期修改了路由器的配置，然后昨天光猫重新拨号后，路由器无法正确配置网络地址，接着电脑自动关机，机顶盒的脚本也没法正常工作，全部机器都失联了。。。<br>后续打算改用现成的电能计量模块来判断市电状态。</p>
-<p><strong>2026.01.02</strong><br>现已使用电能计量模块来判断市电状态，也是使用串口连接的模块，程序见：<a href="https://github.com/kskshaf/im1281b_home_power">im1281b_home_power</a><br>另外给机顶盒端脚本添加了邮件发送功能。</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/01.webp","alt":"10.2RMB 的 USB 串口继电器模块","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/02.webp","alt":"模块控制参数","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/03.webp","alt":"USB 串口继电器模块","title":""}]</div>
-  </div>
-<br>
-
-<p>连接好后，Armbian里可以看到连接的 CH340：<br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/06.webp"></p>
-<p>然后接线</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/04.webp","alt":"线已接好，同时也并联了机箱开关","title":""},{"url":"https://pic-lrc-bed.haf208.cc/img/extra/nas-auto-shutdown/05.webp","alt":"线已接好，同时也并联了机箱开关","title":""}]</div>
-  </div>
-<br>
-
-<p>机顶盒端脚本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/bash</span></span><br><span class="line"><span class="built_in">set</span> -o nounset</span><br><span class="line"><span class="built_in">set</span> -o pipefail</span><br><span class="line"></span><br><span class="line"><span class="comment"># https://blog.csdn.net/ZJXCSDN_/article/details/115396258</span></span><br><span class="line"><span class="comment"># https://post.smzdm.com/p/awze04lg/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># crontab: */3 * * * *    flock -xn /root/.local/ping_wol_open.lock -c &quot;bash /root/.local/ping_wol_open.sh&quot;</span></span><br><span class="line"></span><br><span class="line">gateway=<span class="string">&#x27;192.168.1.1&#x27;</span></span><br><span class="line">server=<span class="string">&#x27;192.168.1.5&#x27;</span></span><br><span class="line">log_file=<span class="string">&#x27;/var/log/ping_eth_restart.log&#x27;</span></span><br><span class="line">count_file=<span class="string">&#x27;/tmp/ping_eth_restart.count&#x27;</span></span><br><span class="line">post_mail=<span class="string">&#x27;your@mail.com&#x27;</span></span><br><span class="line">count_max=2</span><br><span class="line">retry_count=0</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">up_time</span></span>() &#123;</span><br><span class="line">    <span class="built_in">cat</span> /proc/uptime | <span class="built_in">cut</span> -d. -f1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">date_time</span></span>() &#123;</span><br><span class="line">    <span class="built_in">date</span> <span class="string">&quot;+%Y/%m/%d %H:%M:%S&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">send_mail</span></span>() &#123;</span><br><span class="line">    (<span class="built_in">echo</span> -e <span class="string">&quot;<span class="variable">$2</span>\n时间：`date_time`&quot;</span> | mail -s <span class="string">&quot;<span class="variable">$1</span>&quot;</span> -r <span class="variable">$post_mail</span> <span class="variable">$post_mail</span>)&amp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (($(up_time) &lt; <span class="number">120</span>)); <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">sleep</span> 30</span><br><span class="line">    send_mail <span class="string">&quot;server监测脚本已启动&quot;</span> <span class="string">&quot;server监测脚本已启动&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># create/load count file</span></span><br><span class="line"><span class="keyword">if</span> [ -f <span class="variable">$count_file</span> ]; <span class="keyword">then</span></span><br><span class="line">    count=$(<span class="built_in">cat</span> <span class="variable">$count_file</span>)</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> -n 0 &gt; <span class="variable">$count_file</span></span><br><span class="line">    count=0</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">count_0</span></span>() &#123;</span><br><span class="line">  <span class="keyword">if</span> ((count != <span class="number">0</span>)); <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> -n 0 &gt; <span class="variable">$count_file</span></span><br><span class="line">  <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">log_w</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;[`date_time`] $*&quot;</span> &gt;&gt; <span class="variable">$log_file</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">ping_server</span></span>() &#123;</span><br><span class="line">    ping -c 2 <span class="variable">$server</span> &gt; /dev/null</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">open_server</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> -ne <span class="string">&#x27;\xa0\x01\x01\xa2&#x27;</span> &gt; /dev/ttyUSB0   <span class="comment"># 开启继电器</span></span><br><span class="line">    <span class="built_in">sleep</span> 0.2</span><br><span class="line">    <span class="built_in">echo</span> -ne <span class="string">&#x27;\xa0\x01\x00\xa1&#x27;</span> &gt; /dev/ttyUSB0   <span class="comment"># 关闭继电器</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">main_func</span></span>() &#123;</span><br><span class="line">    <span class="comment"># gateway test</span></span><br><span class="line">    ping -c 2 <span class="variable">$gateway</span> &amp;&gt; /dev/null</span><br><span class="line">    <span class="keyword">if</span> [ $? -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">sleep</span> 120</span><br><span class="line">        ping -c 5 <span class="variable">$gateway</span> &amp;&gt; /dev/null</span><br><span class="line">        <span class="keyword">if</span> [ $? -ne 0 ]; <span class="keyword">then</span></span><br><span class="line">            log_w <span class="string">&quot;网关无法连接，退出进程&quot;</span></span><br><span class="line">            <span class="built_in">exit</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> ! ping_server; <span class="keyword">then</span></span><br><span class="line">        <span class="comment"># if exec count &gt; count_max, no retry to start the server anymore.</span></span><br><span class="line">        <span class="keyword">if</span> ((count &gt; count_max)); <span class="keyword">then</span></span><br><span class="line">            log_w <span class="string">&quot;count &gt; count_max, no retry anymore.&quot;</span></span><br><span class="line">            <span class="built_in">exit</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">        <span class="built_in">sleep</span> 20  <span class="comment"># 防止误判</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> ! ping_server; <span class="keyword">then</span></span><br><span class="line">            <span class="comment"># wakeonlan -i 192.168.1.255 $server_mac</span></span><br><span class="line">            open_server</span><br><span class="line">            retry_count=1</span><br><span class="line">            log_w <span class="string">&quot;Waking up server...&quot;</span></span><br><span class="line">            send_mail <span class="string">&quot;启动服务器中&quot;</span> <span class="string">&quot;正在启动服务器...&quot;</span></span><br><span class="line">            <span class="built_in">sleep</span> 60</span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Retry</span></span><br><span class="line">        <span class="keyword">while</span> ! ping_server; <span class="keyword">do</span></span><br><span class="line">            <span class="keyword">if</span> ((retry_count &gt;= <span class="number">3</span>)); <span class="keyword">then</span></span><br><span class="line">                log_w <span class="string">&quot;Server maybe down...&quot;</span></span><br><span class="line">                ((count++))</span><br><span class="line">                <span class="built_in">echo</span> -n <span class="variable">$count</span> &gt; <span class="variable">$count_file</span></span><br><span class="line">                (<span class="built_in">echo</span> -e <span class="string">&quot;服务器无法连接，请联系管理员处理！！！\n时间：`date_time`&quot;</span> | mail -s <span class="string">&#x27;服务器无法连接&#x27;</span> -r <span class="variable">$post_mail</span> <span class="variable">$post_mail</span>  other@mail.com)&amp;</span><br><span class="line">                <span class="built_in">exit</span> 1</span><br><span class="line">            <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> ((retry_count == <span class="number">2</span>)); <span class="keyword">then</span></span><br><span class="line">                <span class="built_in">sleep</span> 60</span><br><span class="line">                log_w <span class="string">&quot;Server maybe stuck, try force shutdown...&quot;</span></span><br><span class="line">                <span class="built_in">echo</span> -ne <span class="string">&#x27;\xa0\x01\x01\xa2&#x27;</span> &gt; /dev/ttyUSB0   <span class="comment"># 开启继电器</span></span><br><span class="line">                <span class="built_in">sleep</span> 5</span><br><span class="line">                <span class="built_in">echo</span> -ne <span class="string">&#x27;\xa0\x01\x00\xa1&#x27;</span> &gt; /dev/ttyUSB0   <span class="comment"># 关闭继电器</span></span><br><span class="line">                <span class="built_in">sleep</span> 10</span><br><span class="line">            <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">            <span class="comment"># wakeonlan -i 192.168.1.255 $server_mac</span></span><br><span class="line">            open_server</span><br><span class="line">            ((retry_count++))</span><br><span class="line">            log_w <span class="string">&quot;Server maybe off, retrying...(<span class="variable">$retry_count</span>)&quot;</span></span><br><span class="line">            <span class="built_in">sleep</span> 60</span><br><span class="line">        <span class="keyword">done</span></span><br><span class="line"></span><br><span class="line">        log_w <span class="string">&quot;Server is stared.&quot;</span></span><br><span class="line">        send_mail <span class="string">&quot;服务器已启动&quot;</span> <span class="string">&quot;服务器已启动&quot;</span></span><br><span class="line">        <span class="comment">#retry_count=0</span></span><br><span class="line">        count_0</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        count_0</span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ $(<span class="built_in">cat</span> /usr/share/test-web/index.html) == <span class="string">&quot;ciallo-114514-status-ok&quot;</span> ]]; <span class="keyword">then</span></span><br><span class="line">    main_func</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    log_w <span class="string">&quot;市电异常，退出进程&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>服务器端脚本（机顶盒需开启 http 服务，然后 index.html 里的内容为 “status-ok”）：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/bash</span></span><br><span class="line"><span class="built_in">set</span> -o nounset</span><br><span class="line"><span class="built_in">set</span> -o pipefail</span><br><span class="line"></span><br><span class="line"><span class="comment"># 脚本参考：</span></span><br><span class="line"><span class="comment"># - https://blog.csdn.net/ZJXCSDN_/article/details/115396258</span></span><br><span class="line"><span class="comment"># - https://post.smzdm.com/p/awze04lg/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># crontab: * * * * *    flock -xn /path/to/http_shutdown.lock -c &quot;bash /path/to/http_shutdown.sh&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">readonly</span> server=<span class="string">&#x27;192.168.1.6&#x27;</span> <span class="comment"># index.html: status-ok</span></span><br><span class="line"><span class="built_in">readonly</span> log_file=<span class="string">&#x27;/var/log/http_shutdown.log&#x27;</span></span><br><span class="line">retry_count=0</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">log_w</span></span>() &#123;</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;[<span class="subst">$(date &#x27;+%Y/%m/%d %H:%M:%S&#x27;)</span>] $*&quot;</span> &gt;&gt; <span class="variable">$log_file</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">check_box_status</span></span>() &#123;</span><br><span class="line">    [[ `curl -A <span class="string">&#x27;Manjaro&#x27;</span> -s -m 1 <span class="variable">$server</span>` == <span class="string">&quot;ciallo-114514-status-ok&quot;</span> ]]</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">main_func</span></span>() &#123;</span><br><span class="line">    <span class="keyword">if</span> ! check_box_status; <span class="keyword">then</span></span><br><span class="line">        <span class="comment"># 防止误判</span></span><br><span class="line">        <span class="built_in">sleep</span> 30</span><br><span class="line">        <span class="keyword">if</span> check_box_status; <span class="keyword">then</span></span><br><span class="line">            <span class="built_in">exit</span></span><br><span class="line">        <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">        shutdown 10</span><br><span class="line">        log_w <span class="string">&quot;Power failure detected. System will shutdown in 10 minutes if power not restored.&quot;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Retry</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">true</span>; <span class="keyword">do</span></span><br><span class="line">            <span class="keyword">if</span> ! check_box_status; <span class="keyword">then</span></span><br><span class="line">                ((retry_count++))</span><br><span class="line">                <span class="keyword">if</span> ((retry_count &gt; <span class="number">25</span>)); <span class="keyword">then</span> poweroff; <span class="keyword">fi</span> <span class="comment"># 感觉没啥作用，但为了保险还是加了这一行</span></span><br><span class="line">                log_w <span class="string">&quot;Power maybe off, retrying...(<span class="variable">$retry_count</span>)&quot;</span></span><br><span class="line">                <span class="built_in">sleep</span> 30</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                shutdown -c</span><br><span class="line">                log_w <span class="string">&quot;Power restored. Shutdown Canceled.&quot;</span></span><br><span class="line">                retry_count=0</span><br><span class="line">                <span class="built_in">break</span></span><br><span class="line">            <span class="keyword">fi</span></span><br><span class="line">        <span class="keyword">done</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">main_func</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>linux</tag>
-        <tag>server</tag>
-        <tag>服务器</tag>
-        <tag>nas</tag>
       </tags>
   </entry>
   <entry>
