@@ -1,381 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>HAF208 的 Blog</title>
-  
-  <subtitle>(一个咕咕的小博客</subtitle>
-  <link href="https://blog.haf208.cc/atom.xml" rel="self"/>
-  
-  <link href="https://blog.haf208.cc/"/>
-  <updated>2025-08-17T13:14:17.000Z</updated>
-  <id>https://blog.haf208.cc/</id>
-  
   <author>
     <name>haf208</name>
-    
   </author>
-  
   <generator uri="https://hexo.io/">Hexo</generator>
-  
+  <id>https://blog.haf208.cc/</id>
+  <link href="https://blog.haf208.cc/" rel="alternate"/>
+  <link href="https://blog.haf208.cc/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, haf208</rights>
+  <subtitle>(一个咕咕的小博客</subtitle>
+  <title>HAF208 的 Blog</title>
+  <updated>2025-08-17T13:14:17.000Z</updated>
   <entry>
-    <title>断电不断网 —— 给光猫和路由器制作一个 UPS 模块</title>
-    <link href="https://blog.haf208.cc/posts/4f8b/"/>
+    <author>
+      <name>haf208</name>
+    </author>
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <id>https://blog.haf208.cc/posts/4f8b/</id>
+    <link href="https://blog.haf208.cc/posts/4f8b/"/>
     <published>2025-08-17T13:14:17.000Z</published>
+    <summary>
+      <![CDATA[<p><del>又是一个瞎折腾的东东</del><br>为了实现“断电不断网”，去年我就给家里的光猫和路由器加上了 UPS。不同于之前的<a href="https://blog.haf208.cc/posts/c720/">市电 UPS</a>，这个 UPS]]>
+    </summary>
+    <title>断电不断网 —— 给光猫和路由器制作一个 UPS 模块</title>
     <updated>2025-08-17T13:14:17.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;del&gt;又是一个瞎折腾的东东&lt;/del&gt;&lt;br&gt;为了实现“断电不断网”，去年我就给家里的光猫和路由器加上了 UPS。不同于之前的&lt;a href=&quot;https://blog.haf208.cc/posts/c720/&quot;&gt;市电 UPS&lt;/a&gt;，这个 UPS</summary>
-        
-      
-    
-    
-    
-    
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
-    
   </entry>
-  
   <entry>
-    <title>NAS来电断电自动开关机脚本</title>
-    <link href="https://blog.haf208.cc/posts/3452/"/>
-    <id>https://blog.haf208.cc/posts/3452/</id>
-    <published>2025-01-23T18:10:17.000Z</published>
-    <updated>2026-01-02T07:57:25.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;前情回顾：博主已经&lt;a href=&quot;https://blog.haf208.cc/posts/c720/&quot;&gt;买了个</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="linux" scheme="https://blog.haf208.cc/tags/linux/"/>
-    
     <category term="server" scheme="https://blog.haf208.cc/tags/server/"/>
-    
     <category term="服务器" scheme="https://blog.haf208.cc/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
     <category term="nas" scheme="https://blog.haf208.cc/tags/nas/"/>
-    
+    <id>https://blog.haf208.cc/posts/3452/</id>
+    <link href="https://blog.haf208.cc/posts/3452/"/>
+    <published>2025-01-23T18:10:17.000Z</published>
+    <summary>
+      <![CDATA[<p>前情回顾：博主已经<a href="https://blog.haf208.cc/posts/c720/">买了个]]>
+    </summary>
+    <title>NAS来电断电自动开关机脚本</title>
+    <updated>2026-01-02T07:57:25.000Z</updated>
   </entry>
-  
   <entry>
-    <title>浅拆一来电断电报警器</title>
-    <link href="https://blog.haf208.cc/posts/9235/"/>
-    <id>https://blog.haf208.cc/posts/9235/</id>
-    <published>2025-01-23T15:51:17.000Z</published>
-    <updated>2025-01-23T19:49:11.366Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。&lt;br&gt;&lt;img src= &quot;data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7&quot;</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="拆解" scheme="https://blog.haf208.cc/tags/%E6%8B%86%E8%A7%A3/"/>
-    
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
-    
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
+    <id>https://blog.haf208.cc/posts/9235/</id>
+    <link href="https://blog.haf208.cc/posts/9235/"/>
+    <published>2025-01-23T15:51:17.000Z</published>
+    <summary>
+      <![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"]]>
+    </summary>
+    <title>浅拆一来电断电报警器</title>
+    <updated>2025-01-23T19:49:11.366Z</updated>
   </entry>
-  
   <entry>
-    <title>小黄鱼第一买 —— 山特 MT500 Pro UPS</title>
-    <link href="https://blog.haf208.cc/posts/c720/"/>
-    <id>https://blog.haf208.cc/posts/c720/</id>
-    <published>2025-01-23T15:33:33.000Z</published>
-    <updated>2025-08-17T13:15:56.106Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src= &quot;data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7&quot;</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
-    
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
     <category term="闲鱼" scheme="https://blog.haf208.cc/tags/%E9%97%B2%E9%B1%BC/"/>
-    
     <category term="小黄鱼" scheme="https://blog.haf208.cc/tags/%E5%B0%8F%E9%BB%84%E9%B1%BC/"/>
-    
+    <id>https://blog.haf208.cc/posts/c720/</id>
+    <link href="https://blog.haf208.cc/posts/c720/"/>
+    <published>2025-01-23T15:33:33.000Z</published>
+    <summary>
+      <![CDATA[<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"]]>
+    </summary>
+    <title>小黄鱼第一买 —— 山特 MT500 Pro UPS</title>
+    <updated>2025-08-17T13:15:56.106Z</updated>
   </entry>
-  
   <entry>
-    <title>给在pdd买的机顶盒扩容</title>
-    <link href="https://blog.haf208.cc/posts/ddbf/"/>
-    <id>https://blog.haf208.cc/posts/ddbf/</id>
-    <published>2024-07-17T16:02:17.000Z</published>
-    <updated>2024-08-13T19:00:15.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器，然后装 WordPress</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
-    
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
+    <id>https://blog.haf208.cc/posts/ddbf/</id>
+    <link href="https://blog.haf208.cc/posts/ddbf/"/>
+    <published>2024-07-17T16:02:17.000Z</published>
+    <summary>
+      <![CDATA[<p>去年在 pdd 买了一个二手的电视盒子，型号是 UNT402A，本来想装个 Armbian 当服务器，然后装 WordPress]]>
+    </summary>
+    <title>给在pdd买的机顶盒扩容</title>
+    <updated>2024-08-13T19:00:15.000Z</updated>
   </entry>
-  
   <entry>
-    <title>一个升压模块的制作</title>
-    <link href="https://blog.haf208.cc/posts/2ced/"/>
+    <author>
+      <name>haf208</name>
+    </author>
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <id>https://blog.haf208.cc/posts/2ced/</id>
+    <link href="https://blog.haf208.cc/posts/2ced/"/>
     <published>2024-06-05T16:02:17.000Z</published>
+    <summary>
+      <![CDATA[<p>学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v]]>
+    </summary>
+    <title>一个升压模块的制作</title>
     <updated>2024-08-13T19:00:15.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v</summary>
-        
-      
-    
-    
-    
-    
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
-    
   </entry>
-  
   <entry>
-    <title>整一个铅酸电池欠压保护板</title>
-    <link href="https://blog.haf208.cc/posts/9718/"/>
+    <author>
+      <name>haf208</name>
+    </author>
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <id>https://blog.haf208.cc/posts/9718/</id>
+    <link href="https://blog.haf208.cc/posts/9718/"/>
     <published>2024-05-31T17:24:57.000Z</published>
+    <summary>
+      <![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a]]>
+    </summary>
+    <title>整一个铅酸电池欠压保护板</title>
     <updated>2024-08-13T19:00:15.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;del&gt;咕了N个月没发博客了，出来诈下尸&lt;/del&gt;&lt;br&gt;前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
-    
   </entry>
-  
   <entry>
-    <title>重温电子制作</title>
-    <link href="https://blog.haf208.cc/posts/e15/"/>
-    <id>https://blog.haf208.cc/posts/e15/</id>
-    <published>2024-03-22T15:05:26.000Z</published>
-    <updated>2024-05-19T11:42:05.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;del&gt;由于老爸的引导&lt;/del&gt;，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SST</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
-    
     <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
-    
     <category term="作死" scheme="https://blog.haf208.cc/tags/%E4%BD%9C%E6%AD%BB/"/>
-    
+    <id>https://blog.haf208.cc/posts/e15/</id>
+    <link href="https://blog.haf208.cc/posts/e15/"/>
+    <published>2024-03-22T15:05:26.000Z</published>
+    <summary>
+      <![CDATA[<p><del>由于老爸的引导</del>，博主从小就对电子方面有了浓厚的兴趣，经常拆家里的和楼下捡来的电器玩。拆出里面的零件来，照着百度来的电路，或者是老爸留下的那些比我年龄还大的电子书上的电路在那里鼓捣，像什么焦耳小偷、电磁炮、电磁铁、无线输电、功放、逆变器、SGTC、SST]]>
+    </summary>
+    <title>重温电子制作</title>
+    <updated>2024-05-19T11:42:05.000Z</updated>
   </entry>
-  
   <entry>
-    <title>npm 使用笔记</title>
-    <link href="https://blog.haf208.cc/posts/637e/"/>
-    <id>https://blog.haf208.cc/posts/637e/</id>
-    <published>2024-03-02T15:10:26.000Z</published>
-    <updated>2025-01-23T18:51:22.054Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;一些关于 npm 的使用笔记&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="note" scheme="https://blog.haf208.cc/tags/note/"/>
-    
     <category term="npm" scheme="https://blog.haf208.cc/tags/npm/"/>
-    
+    <id>https://blog.haf208.cc/posts/637e/</id>
+    <link href="https://blog.haf208.cc/posts/637e/"/>
+    <published>2024-03-02T15:10:26.000Z</published>
+    <summary>
+      <![CDATA[<p>一些关于 npm 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span]]>
+    </summary>
+    <title>npm 使用笔记</title>
+    <updated>2025-01-23T18:51:22.054Z</updated>
   </entry>
-  
   <entry>
-    <title>Git 使用笔记</title>
-    <link href="https://blog.haf208.cc/posts/3e60/"/>
-    <id>https://blog.haf208.cc/posts/3e60/</id>
-    <published>2024-02-15T13:18:23.000Z</published>
-    <updated>2024-03-02T14:36:26.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;一些关于 Git 的使用笔记&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="note" scheme="https://blog.haf208.cc/tags/note/"/>
-    
     <category term="git" scheme="https://blog.haf208.cc/tags/git/"/>
-    
+    <id>https://blog.haf208.cc/posts/3e60/</id>
+    <link href="https://blog.haf208.cc/posts/3e60/"/>
+    <published>2024-02-15T13:18:23.000Z</published>
+    <summary>
+      <![CDATA[<p>一些关于 Git 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span]]>
+    </summary>
+    <title>Git 使用笔记</title>
+    <updated>2024-03-02T14:36:26.000Z</updated>
   </entry>
-  
   <entry>
-    <title>给博客添加 APlayer 播放器</title>
-    <link href="https://blog.haf208.cc/posts/ebc3/"/>
+    <author>
+      <name>haf208</name>
+    </author>
+    <category term="note" scheme="https://blog.haf208.cc/tags/note/"/>
     <id>https://blog.haf208.cc/posts/ebc3/</id>
+    <link href="https://blog.haf208.cc/posts/ebc3/"/>
     <published>2024-02-03T18:30:03.000Z</published>
+    <summary>
+      <![CDATA[<p>博客一眼看过去，感觉还是单调了些，于是就有了在博客里添加播放器的冲动（虽然加播放器也改变不了多少）。</p>
+<p>看了下 <a]]>
+    </summary>
+    <title>给博客添加 APlayer 播放器</title>
     <updated>2024-02-19T16:43:20.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;博客一眼看过去，感觉还是单调了些，于是就有了在博客里添加播放器的冲动（虽然加播放器也改变不了多少）。&lt;/p&gt;
-&lt;p&gt;看了下 &lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="note" scheme="https://blog.haf208.cc/tags/note/"/>
-    
   </entry>
-  
   <entry>
-    <title>Linux 使用笔记</title>
-    <link href="https://blog.haf208.cc/posts/9831/"/>
-    <id>https://blog.haf208.cc/posts/9831/</id>
-    <published>2024-01-28T16:13:23.000Z</published>
-    <updated>2026-02-03T14:30:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Linux-系统初使用&quot;&gt;&lt;a href=&quot;#Linux-系统初使用&quot; class=&quot;headerlink&quot; title=&quot;Linux 系统初使用?&quot;&gt;&lt;/a&gt;Linux</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="note" scheme="https://blog.haf208.cc/tags/note/"/>
-    
     <category term="linux" scheme="https://blog.haf208.cc/tags/linux/"/>
-    
+    <id>https://blog.haf208.cc/posts/9831/</id>
+    <link href="https://blog.haf208.cc/posts/9831/"/>
+    <published>2024-01-28T16:13:23.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="Linux-系统初使用"><a href="#Linux-系统初使用" class="headerlink" title="Linux 系统初使用?"></a>Linux]]>
+    </summary>
+    <title>Linux 使用笔记</title>
+    <updated>2026-06-29T14:30:00.000Z</updated>
   </entry>
-  
   <entry>
-    <title>一些视频 (随缘)</title>
-    <link href="https://blog.haf208.cc/posts/9aa0/"/>
-    <id>https://blog.haf208.cc/posts/9aa0/</id>
-    <published>2023-11-18T13:33:03.000Z</published>
-    <updated>2024-08-13T22:20:26.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2&gt; 伊朗做死哥 &lt;/h2&gt;
-&lt;br&gt;
-&lt;iframe width=&quot;427&quot; height=&quot;240&quot;</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="hello" scheme="https://blog.haf208.cc/tags/hello/"/>
-    
+    <id>https://blog.haf208.cc/posts/9aa0/</id>
+    <link href="https://blog.haf208.cc/posts/9aa0/"/>
+    <published>2023-11-18T13:33:03.000Z</published>
+    <summary>
+      <![CDATA[<h2> 伊朗做死哥 </h2>
+<br>
+<iframe width="427" height="240"]]>
+    </summary>
+    <title>一些视频 (随缘)</title>
+    <updated>2024-08-13T22:20:26.000Z</updated>
   </entry>
-  
   <entry>
-    <title>搞了N天，终于搞出来了</title>
-    <link href="https://blog.haf208.cc/posts/14e8/"/>
-    <id>https://blog.haf208.cc/posts/14e8/</id>
-    <published>2023-08-24T00:00:00.000Z</published>
-    <updated>2024-02-19T17:07:25.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;其实这东西…(博客)就是我兴致一来搞的，&lt;del&gt;搞出来也就两三天罢了&lt;/del&gt;，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]&lt;/p&gt;
-&lt;p&gt;先是 lnmp 环境的搭建（没用云服务端开箱即用的，买不起，用的是 &lt;a</summary>
-        
-      
-    
-    
-    
-    
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="old" scheme="https://blog.haf208.cc/tags/old/"/>
-    
+    <id>https://blog.haf208.cc/posts/14e8/</id>
+    <link href="https://blog.haf208.cc/posts/14e8/"/>
+    <published>2023-08-24T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
+<p>先是 lnmp 环境的搭建（没用云服务端开箱即用的，买不起，用的是 <a]]>
+    </summary>
+    <title>搞了N天，终于搞出来了</title>
+    <updated>2024-02-19T17:07:25.000Z</updated>
   </entry>
-  
 </feed>
