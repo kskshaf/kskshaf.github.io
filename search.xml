@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>一些视频 (随缘)</title>
+    <url>/posts/9aa0/</url>
+    <content><![CDATA[<h2> 伊朗做死哥 </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2> MAD </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
+      <tags>
+        <tag>hello</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搞了N天，终于搞出来了</title>
     <url>/posts/14e8/</url>
     <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
@@ -22,28 +44,6 @@
 ]]></content>
       <tags>
         <tag>old</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一些视频 (随缘)</title>
-    <url>/posts/9aa0/</url>
-    <content><![CDATA[<h2> 伊朗做死哥 </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2> MAD </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
-      <tags>
-        <tag>hello</tag>
       </tags>
   </entry>
   <entry>
@@ -277,6 +277,21 @@
       </tags>
   </entry>
   <entry>
+    <title>npm 使用笔记</title>
+    <url>/posts/637e/</url>
+    <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://docs.npmjs.com/</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/nodejs/nodejs-npm.html</span></span><br><span class="line"><span class="comment"># https://akilar.top/posts/3e956346/</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br><span class="line"></span><br><span class="line">npm init</span><br><span class="line">npm publish</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除已发布的包版本</span></span><br><span class="line">npm unpublish you-npm-pack@version --force</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>note</tag>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux 使用笔记</title>
     <url>/posts/9831/</url>
     <content><![CDATA[<h2 id="Linux-系统初使用"><a href="#Linux-系统初使用" class="headerlink" title="Linux 系统初使用?"></a>Linux 系统初使用?</h2><p>说来话长了。。。本人小时候家里没有电脑，平时也基本接触不到电脑。在21年的时候，估计是贴吧逛多了，然后按捺不住，想要拥有一台自己的电脑<del>玩些奇奇怪怪的东西</del>，于是偷偷地省父母给的饭钱，在 <code>keng duo duo</code> 买了一堆硬件回来组装电脑。接着，用手机、自己拆充电线焊接的 OTG 转接器、还有内存卡做了个系统盘，装机。显示器用的还是楼下捡的 VGA 监视器……</p>
@@ -333,21 +348,6 @@
       <tags>
         <tag>note</tag>
         <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm 使用笔记</title>
-    <url>/posts/637e/</url>
-    <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://docs.npmjs.com/</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/nodejs/nodejs-npm.html</span></span><br><span class="line"><span class="comment"># https://akilar.top/posts/3e956346/</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line"><span class="comment"># 仅第一次使用需要添加用户，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm adduser</span><br><span class="line"><span class="comment"># 非第一次使用直接登录即可，之后会提示你输入你的npm账号密码以及注册邮箱</span></span><br><span class="line">npm login</span><br><span class="line"></span><br><span class="line">npm init</span><br><span class="line">npm publish</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除已发布的包版本</span></span><br><span class="line">npm unpublish you-npm-pack@version --force</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>一些 npm 镜像：<br><a href="https://cdn.jsdelivr.net/npm">https://cdn.jsdelivr.net/npm</a><br><a href="https://unpkg.com/">https://unpkg.com/</a><br><a href="https://npm.elemecdn.com/">https://npm.elemecdn.com/</a><br><a href="https://registry.npmmirror.com/">https://registry.npmmirror.com/</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>note</tag>
-        <tag>npm</tag>
       </tags>
   </entry>
   <entry>
