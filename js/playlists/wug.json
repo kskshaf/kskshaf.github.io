@@ -1,0 +1,407 @@
+[
+  {
+    "group": "EYCA-14544",
+    "name": "タチアガレ!",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/01.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/01.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14544",
+    "name": "7 Girls War",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/02.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14544",
+    "name": "言の葉 青葉",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/03.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/03.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14544",
+    "name": "16歳のアガペー",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/04.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/04.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14544",
+    "name": "極上スマイル (Wake Up,Girls! ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/05.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/05.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14544",
+    "name": "地下鉄ラビリンス",
+    "artist": "Wake Up, Girlzoo!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/06.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14544",
+    "name": "素顔でKISS ME",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/07.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14544",
+    "name": "少女交響曲 (Album ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/08.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/08.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14544",
+    "name": "Beyond the Bottom (Album ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/09.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/09.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "あぁ光塚歌劇団",
+    "artist": "光塚歌劇団",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/01.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "太陽曰く燃えよカオス (岡本未夕 ver.)",
+    "artist": "岡本未夕(CV:高木美佑)",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14545/02.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "Regain Brave",
+    "artist": "木高ゆみ(CV.高木美佑)",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/03.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14545/03.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "End of endless",
+    "artist": "mip'o(CV.田中美海)",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/04.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14545/04.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "プラチナ・サンライズ",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/05.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14545/05.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "セブンティーン・クライシス",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/06.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "タイトロープ ラナウェイ",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/07.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14545/07.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "outlander rhapsody",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/08.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14545/08.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "お約束たいそう",
+    "artist": "片山実波(CV:田中美海)",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/09.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14545",
+    "name": "お約束たいそう2",
+    "artist": "片山実波(CV:田中美海)",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/10.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14548",
+    "name": "Polaris",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14548/01.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14548/01.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14548",
+    "name": "雫の冠",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14548/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14548/02.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14548",
+    "name": "7 Senses",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14548/03.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14548/03.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14548",
+    "name": "TUNAGO",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14548/04.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14548/04.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14548",
+    "name": "ゆき模様 恋のもよう",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14548/05.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14548/05.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14548",
+    "name": "同じ夢を見てる",
+    "artist": "Wake Up, Girls!(ミツキとヨウコ)",
+    "url": "local-pkg/wake_up_girls/EYCA-14548/06.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14548/06.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14549",
+    "name": "恋で愛で暴君です!",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14549/01.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14549",
+    "name": "僕らのフロンティア",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14549/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14549",
+    "name": "スキノスキル",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14549/03.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14549",
+    "name": "SHIFT",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14549/04.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14549",
+    "name": "One In A Billion (Wake Up, Girls! ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14549/05.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14549/05.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14549",
+    "name": "ハートライン (Wake Up, Girls! ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14549/06.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14549",
+    "name": "王様のカデンツァ (Wake Up, Girls! ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14549/07.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14550",
+    "name": "海そしてシャッター通り",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14550/01.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14550/01.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14550",
+    "name": "言葉の結晶",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14550/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14550",
+    "name": "土曜日のフライト",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14550/03.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14550/03.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14550",
+    "name": "さようならのパレード",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14550/04.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14550/04.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "シャツとブラウス",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/01.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14551/01.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "リトル・チャレンジャー",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14551/02.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "ジェラ",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/03.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14551/03.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "極上スマイル (I-1club ver.)",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/04.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/05.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "止まらない未来",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/09.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "レザレクション (ネクストストーム)",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/10.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "Knock out",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/11.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "君とプログレス",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/12.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14551/12.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "group": "EYCA-14551",
+    "name": "Jewelry Wonderland",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/13.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "",
+    "theme": "#49b9f5"
+  }
+]

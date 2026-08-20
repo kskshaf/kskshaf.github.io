@@ -1,0 +1,3357 @@
+[
+  {
+    "name": "美しい音色で世界が鳴った",
+    "artist": "松本文紀 & ピクセルビー",
+    "url": "sakura-no-uta-pkgms-st/d1/01.m4a",
+    "cover": "sakura-no-uta-pkgms-st/cover.jpg",
+    "theme": "#C5C3E1"
+  },
+  {
+    "name": "櫻ノ詩",
+    "artist": "はな",
+    "url": "sakura-no-uta-pkgms-vc/01.m4a",
+    "cover": "sakura-no-uta-pkgms-vc/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/sakura-no-uta/01.lrc",
+    "theme": "#FFBF58"
+  },
+  {
+    "name": "ジムノペディ",
+    "artist": "松本文紀 & ピクセルビー",
+    "url": "sakura-no-uta-pkgms-st/d2/15.m4a",
+    "cover": "sakura-no-uta-pkgms-st/cover.jpg",
+    "theme": "#C5C3E1"
+  },
+  {
+    "group": "single",
+    "name": "天天天国地獄国",
+    "artist": "feat. ななひら & P丸様",
+    "url": "local-pkg/single/Tententengokujigokugoku.opus",
+    "cover": "local-pkg/single/Tententengokujigokugoku.webp",
+    "lrc": "",
+    "theme": "#ca2a52"
+  },
+  {
+    "group": "single",
+    "name": "化けの皮",
+    "artist": "feat. こぼ・かなえる, 重音テト, Giga & TeddyLoid",
+    "url": "local-pkg/single/Bake_no_Kawa.opus",
+    "cover": "local-pkg/single/Bake_no_Kawa.avif",
+    "lrc": "",
+    "theme": "#d51d1d"
+  },
+  {
+    "group": "single",
+    "name": "らしさ",
+    "artist": "Official髭男dism",
+    "url": "local-pkg/single/Rashisa.opus",
+    "cover": "local-pkg/single/Rashisa.avif",
+    "lrc": "",
+    "theme": "#219bdd"
+  },
+  {
+    "name": "allegretto ～そらときみ～",
+    "artist": "KOTOKO",
+    "url": "local-pkg/GIGA-061225/01.opus",
+    "cover": "local-pkg/GIGA-061225/cover.avif",
+    "lrc": "",
+    "theme": "#8cc0ff"
+  },
+  {
+    "name": "味噌汁とバター",
+    "artist": "汐れいら",
+    "url": "local-pkg/ESCL-6085/01.opus",
+    "cover": "local-pkg/ESCL-6085/cover.avif",
+    "lrc": "",
+    "theme": "#ffd089"
+  },
+  {
+    "name": "トクベツにして",
+    "artist": "汐れいら",
+    "url": "local-pkg/ESCL-6085/02.opus",
+    "cover": "local-pkg/ESCL-6085/cover.avif",
+    "lrc": "",
+    "theme": "#ffd089"
+  },
+  {
+    "name": "タチアガレ!",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/01.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/01.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "name": "7 Girls War",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/02.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "name": "極上スマイル (Wake Up,Girls! ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/05.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/05.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "name": "少女交響曲 (Album ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/08.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/08.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "name": "Beyond the Bottom (Album ver.)",
+    "artist": "Wake Up, Girls!",
+    "url": "local-pkg/wake_up_girls/EYCA-14544/09.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14544/09.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "name": "太陽曰く燃えよカオス (岡本未夕 ver.)",
+    "artist": "岡本未夕(CV:高木美佑)",
+    "url": "local-pkg/wake_up_girls/EYCA-14545/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14545/02.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "name": "シャツとブラウス",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/01.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14551/01.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "name": "リトル・チャレンジャー",
+    "artist": "I-1 Club",
+    "url": "local-pkg/wake_up_girls/EYCA-14551/02.opus",
+    "cover": "local-pkg/wake_up_girls/cover.avif",
+    "lrc": "local-pkg/wake_up_girls/EYCA-14551/02.lrc",
+    "theme": "#49b9f5"
+  },
+  {
+    "name": "水色時代",
+    "artist": "米屋純",
+    "url": "local-pkg/CODC-938/01.opus",
+    "cover": "local-pkg/CODC-938/cover.avif",
+    "lrc": "",
+    "theme": "#ffd089"
+  },
+  {
+    "name": "あの頃のように",
+    "artist": "鈴木真仁",
+    "url": "local-pkg/CODC-938/02.opus",
+    "cover": "local-pkg/CODC-938/cover.avif",
+    "lrc": "",
+    "theme": "#ffd089"
+  },
+  {
+    "name": "Sugar Baby Love",
+    "artist": "石田燿子",
+    "url": "local-pkg/PICA-0009/01.opus",
+    "cover": "local-pkg/PICA-0009/cover.avif",
+    "lrc": "",
+    "theme": "#ffd089"
+  },
+  {
+    "name": "Snow flower",
+    "artist": "山本麻里安",
+    "url": "local-pkg/PICA-0009/03.opus",
+    "cover": "local-pkg/PICA-0009/cover.avif",
+    "lrc": "",
+    "theme": "#ffd089"
+  },
+  {
+    "name": "Magical Happy Show!",
+    "artist": "Machico",
+    "url": "local-pkg/GNCA-0238/01.opus",
+    "cover": "local-pkg/GNCA-0238/cover.avif",
+    "lrc": "",
+    "theme": "#e9987a"
+  },
+  {
+    "name": "Magical Happy Show! (Instrumental)",
+    "artist": "天門",
+    "url": "local-pkg/GNCA-0238/03.opus",
+    "cover": "local-pkg/GNCA-0238/cover.avif",
+    "lrc": "",
+    "theme": "#e9987a"
+  },
+  {
+    "name": "ドレミファクトリー!",
+    "artist": "U149",
+    "url": "local-pkg/COCC-18125/05.opus",
+    "cover": "local-pkg/COCC-18125/cover.avif",
+    "lrc": "",
+    "theme": "#f4ba55"
+  },
+  {
+    "name": "Hello",
+    "artist": "Furui Riho",
+    "url": "local-pkg/PCSP-06591/01.opus",
+    "cover": "local-pkg/PCSP-06591/cover.avif",
+    "lrc": "",
+    "theme": "#f5e17a"
+  },
+  {
+    "name": "ちゃんと",
+    "artist": "Furui Riho",
+    "url": "local-pkg/PCSP-06591/02.opus",
+    "cover": "local-pkg/PCSP-06591/cover.avif",
+    "lrc": "",
+    "theme": "#f5e17a"
+  },
+  {
+    "name": "サファイア",
+    "artist": "Hana Hope",
+    "url": "local-pkg/AICL-4795/01.opus",
+    "cover": "local-pkg/AICL-4795/cover.avif",
+    "lrc": "",
+    "theme": "#e9993d"
+  },
+  {
+    "name": "afraid to love",
+    "artist": "Hana Hope",
+    "url": "local-pkg/AICL-4795/02.opus",
+    "cover": "local-pkg/AICL-4795/cover.avif",
+    "lrc": "",
+    "theme": "#e9993d"
+  },
+  {
+    "name": "光のすみか",
+    "artist": "安田レイ",
+    "url": "local-pkg/VVCL-2785/01.opus",
+    "cover": "local-pkg/VVCL-2785/cover.avif",
+    "lrc": "",
+    "theme": "#43c0b5"
+  },
+  {
+    "name": "BROKEN GLASS",
+    "artist": "安田レイ",
+    "url": "local-pkg/VVCL-2785/02.opus",
+    "cover": "local-pkg/VVCL-2785/cover.avif",
+    "lrc": "",
+    "theme": "#43c0b5"
+  },
+  {
+    "name": "NOW",
+    "artist": "安田レイ",
+    "url": "local-pkg/VVCL-2785/03.opus",
+    "cover": "local-pkg/VVCL-2785/cover.avif",
+    "lrc": "",
+    "theme": "#43c0b5"
+  },
+  {
+    "name": "やさしい気持ち",
+    "artist": "安田レイ",
+    "url": "local-pkg/VVCL-2785/04.opus",
+    "cover": "local-pkg/VVCL-2785/cover.avif",
+    "lrc": "",
+    "theme": "#43c0b5"
+  },
+  {
+    "name": "図鑑",
+    "artist": "SEKAI NO OWARI",
+    "url": "local-pkg/single/Zukan-Kohaku/Zukan.opus",
+    "cover": "local-pkg/single/Zukan-Kohaku.avif",
+    "lrc": "",
+    "theme": "#43b0d8"
+  },
+  {
+    "name": "琥珀",
+    "artist": "SEKAI NO OWARI",
+    "url": "local-pkg/single/Zukan-Kohaku/Kohaku.opus",
+    "cover": "local-pkg/single/Zukan-Kohaku.avif",
+    "lrc": "",
+    "theme": "#34b3c4"
+  },
+  {
+    "name": "トリガーロック",
+    "artist": "Mashumairesh!!",
+    "url": "local-pkg/PCCG-02055/01.opus",
+    "cover": "local-pkg/PCCG-02055/cover.avif",
+    "lrc": "",
+    "theme": "#e75aca"
+  },
+  {
+    "name": "イントロダクション",
+    "artist": "Mashumairesh!!",
+    "url": "local-pkg/PCCG-02055/02.opus",
+    "cover": "local-pkg/PCCG-02055/cover.avif",
+    "lrc": "",
+    "theme": "#e75aca"
+  },
+  {
+    "name": "トリガーロック (Instrumental)",
+    "artist": "中島生也",
+    "url": "local-pkg/PCCG-02055/03.opus",
+    "cover": "local-pkg/PCCG-02055/cover.avif",
+    "theme": "#e75aca"
+  },
+  {
+    "name": "イントロダクション (Instrumental)",
+    "artist": "Yugo Ichikawa",
+    "url": "local-pkg/PCCG-02055/04.opus",
+    "cover": "local-pkg/PCCG-02055/cover.avif",
+    "theme": "#e75aca"
+  },
+  {
+    "name": "FUN!!",
+    "artist": "MORE MORE JUMP！",
+    "url": "local-pkg/single/MORE_MORE_JUMP-FUN.opus",
+    "cover": "local-pkg/single/MORE_MORE_JUMP-FUN.avif",
+    "lrc": "",
+    "theme": "#63cdf4"
+  },
+  {
+    "name": "Theme of New PANTY & STOCKING (Long Version)",
+    "artist": "☆Taku Takahashi, m-flo, TeddyLoid",
+    "url": "local-pkg/VTCL-35387/04.opus",
+    "cover": "local-pkg/VTCL-35387/cover.avif",
+    "lrc": "",
+    "theme": "#f463bc"
+  },
+  {
+    "name": "Prism Sympathy",
+    "artist": "StylipS",
+    "url": "local-pkg/LACM-14112/01.opus",
+    "cover": "local-pkg/LACM-14112/cover.avif",
+    "lrc": "",
+    "theme": "#ffd260"
+  },
+  {
+    "name": "ツナグキズナ・ツツムコドク",
+    "artist": "StylipS",
+    "url": "local-pkg/LACM-14112/02.opus",
+    "cover": "local-pkg/LACM-14112/cover.avif",
+    "lrc": "",
+    "theme": "#ffd260"
+  },
+  {
+    "name": "Brand-new Style!! ~魔法みたいなShow time~ (Step Two)",
+    "artist": "StylipS",
+    "url": "local-pkg/LACM-14112/03.opus",
+    "cover": "local-pkg/LACM-14112/cover.avif",
+    "lrc": "",
+    "theme": "#ffd260"
+  },
+  {
+    "name": "Prism Sympathy (inst.)",
+    "artist": "高田暁",
+    "url": "local-pkg/LACM-14112/04.opus",
+    "cover": "local-pkg/LACM-14112/cover.avif",
+    "theme": "#ffd260"
+  },
+  {
+    "name": "ツナグキズナ・ツツムコドク (inst.)",
+    "artist": "高田暁",
+    "url": "local-pkg/LACM-14112/05.opus",
+    "cover": "local-pkg/LACM-14112/cover.avif",
+    "theme": "#ffd260"
+  },
+  {
+    "name": "Brand-new Style!! ~魔法みたいなShow time~ (Step Two/inst.)",
+    "artist": "森慎太郎",
+    "url": "local-pkg/LACM-14112/06.opus",
+    "cover": "local-pkg/LACM-14112/cover.avif",
+    "theme": "#ffd260"
+  },
+  {
+    "name": "starlog",
+    "artist": "ChouCho",
+    "url": "local-pkg/LACM-14116/01.opus",
+    "cover": "local-pkg/LACM-14116/cover.avif",
+    "lrc": "",
+    "theme": "#ee81de"
+  },
+  {
+    "name": "暮れ色のキャンバス",
+    "artist": "ChouCho",
+    "url": "local-pkg/LACM-14116/02.opus",
+    "cover": "local-pkg/LACM-14116/cover.avif",
+    "lrc": "",
+    "theme": "#ee81de"
+  },
+  {
+    "name": "starlog (off vocal)",
+    "artist": "川本新",
+    "url": "local-pkg/LACM-14116/03.opus",
+    "cover": "local-pkg/LACM-14116/cover.avif",
+    "theme": "#ee81de"
+  },
+  {
+    "name": "暮れ色のキャンバス (off vocal)",
+    "artist": "片山義美",
+    "url": "local-pkg/LACM-14116/04.opus",
+    "cover": "local-pkg/LACM-14116/cover.avif",
+    "theme": "#ee81de"
+  },
+  {
+    "name": "僕らだけの未来の空",
+    "artist": "ノクチル",
+    "url": "local-pkg/LACM-24117/01.opus",
+    "cover": "local-pkg/LACM-24117/cover.avif",
+    "lrc": "",
+    "theme": "#589ffc"
+  },
+  {
+    "name": "今しかない瞬間を",
+    "artist": "ノクチル",
+    "url": "local-pkg/LACM-24117/02.opus",
+    "cover": "local-pkg/LACM-24117/cover.avif",
+    "lrc": "",
+    "theme": "#589ffc"
+  },
+
+
+  {
+    "name": "Answer",
+    "artist": "片雾烈火",
+    "url": "local-pkg/g-senjou/d1/03.m4a",
+    "cover": "local-pkg/g-senjou/cover.webp",
+    "lrc": "local-pkg/g-senjou/d1/03.lrc",
+    "theme": "#A59484"
+  },
+  {
+    "name": "G線上のアリア #1",
+    "artist": "J.S. Bach",
+    "url": "local-pkg/g-senjou/d1/01.m4a",
+    "cover": "local-pkg/g-senjou/cover.webp",
+    "theme": "#A59484"
+  },
+  {
+    "name": "Close Your Eyes",
+    "artist": "彩音",
+    "url": "local-pkg/g-senjou/d2/03.m4a",
+    "cover": "local-pkg/g-senjou/cover.webp",
+    "lrc": "local-pkg/g-senjou/d2/03.lrc",
+    "theme": "#A59484"
+  },
+  {
+    "name": "雪の羽 時の風",
+    "artist": "Barbarian on the Groove feat. Chata",
+    "url": "local-pkg/g-senjou/d3/18.m4a",
+    "cover": "local-pkg/g-senjou/cover.webp",
+    "lrc": "local-pkg/g-senjou/d3/18.lrc",
+    "theme": "#A59484"
+  },
+  {
+    "name": "ニュー・マイ・ノーマル",
+    "artist": "Mrs. GREEN APPLE",
+    "url": "lokocdnms-pkg-06/others/11.m4a",
+    "lrc": "lokocdnms-pkg-exlrc/others/11.lrc",
+    "theme": "#44DB56",
+    "comment": "yt:E7YAf0O02Ms"
+  },
+  {
+    "name": "freak of nature : start",
+    "artist": "彩菜",
+    "url": "hatuyuki-sakura-ost1/11.m4a",
+    "cover": "hatuyuki-sakura-ost1/cover.jpg",
+    "theme": "#CEE3FA"
+  },
+  {
+    "name": "雪は何色",
+    "artist": "Kotoha",
+    "url": "lokocdnms-pkg-06/PALETTE2308/01.m4a",
+    "cover": "lokocdnms-pkg-06/PALETTE2308/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/others/PALETTE2308/01.lrc",
+    "theme": "#C8FFFD"
+  },
+  {
+    "name": "夢と色でできている",
+    "artist": "佐咲紗花",
+    "url": "lokocdnms-pkg-06/FENG-59/01.m4a",
+    "cover": "lokocdnms-pkg-06/FENG-59/cover.webp",
+    "lrc": "lokocdnms-pkg-06/FENG-59/01.lrc",
+    "theme": "#A4DDFF"
+  },
+  {
+    "name": "これくらいで",
+    "artist": "藍月なくる",
+    "url": "lokocdnms-pkg-06/FENG-59/02.m4a",
+    "cover": "lokocdnms-pkg-06/FENG-59/cover.webp",
+    "lrc": "lokocdnms-pkg-06/FENG-59/02.lrc",
+    "theme": "#A4DDFF"
+  },
+  {
+    "name": "夢と色でできている Grand End",
+    "artist": "佐咲紗花",
+    "url": "lokocdnms-pkg-06/FENG-59/03.m4a",
+    "cover": "lokocdnms-pkg-06/FENG-59/cover.webp",
+    "lrc": "lokocdnms-pkg-06/FENG-59/03.lrc",
+    "theme": "#A4DDFF"
+  },
+  {
+    "name": "优しい风が吹くあの场所で -Anime Version-",
+    "artist": "三輪学",
+    "url": "lokocdnms-pkg-06/KIXA-75-Vol1/01.m4a",
+    "cover": "lokocdnms-pkg-06/KIXA-75-Vol1/cover.jpg",
+    "theme": "#DCD3DB"
+  },
+  {
+    "name": "未来へ踏み出す一歩 -Anime Version-",
+    "artist": "三輪学",
+    "url": "lokocdnms-pkg-06/KIXA-75-Vol1/19.m4a",
+    "cover": "lokocdnms-pkg-06/KIXA-75-Vol1/cover.jpg",
+    "theme": "#DCD3DB"
+  },
+  {
+    "name": "优しい风が吹くあの场所で",
+    "artist": "三輪学",
+    "url": "lokocdnms-pkg-06/SPH-003/02.m4a",
+    "cover": "lokocdnms-pkg-06/SPH-003/cover.jpg",
+    "theme": "#DCD3DB"
+  },
+  {
+    "name": "未来へ踏み出す一歩-",
+    "artist": "三輪学",
+    "url": "lokocdnms-pkg-06/SPH-003/19.m4a",
+    "cover": "lokocdnms-pkg-06/SPH-003/cover.jpg",
+    "theme": "#DCD3DB"
+  },
+  {
+    "name": "花びらとりぼん",
+    "artist": "Larval Stage Planning",
+    "url": "majo-koi-nikki-st1/01.m4a",
+    "cover": "majo-koi-nikki-st1/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/majo-koi-nikki/01.lrc",
+    "theme": "#FAC8D8"
+  },
+  {
+    "name": "送る言葉",
+    "artist": "水月陵",
+    "url": "hatuyuki-sakura-ost2/17.m4a",
+    "cover": "hatuyuki-sakura-ost1/cover.jpg",
+    "theme": "#CEE3FA"
+  },
+  {
+    "name": "桜の心",
+    "artist": "水月陵",
+    "url": "hatuyuki-sakura-ost2/18.m4a",
+    "cover": "hatuyuki-sakura-ost1/cover.jpg",
+    "theme": "#CEE3FA"
+  },
+  {
+    "name": "夢のなごりを探して",
+    "artist": "水月陵",
+    "url": "majo-koi-nikki-st1/03.m4a",
+    "cover": "majo-koi-nikki-st1/cover.jpg",
+    "theme": "#FAC8D8"
+  },
+  {
+    "name": "どこかにありそうで、どこにもない",
+    "artist": "水月陵",
+    "url": "majo-koi-nikki-st2/01.m4a",
+    "cover": "majo-koi-nikki-st1/cover.jpg",
+    "theme": "#FAC8D8"
+  },
+  {
+    "name": "砂漠の花",
+    "artist": "樋口秀樹",
+    "url": "majo-koi-nikki-st2/02.m4a",
+    "cover": "majo-koi-nikki-st1/cover.jpg",
+    "theme": "#FAC8D8"
+  },
+  {
+    "name": "恋×シンアイ彼女 メインテーマ",
+    "artist": "水月陵",
+    "url": "local-pkg/koi-kakeru/d1/01.m4a",
+    "cover": "local-pkg/koi-kakeru/cover.webp",
+    "theme": "#FFC7D3"
+  },
+  {
+    "name": "Epilogue(XSCL-50)",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/01.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "アンコール",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/02.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "lrc": "local-pkg/YOASOBI/XSCL-50/02.lrc",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "ハルジオン",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/03.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "lrc": "local-pkg/YOASOBI/XSCL-50/03.lrc",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "あの夢をなぞって",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/04.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "lrc": "local-pkg/YOASOBI/XSCL-50/04.lrc",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "たぶん",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/05.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "lrc": "local-pkg/YOASOBI/XSCL-50/05.lrc",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "群青",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/06.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "lrc": "local-pkg/YOASOBI/XSCL-50/06.lrc",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "ハルカ",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/07.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "lrc": "local-pkg/YOASOBI/XSCL-50/07.lrc",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "夜に駆ける",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/08.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "lrc": "local-pkg/YOASOBI/XSCL-50/08.lrc",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "Prologue(XSCL-50)",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/XSCL-50/09.m4a",
+    "cover": "local-pkg/YOASOBI/XSCL-50/cover.webp",
+    "theme": "#FDB1B0"
+  },
+  {
+    "name": "UNDEAD",
+    "artist": "YOASOBI",
+    "url": "local-pkg/YOASOBI/YOASOBI-089/01.m4a",
+    "cover": "local-pkg/YOASOBI/YOASOBI-089/cover.webp",
+    "lrc": "local-pkg/YOASOBI/YOASOBI-089/01.lrc",
+    "theme": "#D82717"
+  },
+  {
+    "name": "アイマイモコ",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICM-1783/01.m4a",
+    "cover": "local-pkg/Inori_Minase/KICM-1783/cover.jpg",
+    "lrc": "local-pkg/Inori_Minase/KICM-1783/01.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "リトルシューゲイザー",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICM-1783/02.m4a",
+    "cover": "local-pkg/Inori_Minase/KICM-1783/cover.jpg",
+    "lrc": "local-pkg/Inori_Minase/KICM-1783/02.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "夏夢",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICM-1783/03.m4a",
+    "cover": "local-pkg/Inori_Minase/KICM-1783/cover.jpg",
+    "lrc": "local-pkg/Inori_Minase/KICM-1783/03.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "Step Up!",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/01.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/01.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "ココロはMerry-Go-Round",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/02.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/02.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "Kitty Cat Adventure",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/03.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/03.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "Wonder Caravan!",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/04.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/04.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "今を僕らしく生きてくために",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/05.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/05.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "約束のアステリズム",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/06.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/06.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "Future Seeker",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/07.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/07.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "brave climber",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/08.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/08.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "TRUST IN ETERNITY",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/09.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/09.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "水彩メモリー",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/10.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/10.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "My Graffiti",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/11.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/11.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "Catch the Rainbow!",
+    "artist": "水瀬いのり",
+    "url": "local-pkg/Inori_Minase/KICS-93785/12.m4a",
+    "cover": "local-pkg/Inori_Minase/KICS-93785/cover.webp",
+    "lrc": "local-pkg/Inori_Minase/KICS-93785/12.lrc",
+    "theme": "#FF98BB"
+  },
+  {
+    "name": "散策夜雲",
+    "artist": "枕",
+    "url": "sakura-no-toki-pkgms-02/d1-p2/19.m4a",
+    "cover": "sakura-no-toki-pkgms-01/st-d1-p1/cover.webp",
+    "theme": "#FFC5E2"
+  },
+  {
+    "name": "風景はせはしく明滅し",
+    "artist": "枕",
+    "url": "sakura-no-toki-pkgms-01/st-d1-p1/04.m4a",
+    "cover": "sakura-no-toki-pkgms-01/st-d1-p1/cover.webp",
+    "theme": "#FFC5E2"
+  },
+  {
+    "name": "我々は弱いから此処に来た",
+    "artist": "枕",
+    "url": "sakura-no-toki-pkgms-02/d2/12.m4a",
+    "cover": "sakura-no-toki-pkgms-01/st-d1-p1/cover.webp",
+    "theme": "#FFC5E2"
+  },
+  {
+    "name": "刻ト詩",
+    "artist": "Luna",
+    "url": "sakura-no-toki-pkgms-01/vc/01.m4a",
+    "cover": "sakura-no-toki-pkgms-01/vc/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/sakura-no-toki/01.lrc",
+    "theme": "#FFC5E2"
+  },
+  {
+    "name": "刻ト詩 ピアノアレンジ inst.",
+    "artist": "枕",
+    "url": "sakura-no-toki-pkgms-01/op-piano/02.m4a",
+    "cover": "sakura-no-toki-pkgms-01/op-piano/cover.webp",
+    "theme": "#FFC6CC"
+  },
+  {
+    "name": "空気力学少女と少年の詩 -Piano Ver.-",
+    "artist": "szak",
+    "url": "lokocdnms-pkg-01/wonderful_everyday/disc2-17.m4a",
+    "theme": "#9F604C"
+  },
+  {
+    "name": "夜の向日葵",
+    "artist": "szak",
+    "url": "lokocdnms-pkg-01/wonderful_everyday/disc1-2.m4a",
+    "theme": "#9F604C"
+  },
+  {
+    "name": "変わらないからこそ",
+    "artist": "szak",
+    "url": "lokocdnms-pkg-01/wonderful_everyday/disc1-3.m4a",
+    "theme": "#9F604C"
+  },
+  {
+    "name": "音に出来る事",
+    "artist": "H.B STUDIO",
+    "url": "lokocdnms-pkg-01/wonderful_everyday/disc1-1.m4a",
+    "theme": "#9F604C"
+  },
+  {
+    "name": "夏の大三角",
+    "artist": "ryo",
+    "url": "lokocdnms-pkg-01/wonderful_everyday/disc1-20.m4a",
+    "theme": "#9F604C"
+  },
+  {
+    "name": "同じ空はどこにも無い",
+    "artist": "H.B STUDIO",
+    "url": "lokocdnms-pkg-01/wonderful_everyday/disc2-12.m4a",
+    "theme": "#9F604C"
+  },
+  {
+    "name": "窓と光",
+    "artist": "szak",
+    "url": "lokocdnms-pkg-01/wonderful_everyday/disc2-13.m4a",
+    "theme": "#9F604C"
+  },
+  {
+    "name": "海中都市",
+    "artist": "松本文紀",
+    "url": "lokocdnms-pkg-01/atri/01.m4a",
+    "cover": "lokocdnms-pkg-01/atri/cover.jpg",
+    "theme": "#7CD5F8"
+  },
+  {
+    "name": "暖かな時間",
+    "artist": "松本文紀",
+    "url": "lokocdnms-pkg-01/atri/03.m4a",
+    "cover": "lokocdnms-pkg-01/atri/cover.jpg",
+    "theme": "#7CD5F8"
+  },
+  {
+    "name": "親愛なるあの日々へ",
+    "artist": "松本文紀",
+    "url": "lokocdnms-pkg-01/atri/20.m4a",
+    "cover": "lokocdnms-pkg-01/atri/cover.jpg",
+    "theme": "#7CD5F8"
+  },
+  {
+    "name": "绽放",
+    "artist": "戴娆",
+    "url": "lokocdnms-pkg-ch01/01.m4a",
+    "cover": "",
+    "lrc": "lokocdnms-pkg-exlrc/ch/01.lrc",
+    "theme": "#F695DE"
+  },
+  {
+    "name": "你曾是少年",
+    "artist": "S.H.E",
+    "url": "lokocdnms-pkg-ch01/02.m4a",
+    "cover": "lokocdnms-pkg-ch01/02.webp",
+    "lrc": "lokocdnms-pkg-exlrc/ch/02.lrc",
+    "theme": "#A4A4A4"
+  },
+  {
+    "name": "最初的梦想",
+    "artist": "范玮琪",
+    "url": "lokocdnms-pkg-ch01/03.m4a",
+    "cover": "lokocdnms-pkg-ch01/03.webp",
+    "lrc": "lokocdnms-pkg-exlrc/ch/03.lrc",
+    "theme": "#FFCE7B"
+  },
+  {
+    "name": "流星雨",
+    "artist": "F4",
+    "url": "lokocdnms-pkg-ch01/04.m4a",
+    "cover": "lokocdnms-pkg-ch01/04.webp",
+    "lrc": "lokocdnms-pkg-exlrc/ch/04.lrc",
+    "theme": "#89D2FC"
+  },
+  {
+    "name": "喜欢你",
+    "artist": "G.E.M.邓紫棋",
+    "url": "lokocdnms-pkg-ch01/05.mp3",
+    "cover": "lokocdnms-pkg-ch01/05.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/ch/05.lrc",
+    "theme": "#A6D1E3"
+  },
+  {
+    "name": "敢爱敢做",
+    "artist": "林子祥",
+    "url": "lokocdnms-pkg-ch01/06.m4a",
+    "cover": "lokocdnms-pkg-ch01/06.webp",
+    "lrc": "lokocdnms-pkg-exlrc/ch/06.lrc",
+    "theme": "#EE8463",
+    "comment": "yt:HGmTVMZR0hE"
+  },
+  {
+    "name": "真的汉子",
+    "artist": "林子祥",
+    "url": "lokocdnms-pkg-ch01/07.m4a",
+    "cover": "lokocdnms-pkg-ch01/07.webp",
+    "lrc": "lokocdnms-pkg-exlrc/ch/07.lrc",
+    "theme": "#74BEFD",
+    "comment": "yt:l4qCBKuS0Bc"
+  },
+  {
+    "name": "街头霸王榜",
+    "artist": "林子祥",
+    "url": "lokocdnms-pkg-ch01/08.m4a",
+    "cover": "lokocdnms-pkg-ch01/08.webp",
+    "lrc": "lokocdnms-pkg-exlrc/ch/08.lrc",
+    "theme": "#74BEFD",
+    "comment": "yt:wE_bPQ29PFE"
+  },
+  {
+    "name": "十分十二寸",
+    "artist": "林子祥",
+    "url": "lokocdnms-pkg-ch01/09.m4a",
+    "cover": "lokocdnms-pkg-ch01/09.webp",
+    "lrc": "lokocdnms-pkg-exlrc/ch/09.lrc",
+    "theme": "#74BEFD",
+    "comment": "yt:ua9R7rjo4LM"
+  },
+  {
+    "name": "life",
+    "artist": "霜月はるか",
+    "url": "lokocdnms-pkg-04/shimotsukin/KDSD-20017/disc1/07.m4a",
+    "cover": "lokocdnms-pkg-04/shimotsukin/KDSD-20017/disc1/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/shimotsukin/KDSD-20017/disc1/07.lrc",
+    "theme": "#67AE87"
+  },
+  {
+    "name": "Kaleidoscope",
+    "artist": "霜月はるか",
+    "url": "lokocdnms-pkg-04/shimotsukin/KDSD-20017/disc2/10.m4a",
+    "cover": "lokocdnms-pkg-04/shimotsukin/KDSD-20017/disc2/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/shimotsukin/KDSD-20017/disc2/10.lrc",
+    "theme": "#FFA5DE"
+  },
+  {
+    "name": "distance",
+    "artist": "霜月はるか",
+    "url": "local-pkg/shimotsukin/KDSD-00333/05.m4a",
+    "cover": "local-pkg/shimotsukin/KDSD-00333/cover.webp",
+    "lrc": "local-pkg/shimotsukin/KDSD-00333/05.lrc",
+    "theme": "#9ACBFE"
+  },
+  {
+    "name": "希望の空",
+    "artist": "霜月はるか",
+    "url": "local-pkg/shimotsukin/KDSD-00623/09.m4a",
+    "cover": "local-pkg/shimotsukin/KDSD-00623/cover.webp",
+    "lrc": "local-pkg/shimotsukin/KDSD-00623/09.lrc",
+    "theme": "#FEE58F"
+  },
+  {
+    "name": "明日、晴れるかな",
+    "artist": "三澤紗千香",
+    "url": "lokocdnms-pkg-04/others/10.m4a",
+    "cover": "lokocdnms-pkg-04/others/10.webp",
+    "lrc": "lokocdnms-pkg-exlrc/others/10.lrc",
+    "theme": "#E1BCBC"
+  },
+  {
+    "name": "アルカテイル",
+    "artist": "铃木このみ",
+    "url": "lokocdnms-pkg-04/summer_pockets/KSLM-0151/11.m4a",
+    "cover": "lokocdnms-pkg-04/summer_pockets/KSLM-0151/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/summer_pockets/KSLM-0151/11.lrc",
+    "theme": "#E1BCBC"
+  },
+  {
+    "name": "Star Trail",
+    "artist": "長谷川育美",
+    "url": "local-pkg/FWS-00100CD/21.m4a",
+    "cover": "local-pkg/FWS-00100CD/cover.webp",
+    "lrc": "local-pkg/FWS-00100CD/21.lrc",
+    "theme": "#49CDFE"
+  },
+  {
+    "name": "さくら、Reincarnation",
+    "artist": "佐咲紗花",
+    "url": "moyu-cdnms-pkg-01/01.m4a",
+    "cover": "lokocdnms-pkg-exlrc/sakura-moyu/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/sakura-moyu/disc1/01.lrc",
+    "theme": "#FE8FA7"
+  },
+  {
+    "name": "終わらない物語",
+    "artist": "鈴湯",
+    "url": "moyu-cdnms-pkg-01/02.m4a",
+    "cover": "lokocdnms-pkg-exlrc/sakura-moyu/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/sakura-moyu/disc1/02.lrc",
+    "theme": "#FE8FA7"
+  },
+  {
+    "name": "さくら、もゆ。",
+    "artist": "夏和小",
+    "url": "moyu-cdnms-pkg-01/03.m4a",
+    "cover": "lokocdnms-pkg-exlrc/sakura-moyu/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/sakura-moyu/disc1/03.lrc",
+    "theme": "#FE8FA7"
+  },
+  {
+    "name": "輪廻",
+    "artist": "山本美禰子",
+    "url": "moyu-cdnms-pkg-01/04.m4a",
+    "cover": "lokocdnms-pkg-exlrc/sakura-moyu/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/sakura-moyu/disc1/04.lrc",
+    "theme": "#FE8FA7"
+  },
+  {
+    "name": "花あかりの時",
+    "artist": "eufonius",
+    "url": "moyu-cdnms-pkg-01/05.m4a",
+    "cover": "lokocdnms-pkg-exlrc/sakura-moyu/cover.webp",
+    "lrc": "lokocdnms-pkg-exlrc/sakura-moyu/disc1/05.lrc",
+    "theme": "#FE8FA7"
+  },
+  {
+    "name": "さくら、Reincarnation - Arrange",
+    "artist": "忍",
+    "url": "moyu-cdnms-pkg-04/14.m4a",
+    "cover": "lokocdnms-pkg-exlrc/sakura-moyu/cover.webp",
+    "theme": "#FE8FA7"
+  },
+  {
+    "name": "徒花ネクロマンシー Album ver.",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/02.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/02.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "目覚めRETURNER",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/04.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/04.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "アツクナレ",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/06.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/06.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "To my Dearest",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/08.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/08.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "佐賀事変",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/09.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/09.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "特攻DANCE ~DAWN OF THE BAD~",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/10.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/10.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "ヨミガエレ",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/11.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/11.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "FLAGをはためかせろ！",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/12.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/12.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "輝いて",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/13.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/13.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "光へ",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/14.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/14.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "FANTASTIC LOVERS",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/15.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/15.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "ゼリーフィッシュ",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/16.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/16.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "サガ・アーケードラップ",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/17.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/17.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "To my Dearest~Lily's practice singing~",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/18.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "宣誓！ALIVE センセーション",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-12682/19.m4a",
+    "cover": "local-pkg/Saga/EYCA-12682/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-12682/19.lrc",
+    "theme": "#A2A09D"
+  },
+  {
+    "name": "REVENGE",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYXA-13353B/02.m4a",
+    "cover": "local-pkg/Saga/EYXA-13353B/cover.webp",
+    "lrc": "local-pkg/Saga/EYXA-13353B/02.lrc",
+    "theme": "#D669D2"
+  },
+  {
+    "name": "風の強い日は嫌いか? FranChouChou cover",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYXA-13353B/03.m4a",
+    "cover": "local-pkg/Saga/EYXA-13353B/cover.webp",
+    "lrc": "local-pkg/Saga/EYXA-13353B/03.lrc",
+    "theme": "#D669D2"
+  },
+  {
+    "name": "風の強い日は嫌いか?",
+    "artist": "ホワイト竜 (白竜)",
+    "url": "local-pkg/Saga/EYCA-13357/02.m4a",
+    "cover": "local-pkg/Saga/EYCA-13357/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-13357/02.lrc",
+    "theme": "#3E3C2D"
+  },
+  {
+    "name": "50と4つの忘れ物",
+    "artist": "紺野純子 (河瀬茉希)",
+    "url": "local-pkg/Saga/EYXA-13353B/05.m4a",
+    "cover": "local-pkg/Saga/EYXA-13353B/cover.webp",
+    "lrc": "local-pkg/Saga/EYXA-13353B/05.lrc",
+    "theme": "#D669D2"
+  },
+  {
+    "name": "激昂サバイブ",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYXA-13353B/06.m4a",
+    "cover": "local-pkg/Saga/EYXA-13353B/cover.webp",
+    "lrc": "local-pkg/Saga/EYXA-13353B/06.lrc",
+    "theme": "#D669D2"
+  },
+  {
+    "name": "Never ending saga",
+    "artist": "山下洋介",
+    "url": "local-pkg/Saga/EYXA-13355B/01.m4a",
+    "cover": "local-pkg/Saga/EYXA-13355B/cover.webp",
+    "lrc": "local-pkg/Saga/EYXA-13355B/01.lrc",
+    "theme": "#EEB1D7"
+  },
+  {
+    "name": "追い風トラベラーズ",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYXA-13355B/03.m4a",
+    "cover": "local-pkg/Saga/EYXA-13355B/cover.webp",
+    "lrc": "local-pkg/Saga/EYXA-13355B/03.lrc",
+    "theme": "#EEB1D7"
+  },
+  {
+    "name": "ChouChouture",
+    "artist": "加藤裕介",
+    "url": "local-pkg/Saga/EYXA-13355B/10.m4a",
+    "cover": "local-pkg/Saga/EYXA-13355B/cover.webp",
+    "theme": "#EEB1D7"
+  },
+  {
+    "name": "大河よ共に泣いてくれ",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-13356/01.m4a",
+    "cover": "local-pkg/Saga/EYCA-13356/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-13356/01.lrc",
+    "theme": "#3E3C2D"
+  },
+  {
+    "name": "夢を手に、戻れる場所もない日々を",
+    "artist": "FranChouChou",
+    "url": "local-pkg/Saga/EYCA-13357/01.m4a",
+    "cover": "local-pkg/Saga/EYCA-13357/cover.webp",
+    "lrc": "local-pkg/Saga/EYCA-13357/01.lrc",
+    "theme": "#3E3C2D"
+  },
+  {
+    "name": "深愛",
+    "artist": "Say a Little Prayer",
+    "url": "local-pkg/BFDA-00004/01.m4a",
+    "cover": "local-pkg/BFDA-00004/cover.webp",
+    "lrc": "local-pkg/BFDA-00004/01.lrc",
+    "theme": "#999999"
+  },
+  {
+    "name": "三人",
+    "artist": "Say a Little Prayer",
+    "url": "local-pkg/BFDA-00004/02.m4a",
+    "cover": "local-pkg/BFDA-00004/cover.webp",
+    "lrc": "local-pkg/BFDA-00004/02.lrc",
+    "theme": "#999999"
+  },
+  {
+    "name": "深愛",
+    "artist": "水樹奈々",
+    "url": "local-pkg/KICM-1270/01.m4a",
+    "cover": "local-pkg/KICM-1270/cover.webp",
+    "lrc": "local-pkg/KICM-1270/01.lrc",
+    "theme": "#000000"
+  },
+  {
+    "name": "残酷な天使のテーゼ",
+    "artist": "高橋洋子",
+    "url": "local-pkg/KIDA-116/01.m4a",
+    "cover": "local-pkg/KIDA-116/cover.jpg",
+    "lrc": "local-pkg/KIDA-116/01.lrc",
+    "theme": "#442F19"
+  },
+  {
+    "name": "ウッーウッーウマウマ(゜.゜) (Speedycake Remix)",
+    "artist": "キャラメル",
+    "url": "local-pkg/QWCE-20001/01.m4a",
+    "cover": "local-pkg/QWCE-20001/cover.webp",
+    "lrc": "local-pkg/QWCE-20001/01.lrc",
+    "theme": "#71FEE2"
+  },
+  {
+    "name": "Re:TrymenT",
+    "artist": "紫咲ほたる",
+    "url": "local-pkg/RASK-CD0002/01.m4a",
+    "cover": "local-pkg/RASK-CD0002/cover.jpg",
+    "lrc": "local-pkg/RASK-CD0002/01.lrc",
+    "theme": "#ADCB3C"
+  },
+  {
+    "name": "Only for you",
+    "artist": "千本木彩花、石見舞菜香",
+    "url": "local-pkg/ZMCZ-16342/01.m4a",
+    "cover": "local-pkg/ZMCZ-16342/cover.webp",
+    "lrc": "local-pkg/ZMCZ-16342/01.lrc",
+    "theme": "#F9A3C5"
+  },
+  {
+    "name": "Nevereverland",
+    "artist": "ナノ",
+    "url": "local-pkg/VTCL-60519/02.m4a",
+    "cover": "local-pkg/VTCL-60519/cover.webp",
+    "lrc": "local-pkg/VTCL-60519/02.lrc",
+    "theme": "#A1A1A1"
+  },
+  {
+    "name": "Scarlet",
+    "artist": "榊原ゆい",
+    "url": "local-pkg/YSCD-0024/01.m4a",
+    "cover": "local-pkg/YSCD-0024/cover.jpg",
+    "lrc": "local-pkg/YSCD-0024/01.lrc",
+    "theme": "#EEA3A9"
+  },
+  {
+    "name": "君の知らない物語",
+    "artist": "supercell",
+    "url": "local-pkg/SRCL-7081/01.m4a",
+    "cover": "local-pkg/SRCL-7081/cover.webp",
+    "lrc": "local-pkg/SRCL-7081/01.lrc",
+    "theme": "#364B5B"
+  },
+  {
+    "name": "心拍数♯0822",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/01.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "インタビュア",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/02.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "glow",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/03.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "地球最後の告白を",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/04.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "local-pkg/UICZ-4395/04.lrc",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "from Y to Y",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/05.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "少年と魔法のロボット",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/06.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "アイロニ",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/07.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "ハローハロー",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/08.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "桜ノ雨",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/09.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "local-pkg/UICZ-4395/09.lrc",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "タイムマシン",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/10.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "星屑オーケストラ",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/11.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "ティーンエイジ・ネクラポップ",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/12.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "からふる日和",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/13.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "声",
+    "artist": "H△G",
+    "url": "local-pkg/UICZ-4395/14.opus",
+    "cover": "local-pkg/UICZ-4395/cover.webp",
+    "lrc": "",
+    "theme": "#266CB4"
+  },
+  {
+    "name": "U&I",
+    "artist": "放課後ティータイム",
+    "url": "local-pkg/PCSP-01969/18.m4a",
+    "cover": "local-pkg/PCSP-01969/cover.webp",
+    "lrc": "local-pkg/PCSP-01969/18.lrc",
+    "theme": "#FEAA31"
+  },
+  {
+    "name": "天使にふれたよ!",
+    "artist": "放課後ティータイム",
+    "url": "local-pkg/PCSP-01969/19.m4a",
+    "cover": "local-pkg/PCSP-01969/cover.webp",
+    "lrc": "local-pkg/PCSP-01969/19.lrc",
+    "theme": "#FEAA31"
+  },
+  {
+    "name": "ホシトハナ",
+    "artist": "讃州中学勇者部",
+    "url": "local-pkg/Yuyuyu/01.m4a",
+    "cover": "local-pkg/Yuyuyu/01.webp",
+    "lrc": "local-pkg/Yuyuyu/01.lrc",
+    "theme": "#FEB9D1"
+  },
+  {
+    "name": "祈りの歌",
+    "artist": "黒沢ともよ",
+    "url": "local-pkg/Yuyuyu/02.m4a",
+    "cover": "local-pkg/Yuyuyu/02.jpg",
+    "lrc": "local-pkg/Yuyuyu/02.lrc",
+    "theme": "#FEB9D1"
+  },
+  {
+    "name": "エガオノキミヘ",
+    "artist": "三森すずこ",
+    "url": "local-pkg/Yuyuyu/03.m4a",
+    "cover": "local-pkg/Yuyuyu/03.webp",
+    "lrc": "local-pkg/Yuyuyu/03.lrc",
+    "theme": "#FEB9D1"
+  },
+  {
+    "name": "アシタノハナタチ",
+    "artist": "讃州中学勇者部",
+    "url": "local-pkg/Yuyuyu/04.m4a",
+    "cover": "local-pkg/Yuyuyu/04.webp",
+    "lrc": "local-pkg/Yuyuyu/04.lrc",
+    "theme": "#FEB9D1"
+  },
+  {
+    "name": "地平線の向こうへ",
+    "artist": "讃州中学勇者部",
+    "url": "local-pkg/Yuyuyu/05.m4a",
+    "cover": "local-pkg/Yuyuyu/05.webp",
+    "lrc": "local-pkg/Yuyuyu/05.lrc",
+    "theme": "#FEB9D1"
+  },
+  {
+    "name": "光るなら",
+    "artist": "Goose house",
+    "url": "local-pkg/SRCL-8640/01.m4a",
+    "cover": "local-pkg/SRCL-8640/cover.webp",
+    "lrc": "local-pkg/SRCL-8640/01.lrc",
+    "theme": "#E7C7B8"
+  },
+  {
+    "name": "Heartily Song",
+    "artist": "Lia",
+    "url": "local-pkg/KSLM-0099/01.m4a",
+    "cover": "local-pkg/KSLM-0099/cover.webp",
+    "lrc": "local-pkg/KSLM-0099/01.lrc",
+    "theme": "#9FEEFF"
+  },
+  {
+    "name": "鳥の詩",
+    "artist": "Lia",
+    "url": "local-pkg/PCCA-90028/d1/05.m4a",
+    "cover": "local-pkg/PCCA-90028/d1/cover.webp",
+    "lrc": "local-pkg/PCCA-90028/d1/05.lrc",
+    "theme": "#FFBA83"
+  },
+  {
+    "name": "今、歩き出す君へ",
+    "artist": "Ceui",
+    "url": "local-pkg/LACA-15283/08.m4a",
+    "cover": "local-pkg/LACA-15283/cover.webp",
+    "lrc": "local-pkg/LACA-15283/08.lrc",
+    "theme": "#FFC1B4"
+  },
+  {
+    "name": "灼け落ちない翼",
+    "artist": "多田葵",
+    "url": "local-pkg/KSLA-0103/02.m4a",
+    "cover": "local-pkg/KSLA-0103/cover.webp",
+    "lrc": "local-pkg/KSLA-0103/02.lrc",
+    "theme": "#77ADFF"
+  },
+  {
+    "name": "銀の龍の背に乗って",
+    "artist": "中岛みゆき",
+    "url": "lokocdnms-pkg-02/others/01.m4a",
+    "cover": "lokocdnms-pkg-02/others/01.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/others/01.lrc",
+    "theme": "#C69480"
+  },
+  {
+    "name": "雪の華",
+    "artist": "中島美嘉",
+    "url": "lokocdnms-pkg-02/others/02.m4a",
+    "cover": "lokocdnms-pkg-02/others/02.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/others/02.lrc",
+    "theme": "#484632"
+  },
+  {
+    "name": "雪の華",
+    "artist": "南條愛乃",
+    "url": "lokocdnms-pkg-02/others/03.m4a",
+    "cover": "lokocdnms-pkg-02/others/umca-10015.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/others/03.lrc",
+    "theme": "#AEA191"
+  },
+  {
+    "name": "銀の龍の背に乗って",
+    "artist": "佐藤聡美",
+    "url": "lokocdnms-pkg-02/others/04.m4a",
+    "cover": "lokocdnms-pkg-02/others/umca-10015.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/others/04.lrc",
+    "theme": "#AEA191"
+  },
+  {
+    "name": "空も飛べるはず",
+    "artist": "Twinkle Voice All Stars",
+    "url": "lokocdnms-pkg-02/others/05.m4a",
+    "cover": "lokocdnms-pkg-02/others/umca-10015.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/others/05.lrc",
+    "theme": "#AEA191"
+  },
+  {
+    "name": "キスのひとつで",
+    "artist": "佐咲紗花",
+    "url": "lokocdnms-pkg-02/others/08.m4a",
+    "cover": "lokocdnms-pkg-02/others/08.jpg",
+    "lrc": "lokocdnms-pkg-02/others/08.lrc",
+    "theme": "#AEA191"
+  },
+  {
+    "name": "星屑のインターリュード",
+    "artist": "fhána",
+    "url": "lokocdnms-pkg-05/fhána/LACM-14279/01.m4a",
+    "cover": "lokocdnms-pkg-05/fhána/LACM-14279/cover.jpg",
+    "lrc": "lokocdnms-pkg-05/fhána/LACM-14279/01.lrc",
+    "theme": "#9279B7"
+  },
+  {
+    "name": "only my railgun",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/30.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/30.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "LEVEL5-judgelight-",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/29.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/29.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "future gazer",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/28.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/28.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "Heaven is a Place On Earth",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/27.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/27.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "sister's noise",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/23.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/23.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "eternal reality",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/22.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/22.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "final phase",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/03.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/03.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "dual existence",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/01.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/01.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "We Rise",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/02.m4a",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/02.lrc",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "Hesitation Snow",
+    "artist": "fripSide",
+    "url": "lokocdnms-pkg-04/fripSide/GNCA-1582/25.m4a",
+    "lrc": "lokocdnms-pkg-exlrc/fripSide/GNCA-1582/25.lrc",
+    "cover": "lokocdnms-pkg-04/fripSide/GNCA-1582/cover.jpg",
+    "theme": "#972C3F"
+  },
+  {
+    "name": "endless memory ~refrain as Da Capo~",
+    "artist": "fripSide",
+    "url": "local-pkg/fripSide/GNCA-1352/13.m4a",
+    "cover": "local-pkg/fripSide/GNCA-1352/cover.jpg",
+    "lrc": "local-pkg/fripSide/GNCA-1352/13.lrc",
+    "theme": "#EFCA70"
+  },
+  {
+    "name": "トリカゴ",
+    "artist": "XX:me",
+    "url": "lokocdnms-pkg-02/others/07.m4a",
+    "cover": "lokocdnms-pkg-02/others/07.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/others/07.lrc",
+    "theme": "#46718B"
+  },
+  {
+    "name": "Redo",
+    "artist": "鈴木このみ",
+    "url": "lokocdnms-pkg-02/others/06.m4a",
+    "cover": "lokocdnms-pkg-02/others/06.webp",
+    "lrc": "lokocdnms-pkg-exlrc/others/06.lrc",
+    "theme": "#C9AFF8"
+  },
+  {
+    "name": "Postmeridie",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-9124/08.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "Scaena felix",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-9124/12.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "Venari strigas",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-9128/03.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "Ave Maria",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-9128/12.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "Numquam vincar",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-9132/01.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "Surgam identidem",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-9132/04.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "Sagitta luminis",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-9132/06.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "Pergo pugnare",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-9132/12.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "her wings",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-3133/35.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "for the next episode",
+    "artist": "梶浦由纪",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-3133/37.m4a",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "コネクト",
+    "artist": "ClariS",
+    "url": "lokocdnms-pkg-03/madoka/SECL-946/01.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/SECL-946/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/madoka/SECL-946/01.lrc",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "また あした",
+    "artist": "鹿目まどか (悠木碧)",
+    "url": "lokocdnms-pkg-03/madoka/SVWC-7980/23.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/SVWC-7980/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/madoka/SVWC-7980/23.lrc",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "ルミナス",
+    "artist": "ClariS",
+    "url": "lokocdnms-pkg-03/madoka/SECL-1196/01.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/SECL-1196/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/madoka/SECL-1196/01.lrc",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "Friends",
+    "artist": "ClariS",
+    "url": "lokocdnms-pkg-03/madoka/SECL-1196/02.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/SECL-1196/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/madoka/SECL-1196/02.lrc",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "we're here for you",
+    "artist": "梶浦由記",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-3533/37.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/ANZX-3533/cover.jpg",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "take your hands",
+    "artist": "梶浦由記",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-3533/38.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/ANZX-3533/cover.jpg",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "wings of relief",
+    "artist": "梶浦由記",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-3533/39.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/ANZX-3533/cover.jpg",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "I was waiting for this moment",
+    "artist": "梶浦由記",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-3533/40.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/ANZX-3533/cover.jpg",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "her new wings",
+    "artist": "梶浦由記",
+    "url": "lokocdnms-pkg-03/madoka/ANZX-3533/41.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/ANZX-3533/cover.jpg",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "カラフル -movie MIX-",
+    "artist": "ClariS",
+    "url": "lokocdnms-pkg-03/madoka/SECL-1416/04.m4a",
+    "lrc": "lokocdnms-pkg-exlrc/madoka/SECL-1416/04.lrc",
+    "theme": "#FFC0D3"
+  },
+  {
+    "name": "君の銀の庭",
+    "artist": "Kalafina",
+    "url": "lokocdnms-pkg-03/madoka/SECL-1422/01.m4a",
+    "cover": "lokocdnms-pkg-03/madoka/SECL-1422/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/madoka/SECL-1422/01.lrc",
+    "theme": "#0066CC"
+  },
+  {
+    "name": "光放て!",
+    "artist": "柳麻美",
+    "url": "lokocdnms-pkg-01/atri/21.m4a",
+    "cover": "lokocdnms-pkg-01/atri/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/atri/21.lrc",
+    "theme": "#7CD5F8"
+  },
+  {
+    "name": "Dear Moments",
+    "artist": "赤尾ひかる",
+    "url": "lokocdnms-pkg-01/atri/24.m4a",
+    "cover": "lokocdnms-pkg-01/atri/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/atri/24.lrc",
+    "theme": "#7CD5F8"
+  },
+  {
+    "name": "始まりの朝(メインテーマ)",
+    "artist": "藤澤慶昌",
+    "url": "lokocdnms-pkg-05/lovelive/us/01.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/01.jpg",
+    "theme": "#FFAE2E"
+  },
+  {
+    "name": "Music S.T.A.R.T!!",
+    "artist": "μ's",
+    "url": "local-pkg/lovelive/us/20.m4a",
+    "cover": "local-pkg/lovelive/us/20.webp",
+    "lrc": "local-pkg/lovelive/us/20.lrc",
+    "theme": "#EAA725"
+  },
+  {
+    "name": "Snow halation",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/02.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/02.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/02.lrc",
+    "theme": "#E1E1E1"
+  },
+  {
+    "name": "ススメ→トゥモロウ",
+    "artist": "高坂穂乃果...",
+    "url": "lokocdnms-pkg-05/lovelive/us/03.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/03.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/03.lrc",
+    "theme": "#FFAE2E"
+  },
+  {
+    "name": "START：DASH！！",
+    "artist": "高坂穂乃果...",
+    "url": "lokocdnms-pkg-05/lovelive/us/04.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/03.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/04.lrc",
+    "theme": "#7AEBF9"
+  },
+  {
+    "name": "僕らは今のなかで",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/05.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/05.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/05.lrc",
+    "theme": "#FFAE2E"
+  },
+  {
+    "name": "きっと青春が聞こえる",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/07.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/07.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/07.lrc",
+    "theme": "#FFAE2E"
+  },
+  {
+    "name": "それは僕たちの奇跡",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/08.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/08.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/08.lrc",
+    "theme": "#FFAE2E"
+  },
+  {
+    "name": "ユメノトビラ",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/09.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/09.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/09.lrc",
+    "theme": "#8DF9F6"
+  },
+  {
+    "name": "Dancing stars on me！",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/06.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/06.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/06.lrc",
+    "theme": "#FFAE2E"
+  },
+  {
+    "name": "Love wing bell",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/10.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/06.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/10.lrc",
+    "theme": "#FFADC0"
+  },
+  {
+    "name": "KiRa-KiRa Sensation！",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/11.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/11.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/11.lrc",
+    "theme": "#FFADC0"
+  },
+  {
+    "name": "どんなときもずっと",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/12.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/12.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/12.lrc",
+    "theme": "#FFB800"
+  },
+  {
+    "name": "ステージへと続く道",
+    "artist": "藤澤慶昌",
+    "url": "lokocdnms-pkg-05/lovelive/us/19.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/19.jpg",
+    "theme": "#FFAE2E"
+  },
+  {
+    "name": "SUNNY DAY SONG",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/16.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/16.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/16.lrc",
+    "theme": "#FF9B00"
+  },
+  {
+    "name": "僕たちはひとつの光",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/17.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/17.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/17.lrc",
+    "theme": "#F2C7D3"
+  },
+  {
+    "name": "冬がくれた予感",
+    "artist": "BiBi",
+    "url": "lokocdnms-pkg-05/lovelive/us/13.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/13.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/13.lrc",
+    "theme": "#DAFFF9"
+  },
+  {
+    "name": "Cutie Panther",
+    "artist": "BiBi",
+    "url": "local-pkg/lovelive/us/21.m4a",
+    "cover": "local-pkg/lovelive/us/21.webp",
+    "lrc": "local-pkg/lovelive/us/21.lrc",
+    "theme": "#EF608C"
+  },
+  {
+    "name": "夏、終わらないで。",
+    "artist": "BiBi",
+    "url": "local-pkg/lovelive/us/22.m4a",
+    "cover": "local-pkg/lovelive/us/21.webp",
+    "lrc": "local-pkg/lovelive/us/22.lrc",
+    "theme": "#DAFFF9"
+  },
+  {
+    "name": "LOVELESS WORLD",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/14.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/14.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/14.lrc",
+    "theme": "#DAFFF9"
+  },
+  {
+    "name": "MOMENT RING",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/18.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/15.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/18.lrc",
+    "theme": "#FFB800"
+  },
+  {
+    "name": "さようならへさよなら！",
+    "artist": "μ's",
+    "url": "lokocdnms-pkg-05/lovelive/us/15.m4a",
+    "cover": "lokocdnms-pkg-05/lovelive/us/15.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/us/15.lrc",
+    "theme": "#FFB800"
+  },
+  {
+    "name": "青空Jumping Heart",
+    "artist": "Apours",
+    "url": "lokocdnms-pkg-01/lovelive/aqours/01.m4a",
+    "cover": "lokocdnms-pkg-01/lovelive/aqours/01.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/aqours/01.lrc",
+    "theme": "#4DCAFF"
+  },
+  {
+    "name": "Awaken the power",
+    "artist": "Saint Aqours Snow",
+    "url": "local-pkg/lovelive/aqours/02.m4a",
+    "cover": "local-pkg/lovelive/aqours/02.webp",
+    "lrc": "local-pkg/lovelive/aqours/02.lrc",
+    "theme": "#6E42DD"
+  },
+  {
+    "name": "Believe again",
+    "artist": "Saint Snow",
+    "url": "local-pkg/lovelive/aqours/03.m4a",
+    "cover": "local-pkg/lovelive/aqours/03.webp",
+    "lrc": "local-pkg/lovelive/aqours/03.lrc",
+    "theme": "#B93DEC"
+  },
+  {
+    "name": "WATER BLUE NEW WORLD",
+    "artist": "Aqours",
+    "url": "local-pkg/lovelive/aqours/04.m4a",
+    "cover": "local-pkg/lovelive/aqours/04.webp",
+    "lrc": "local-pkg/lovelive/aqours/04.lrc",
+    "theme": "#41C3FF"
+  },
+  {
+    "name": "WONDERFUL STORIES",
+    "artist": "Aqours",
+    "url": "local-pkg/lovelive/aqours/05.m4a",
+    "cover": "local-pkg/lovelive/aqours/04.webp",
+    "lrc": "local-pkg/lovelive/aqours/05.lrc",
+    "theme": "#99F262"
+  },
+  {
+    "name": "Brightest Melody",
+    "artist": "Aqours",
+    "url": "local-pkg/lovelive/aqours/06.m4a",
+    "cover": "local-pkg/lovelive/aqours/06.webp",
+    "lrc": "local-pkg/lovelive/aqours/06.lrc",
+    "theme": "#A895B0"
+  },
+  {
+    "name": "Next SPARKLING!!",
+    "artist": "Aqours",
+    "url": "local-pkg/lovelive/aqours/07.m4a",
+    "cover": "local-pkg/lovelive/aqours/06.webp",
+    "lrc": "local-pkg/lovelive/aqours/07.lrc",
+    "theme": "#A895B0"
+  },
+  {
+    "name": "未体験HORIZON",
+    "artist": "Aqours",
+    "url": "local-pkg/lovelive/aqours/08.m4a",
+    "cover": "local-pkg/lovelive/aqours/06.webp",
+    "lrc": "local-pkg/lovelive/aqours/08.lrc",
+    "theme": "#A895B0"
+  },
+  {
+    "name": "虹色Passions!",
+    "artist": "虹ヶ咲学園スクールアイドル同好会",
+    "url": "lokocdnms-pkg-01/lovelive/nijigasaki/01.m4a",
+    "cover": "lokocdnms-pkg-01/lovelive/nijigasaki/01.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/nijigasaki/01.lrc",
+    "theme": "#D7D7D7"
+  },
+  {
+    "name": "Colorful Dreams! Colorful Smiles!",
+    "artist": "虹ヶ咲学園...",
+    "url": "lokocdnms-pkg-01/lovelive/nijigasaki/02.m4a",
+    "cover": "lokocdnms-pkg-01/lovelive/nijigasaki/02.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/nijigasaki/02.lrc",
+    "theme": "#D7D7D7"
+  },
+  {
+    "name": "START!! True dreams",
+    "artist": "Liella!",
+    "url": "lokocdnms-pkg-01/lovelive/liella/01.m4a",
+    "cover": "lokocdnms-pkg-01/lovelive/liella/01.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/liella/01.lrc",
+    "theme": "#FF5757"
+  },
+  {
+    "name": "始まりは君の空",
+    "artist": "Liella!",
+    "url": "local-pkg/lovelive/liella/02.m4a",
+    "cover": "local-pkg/lovelive/liella/02.webp",
+    "lrc": "local-pkg/lovelive/liella/02.lrc",
+    "theme": "#63A2FA"
+  },
+  {
+    "name": "未来予報ハレルヤ！",
+    "artist": "Liella!",
+    "url": "local-pkg/lovelive/liella/03.m4a",
+    "cover": "local-pkg/lovelive/liella/03.webp",
+    "lrc": "local-pkg/lovelive/liella/03.lrc",
+    "theme": "#63A2FA"
+  },
+  {
+    "name": "常夏☆サンシャイン",
+    "artist": "Liella!",
+    "url": "local-pkg/lovelive/liella/04.m4a",
+    "cover": "local-pkg/lovelive/liella/04.webp",
+    "lrc": "local-pkg/lovelive/liella/04.lrc",
+    "theme": "#35F1AE"
+  },
+  {
+    "name": "Starlight Prologue",
+    "artist": "Liella!",
+    "url": "local-pkg/lovelive/liella/05.m4a",
+    "cover": "local-pkg/lovelive/liella/05.webp",
+    "lrc": "local-pkg/lovelive/liella/05.lrc",
+    "theme": "#FEDB61"
+  },
+  {
+    "name": "LIVE with a smile!",
+    "artist": "Apours&ニジガク&Liella!",
+    "url": "lokocdnms-pkg-01/lovelive/01.m4a",
+    "cover": "lokocdnms-pkg-01/lovelive/01.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/lovelive/01.lrc",
+    "theme": "#EE6A82"
+  },
+  {
+    "name": "曇り空の向こうは晴れている",
+    "artist": "22/7",
+    "url": "lokocdnms-pkg-01/227/SRCL-12642/12.m4a",
+    "cover": "lokocdnms-pkg-01/227/SRCL-12642/cover.jpg",
+    "lrc": "lokocdnms-pkg-01/227/SRCL-12642/12.lrc",
+    "theme": "#A3A09E"
+  },
+  {
+    "name": "僕は今夜、出て行く",
+    "artist": "22/7",
+    "url": "lokocdnms-pkg-01/227/SRCL-12642/09.m4a",
+    "cover": "lokocdnms-pkg-01/227/SRCL-12642/cover.jpg",
+    "lrc": "lokocdnms-pkg-01/227/SRCL-12642/09.lrc",
+    "theme": "#A3A09E"
+  },
+  {
+    "name": "世界の矛盾",
+    "artist": "22/7",
+    "url": "lokocdnms-pkg-01/227/SRCL-12642/11.m4a",
+    "cover": "lokocdnms-pkg-01/227/SRCL-12642/cover.jpg",
+    "lrc": "lokocdnms-pkg-01/227/SRCL-12642/11.lrc",
+    "theme": "#A3A09E"
+  },
+  {
+    "name": "YESとNOの間に",
+    "artist": "22/7",
+    "url": "local-pkg/SRCL-12997/01.opus",
+    "cover": "local-pkg/SRCL-12997/cover.avif",
+    "lrc": "",
+    "theme": "#5ba7ed"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Yes! BanG_Dream!",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10032/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10032/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10032/01.lrc",
+    "theme": "#67D9EE"
+  },
+  {
+    "group": "bang_dream",
+    "name": "STAR BEAT! ～ホシノコドウ～",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10044/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10044/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10044/01.lrc",
+    "theme": "#88C1FB"
+  },
+  {
+    "group": "bang_dream",
+    "name": "走り始めたばかりのキミに",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10056/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10056/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10056/01.lrc",
+    "theme": "#DBA84E"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ティアドロップス",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10056/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10056/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10056/02.lrc",
+    "theme": "#DBA84E"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ときめきエクスペリエンス！",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10065/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10065/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10065/01.lrc",
+    "theme": "#6FEFFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "1000回潤んだ空",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10065/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10065/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10065/02.lrc",
+    "theme": "#6FEFFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Happy Happy Party!",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10066/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10066/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10066/02.lrc",
+    "theme": "#FFB865"
+  },
+  {
+    "group": "bang_dream",
+    "name": "前へススメ!",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10084/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10084/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10084/01.lrc",
+    "theme": "#BB5E3A"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Time Lapse",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10096/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10096/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10096/01.lrc",
+    "theme": "#D96430"
+  },
+  {
+    "group": "bang_dream",
+    "name": "二重の虹 (ダブル レインボウ)",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10126/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10126/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10126/01.lrc",
+    "theme": "#FBC864"
+  },
+  {
+    "group": "bang_dream",
+    "name": "切ないSandglass",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10135/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10135/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10135/02.lrc",
+    "theme": "#A7D4EE"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Returns",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10191/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10191/cover.jpg",
+    "lrc": "local-pkg/bangdream/BRMM-10191/02.lrc",
+    "theme": "#83C2E6"
+  },
+  {
+    "group": "bang_dream",
+    "name": "夢を撃ち抜く瞬間に!",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10222/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10222/cover.jpg",
+    "lrc": "local-pkg/bangdream/BRMM-10222/02.lrc",
+    "theme": "#FF8E4B"
+  },
+  {
+    "group": "bang_dream",
+    "name": "SAKURA MEMORIES",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10222/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10222/cover.jpg",
+    "lrc": "local-pkg/bangdream/BRMM-10222/03.lrc",
+    "theme": "#FFABBA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Breakthrough!",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10253/d1/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10253/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10253/d1/01.lrc",
+    "theme": "#F8D637"
+  },
+  {
+    "group": "bang_dream",
+    "name": "イニシャル",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10253/d1/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10253/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10253/d1/03.lrc",
+    "theme": "#F8D637"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Step×Step！",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10253/d1/05.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10253/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10253/d1/05.lrc",
+    "theme": "#F8D637"
+  },
+  {
+    "group": "bang_dream",
+    "name": "White Afternoon",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10253/d1/07.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10253/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10253/d1/07.lrc",
+    "theme": "#F8D637"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Dreamers Go!",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10253/d1/10.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10253/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10253/d1/10.lrc",
+    "theme": "#F8D637"
+  },
+  {
+    "group": "bang_dream",
+    "name": "キズナミュージック♪",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10253/d1/11.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10253/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10253/d1/11.lrc",
+    "theme": "#F8D637"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Live Beyond!!",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10424/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10424/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10424/01.lrc",
+    "theme": "#FA868C"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ここから先は歌にならない",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10424/05.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10424/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10424/05.lrc",
+    "theme": "#FA868C"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ぽっぴん'どりーむ！",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10489/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10489/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10489/01.lrc",
+    "theme": "#FBB214"
+  },
+  {
+    "group": "bang_dream",
+    "name": "星の約束",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10489/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10489/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10489/02.lrc",
+    "theme": "#FBB214"
+  },
+  {
+    "group": "bang_dream",
+    "name": "イントロダクション",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10489/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10489/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10489/03.lrc",
+    "theme": "#FBB214"
+  },
+  {
+    "group": "bang_dream",
+    "name": "夏に閉じこめて",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10563/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10563/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10563/01.lrc",
+    "theme": "#EDB676"
+  },
+  {
+    "group": "bang_dream",
+    "name": "最強☆ソング",
+    "artist": "Poppin'Party",
+    "url": "local-pkg/bangdream/BRMM-10640/05.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10640/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10640/05.lrc",
+    "theme": "#FA87AF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ツナグ、ソラモヨウ",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10133/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10133/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10133/01.lrc",
+    "theme": "#E53344"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ON YOUR MARK",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/01.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "That is How I Roll!",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/02.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "SENSENFUKOKU",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/03.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "I knew it!",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/04.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/04.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Hey-day狂騒曲(カプリチオ)",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/06.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/06.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Easy come, Easy go!",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/07.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/07.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Sasanqua",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/08.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/08.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "RED RED RED",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/09.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/09.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ONE OF US",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/10.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/10.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Y.O.L.O!!!!!",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10348/11.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10348/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10348/11.lrc",
+    "theme": "#EA5175"
+  },
+  {
+    "group": "bang_dream",
+    "name": "燦々",
+    "artist": "Afterglow",
+    "url": "local-pkg/bangdream/streaming/Afterglow/Sansan.opus",
+    "cover": "local-pkg/bangdream/streaming/Afterglow/Sansan.avif",
+    "lrc": "",
+    "theme": "#d73f55"
+  },
+  {
+    "group": "bang_dream",
+    "name": "BLACK SHOUT",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10086/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10086/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10086/01.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "LOUDER",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10086/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10086/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10086/02.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Determination Symphony",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10267/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10267/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10267/03.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "FIRE BIRD",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10267/04.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10267/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10267/04.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Song I am.",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10267/12.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10267/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10267/12.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Proud of oneself",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10408/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10408/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10408/01.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Sing Alive",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10408/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10408/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10408/03.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Sprechchor",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10473/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10473/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10473/01.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "THE HISTORIC...",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10537/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10537/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10537/03.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ROZEN HORIZON",
+    "artist": "Roselia",
+    "url": "local-pkg/bangdream/BRMM-10537/04.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10537/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10537/04.lrc",
+    "theme": "#3344AA"
+  },
+  {
+    "group": "bang_dream",
+    "name": "DRIVE US CRAZY",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10228/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10228/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10228/01.lrc",
+    "theme": "#535353"
+  },
+  {
+    "group": "bang_dream",
+    "name": "HELL! or HELL?",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10228/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10228/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10228/02.lrc",
+    "theme": "#535353"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Invincible Fighter",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/01.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "A DECLARATION OF ×××",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/02.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "SOUL SOLDIER",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/03.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "UNSTOPPABLE",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/04.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/04.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Beautiful Birthday",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/06.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/06.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Takin’ my Heart",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/07.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/07.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "!NVADE SHOW!",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/09.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/09.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "REIGNING",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/10.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/10.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "EXPOSE ‘Burn out!!!’",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/11.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/11.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "R･I･O･T",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10268/12.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10268/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10268/12.lrc",
+    "theme": "#8844DD"
+  },
+  {
+    "group": "bang_dream",
+    "name": "CORUSCATE-DNA-",
+    "artist": "RAISE A SUILEN",
+    "url": "local-pkg/bangdream/BRMM-10519/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10519/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10519/01.lrc",
+    "theme": "#535353"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ブルームブルーム",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10326/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10326/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10326/01.lrc",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "flame of hope",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10326/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10326/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10326/02.lrc",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "fly with the night",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10516/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10516/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10516/01.lrc",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Secret Dawn",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10516/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10516/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10516/02.lrc",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "寄る辺のSunny, Sunny",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10561/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10561/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10561/01.lrc",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "One step at a time",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10561/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10561/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10561/02.lrc",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Polyphonyscape",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/01.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Wreath of Brave",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/02.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Merry Merry Thanks!!",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/03.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Sonorous",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/04.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "両翼のBrilliance",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/05.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Steer to Utopia",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/06.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Fateful",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/07.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ティリカモニカリラ",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/08.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Angel's Ladder",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/10.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Tempest",
+    "artist": "Morfonica",
+    "url": "local-pkg/bangdream/BRMM-10891/12.opus",
+    "cover": "local-pkg/bangdream/BRMM-10891/cover.avif",
+    "lrc": "",
+    "theme": "#33AAFF"
+  },
+  {
+    "group": "bang_dream",
+    "name": "絆色のアンサンブル",
+    "artist": "PPP x PP x Monf",
+    "url": "local-pkg/bangdream/BRMM-10409/01.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10409/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10409/01.lrc",
+    "theme": "#FF8183"
+  },
+  {
+    "group": "bang_dream",
+    "name": "競宴Red×Violet",
+    "artist": "Roselia x Afterglow",
+    "url": "local-pkg/bangdream/BRMM-10409/02.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10409/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10409/02.lrc",
+    "theme": "#FF8183"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ラスハピーポー！",
+    "artist": "RAS x HHW",
+    "url": "local-pkg/bangdream/BRMM-10409/03.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10409/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10409/03.lrc",
+    "theme": "#FF8183"
+  },
+  {
+    "group": "bang_dream",
+    "name": "春日影",
+    "artist": "CRYCHIC",
+    "url": "lokocdnms-pkg-04/others/09.m4a",
+    "cover": "lokocdnms-pkg-04/others/09.webp",
+    "lrc": "lokocdnms-pkg-exlrc/others/09.lrc",
+    "theme": "#8DABC2"
+  },
+  {
+    "group": "bang_dream",
+    "name": "壱雫空",
+    "artist": "MyGO!!!!!",
+    "url": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/02.m4a",
+    "cover": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/02.lrc",
+    "theme": "#8DABC2"
+  },
+  {
+    "group": "bang_dream",
+    "name": "潜在表明",
+    "artist": "MyGO!!!!!",
+    "url": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/06.m4a",
+    "cover": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/06.lrc",
+    "theme": "#8DABC2"
+  },
+  {
+    "group": "bang_dream",
+    "name": "春日影",
+    "artist": "MyGO!!!!!",
+    "url": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/08.m4a",
+    "cover": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/08.lrc",
+    "theme": "#8DABC2"
+  },
+  {
+    "group": "bang_dream",
+    "name": "詩超絆",
+    "artist": "MyGO!!!!!",
+    "url": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/09.m4a",
+    "cover": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/09.lrc",
+    "theme": "#8DABC2"
+  },
+  {
+    "group": "bang_dream",
+    "name": "栞",
+    "artist": "MyGO!!!!!",
+    "url": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/13.m4a",
+    "cover": "lokocdnms-pkg-02/bangdream/mygo/BRMM-10716/cover.jpg",
+    "lrc": "lokocdnms-pkg-exlrc/bangdream/mygo/BRMM-10716/13.lrc",
+    "theme": "#F8D9B6"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Ave Mujica",
+    "artist": "Ave Mujica",
+    "url": "local-pkg/bangdream/BRMM-10672/06.m4a",
+    "cover": "local-pkg/bangdream/BRMM-10672/cover.webp",
+    "lrc": "local-pkg/bangdream/BRMM-10672/06.lrc",
+    "theme": "#472459"
+  },
+  {
+    "group": "bang_dream",
+    "name": "✞animaるパーティ✞開催中✞",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/01.opus",
+    "cover": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/cover-01.avif",
+    "lrc": "",
+    "theme": "#e8a1d0"
+  },
+  {
+    "group": "bang_dream",
+    "name": "エンプティパペット",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/02.opus",
+    "cover": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/cover-02.avif",
+    "lrc": "",
+    "theme": "#483765"
+  },
+  {
+    "group": "bang_dream",
+    "name": "限界現実サバイブ天使",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/03.opus",
+    "cover": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/cover-03.avif",
+    "lrc": "",
+    "theme": "#a64bda"
+  },
+  {
+    "group": "bang_dream",
+    "name": "ビッグマウス",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/04.opus",
+    "cover": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/cover-04.avif",
+    "lrc": "",
+    "theme": "#e960a4"
+  },
+  {
+    "group": "bang_dream",
+    "name": "夢現妄想世界",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/05.opus",
+    "cover": "local-pkg/bangdream/streaming/mugendai_mewtype/240803-start_line/cover-05.avif",
+    "lrc": "",
+    "theme": "#ffb1f2"
+  },
+  {
+    "group": "bang_dream",
+    "name": "アイの夢限",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/01.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#78b9f6"
+  },
+  {
+    "group": "bang_dream",
+    "name": "どんがらがっしゃん",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/02.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#ffc663"
+  },
+  {
+    "group": "bang_dream",
+    "name": "みゅーたんとミュータント",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/03.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#5cd2e9"
+  },
+  {
+    "group": "bang_dream",
+    "name": "チューニング",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/04.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#fc9bf7"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Dream Voyage",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/05.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#9dcafe"
+  },
+  {
+    "group": "bang_dream",
+    "name": "グラディエント",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/06.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#82b0e0"
+  },
+  {
+    "group": "bang_dream",
+    "name": "LET'Sあちあちトレーニング！",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/07.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#ffef5b"
+  },
+  {
+    "group": "bang_dream",
+    "name": "真夜中遊園地",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/08.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#fbf42d"
+  },
+  {
+    "group": "bang_dream",
+    "name": "テレパシー",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/09.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#6bbfb0"
+  },
+  {
+    "group": "bang_dream",
+    "name": "TRASH LIFE",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/10.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#4aaff2"
+  },
+  {
+    "group": "bang_dream",
+    "name": "新人類は仮想世界の夢を見るか？",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/11.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#ffa8f6"
+  },
+  {
+    "group": "bang_dream",
+    "name": "コミュ着火Fire!",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/12.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#c15fa4"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Calling",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/13.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#e057a0"
+  },
+  {
+    "group": "bang_dream",
+    "name": "Hi-Vision",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/14.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#e485e6"
+  },
+  {
+    "group": "bang_dream",
+    "name": "コハク",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-10977/15.opus",
+    "cover": "local-pkg/bangdream/BRMM-10977/cover.avif",
+    "lrc": "",
+    "theme": "#d5a0dc"
+  },
+  {
+    "group": "bang_dream",
+    "name": "これはぼくたちの生存のあらすじ",
+    "artist": "夢限大みゅーたいぷ",
+    "url": "local-pkg/bangdream/BRMM-11060/01.opus",
+    "cover": "local-pkg/bangdream/BRMM-11060/cover.avif",
+    "lrc": "",
+    "theme": "#fcd450"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "慣れない舞台",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/01.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "ゆれる心棒",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/02.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "泣いてるの？",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/03.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "ささやかな自覚",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/04.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "コンテストに向けて",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/05.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "たゆたう歩み",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/06.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "一番がいいでしょ",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/07.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "懐かしいやりとり",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/08.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "アンサンブルの息づかい",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/09.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "ステップをひとつ越えて",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/10.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "オーメンズ・オブ・ラブ",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/11.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "フロントライン～青春の響き～",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/12.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "メヌエット",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/13.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D1",
+    "name": "フラワー・クラウン",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d1/14.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D2",
+    "name": "アルヴァマー序曲",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d2/01.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D2",
+    "name": "トランペット吹きの休日",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d2/02.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D2",
+    "name": "ノアの方舟",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d2/03.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D3",
+    "name": "はじまりの旋律 (Wind Orchestra Ver.)",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d3/01.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D3",
+    "name": "日常～「新天地」「純心」より～ (Wind Orchestra Ver.)",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d3/02.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D3",
+    "name": "一途な瞳 (Wind Orchestra Ver.)",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d3/03.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D3",
+    "name": "コンクール～「微かな光」「青春の苦悩」「重なる心」より～ (Wind Orchestra Ver.)",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d3/04.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D3",
+    "name": "意識の萌芽 (Wind Orchestra Ver.)",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d3/05.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D3",
+    "name": "そこに兆しは存在する (Wind Orchestra Ver.)",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d3/06.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  },
+  {
+    "group": "Catch_Your_Tone_D3",
+    "name": "テーマ～「運命の流れ」「去来する想い」より～ (Wind Orchestra Ver.)",
+    "artist": "松田彬人",
+    "url": "local-pkg/LACZ-10168-70/d3/07.opus",
+    "cover": "local-pkg/LACZ-10168-70/cover.avif",
+    "theme": "#5ebfdf"
+  }
+]

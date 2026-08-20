@@ -183,6 +183,10 @@ path {
     border-top-color: #d7d7d7a7;
 }
 
+[data-theme="dark"] .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+    background: #999;
+}
+
 [data-theme="dark"] .aplayer .aplayer-list li .aplayer-list-index,
 [data-theme="dark"] .aplayer .aplayer-list ol li .aplayer-list-index {
     color: #d4d4d4;
