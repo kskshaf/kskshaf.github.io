@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一些视频 (随缘)</title>
-    <url>/posts/9aa0/</url>
-    <content><![CDATA[<h2> 伊朗做死哥 </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2> MAD </h2>
-<br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
-      <tags>
-        <tag>hello</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搞了N天，终于搞出来了</title>
     <url>/posts/14e8/</url>
     <content><![CDATA[<p>其实这东西…(博客)就是我兴致一来搞的，<del>搞出来也就两三天罢了</del>，不过中途碰到了许多奇奇怪怪的问题，总之挺折腾的[em198]</p>
@@ -47,17 +25,111 @@
       </tags>
   </entry>
   <entry>
-    <title>浅拆一来电断电报警器</title>
-    <url>/posts/9235/</url>
-    <content><![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/00.webp" alt="在淘宝花47.97RMB买的断电报警器" loading='lazy'></p>
-<p>由于外壳不太好拆，于是我就直接拿钳子把外壳钳开了（后面的话就裸板用了）：<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/01.webp" alt="上壳正面" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/02.webp" alt="上壳反面，粘有天线，拆的时候不小心把信号线扯断了" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/03.webp" alt="电路板正面" loading='lazy'></p>
-<p>拆出整块电路板：<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/05.webp" alt="电路板正面，有一个物联网模块，等坏了再进一步拆解" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/07.webp" alt="电路板正面，200毫安的锂电池" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/08.webp" alt="电路板反面" loading='lazy'></p>
-<p>开关电源模块降压到5v给其他部分供电：<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/06.webp" alt="开关电源模块背面" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/04.webp" alt="电压测量" loading='lazy'></p>
-<p>拆完后，外壳也不成样子了，于是就只能接5v然后裸板用了（</p>
+    <title>一些视频 (随缘)</title>
+    <url>/posts/9aa0/</url>
+    <content><![CDATA[<h2> 伊朗做死哥 </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2> MAD </h2>
+<br>
+<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<br>
+<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
+      <tags>
+        <tag>hello</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>整一个铅酸电池欠压保护板</title>
+    <url>/posts/9718/</url>
+    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
+<p>贴上电路：<img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/circurt.webp" loading='lazy'></p>
+<table>
+<thead>
+<tr>
+<th align="center">制作所用原件</th>
+<th align="center">型号 (或参数)</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">MOS 管</td>
+<td align="center">NCEP40PT15D</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">三级管</td>
+<td align="center">S8050 &#x2F; S8550</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电压基准芯片</td>
+<td align="center">TL431</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">电阻</td>
+<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
+<td align="center">10kΩ x2, 其余都是x1</td>
+</tr>
+<tr>
+<td align="center">电容</td>
+<td align="center">0603 10nF</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">其他</td>
+<td align="center">undefined</td>
+<td align="center">undefined</td>
+</tr>
+</tbody></table>
+<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp" loading='lazy'></p>
 ]]></content>
       <tags>
-        <tag>拆解</tag>
-        <tag>手残</tag>
+        <tag>diy</tag>
+        <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个升压模块的制作</title>
+    <url>/posts/2ced/</url>
+    <content><![CDATA[<p>学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（</p>
+<p>说起 <a href="https://oshwhub.com/">oshwhub</a> 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低成本的升降压工程或方案，接着就是一通折腾：查资料、学用嘉立创EDA、画板子、打板子、买了一大坨工具还有原件回来折腾…… <del>后来才发现总成本已远远超出预期 吐血</del> 这个升压模块的制作就主要是参考 oshwhub 上面的两个工程的：<a href="https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701">https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701</a>、<a href="https://oshwhub.com/aknice/sc8701">https://oshwhub.com/aknice/sc8701</a>，我发的 SC8201 升压模块工程在这里：<a href="https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya">https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya</a></p>
+<p>接下来就<del>赘述</del>一下折腾的过程吧。</p>
+<p>考虑来考虑去，最终使用了南芯的 <a href="https://www.semiee.com/file/Specfile/SouthChip-SC8201_v0.2.4.pdf">SC8201</a>升压主控，功率管使用了 TO-220 封装的 <a href="https://www.infineon.com/dgdl/Infineon-IPP040N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372bbaa5ad4942">IPP040N06N</a> 。本来升压主控是想用 SC8701 的，可以照搬 oshwhub 上已有的工程，但是考虑到损耗&amp;成本的问题<del>（其实就是闲着没事想折腾）</del>，还是选择了 SC8201。PCB 大电流走线部分都有堆锡或者埋铜处理，功率管走线参考了 <a href="https://www.semiee.com/file/SouthChip/SouthChip-SC880X-NOTES.pdf">SC880x&#x2F;SC870x 的布线指南</a>。接着就是 —— 看图：<br><img src="https://image-pro.lceda.cn/pullimages/4274f2f577974f028c427b3585b33ef2.webp" alt="电路图" loading='lazy'></p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/f892544276aa499e875fe5df0bf93fd5.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/75cb65502d844278bd4755b265ff2c41.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/b251923e83fa46c791154daf0793e8ce.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/1dccea851b644cb9bf71998f6b255552.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/6d0c8c530e644e469b04410de6093083.webp","alt":"","title":""}]</div>
+  </div>
+
+
+<p>板子的话，我也是边学边画的，前前后后估计打了3次板子（不包括中途画错然后取消订单的），花了差不多 60RMB 吧。<br>第一次画的板子打出来后才发现 MOS 的栅极走线太细了，不敢用，于是修改好后又打了一次板子。第二次打的板子，迫不及待地焊接好后，通电，然后久违地体验了一次炸电容（电解电容焊反了。。。）<br><img src="https://image.lceda.cn/oshwhub/064c02f6397547289a377b6429a5b931.webp" alt="电容炸了" loading='lazy'></p>
+<p>换好电容后，测试。接好 12v 电瓶，升压至 20v，带约1.7欧假负载电阻（俩5.1欧电阻串联，接着并联x6，水冷，见图）测试的时候，一切都似乎挺正常的，测得输入功率 228w，测得纹波应该是 310mv+。</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/943d654a1b6e4701a00ee2e8223414ed.webp","alt":"输入","title":""},{"url":"https://image.lceda.cn/oshwhub/27035f27f6fb4d55844149947172a24e.webp","alt":"输出电流","title":""},{"url":"https://image.lceda.cn/oshwhub/c0d8dacf549843329f5567b5bebe853e.webp","alt":"水冷负载电阻~","title":""}]</div>
+  </div>
+
+<p>接着接上笔记本，在笔记本上进行压力测试，发现模块带不动笔记本（笔记本经常掉电），这才发现模块的电压反馈部分有问题，于是就修改电路、飞线，后恢复正常。总之折腾了挺久的，从早上10点搞到晚上7点左右才搞好（哭笑）</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/15024188a7324d348a63ff47dd169156.webp","alt":"飞线~","title":""},{"url":"https://image.lceda.cn/oshwhub/caa6777675fc4d9fb044e8c67bcb3e7a.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/3707060b92944f41b5387fbb472a8ed0.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/e1201a5d4ff24b9c87ed38ec1fb9b623.webp","alt":"接笔记本测试","title":""}]</div>
+  </div>
+
+<p>第三次打的板子才是比较满意的，测试的时候也有很好的表现。这次给模块供电的是 12v 开关电源，同样是 20v 输出，空载纹波似乎不到 20mv；接1.7欧假负载电阻，测得输入功率 248w，输出功率 240w，纹波 214mv，给笔记本供电也绰绰有余。</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/7ab9b34d617142eb970792d1508d9b94.webp","alt":"某宝的服务器拆机电源","title":""},{"url":"https://image.lceda.cn/oshwhub/25c26e0e641d4585901ef880fbef89ad.webp","alt":"输出20v","title":""},{"url":"https://image.lceda.cn/oshwhub/8002286e968c47b5a57d8abe4f53be00.webp","alt":"空载纹波","title":""},{"url":"https://image.lceda.cn/oshwhub/2a6a3a11d2d7412f906f61bfd1ae56b4.webp","alt":"空载功耗","title":""},{"url":"https://image.lceda.cn/oshwhub/fd7046018cb341e8ae106b5349b5c556.webp","alt":"带1.7欧假负载电阻，输出12A","title":""},{"url":"https://image.lceda.cn/oshwhub/665c28fa9aed417dbf0f4d62f8f740b0.webp","alt":"带1.7欧假负载电阻，输入功耗","title":""},{"url":"https://image.lceda.cn/oshwhub/3123f4b2ea3a44e79c648bfc0cb5d8dc.webp","alt":"带1.7欧假负载电阻时，纹波","title":""},{"url":"https://image.lceda.cn/oshwhub/ef6f9cbcf2fe4f128fd98dfc2b5dc1d0.webp","alt":"带笔记本，双烤","title":""},{"url":"https://image.lceda.cn/oshwhub/b94c0b6704a14dce87bb75c3f8413a85.webp","alt":"带笔记本，双烤","title":""}]</div>
+  </div>
+
+<p>中间还接了一个短路欠压保护板，电路也不是很复杂。至于测纹波，我买的示波器似乎并没有直接测量纹波的功能，于是就简单地用电容和电阻把纹波“过滤”了出来。不清楚这样做是否完全正确，不过目前对于我来说应该是够用了。<br><img src="https://image.lceda.cn/oshwhub/76ef4026934045659a01a52bce9526f7.webp" loading='lazy'></p>
+<p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
+]]></content>
+      <tags>
+        <tag>diy</tag>
         <tag>电子</tag>
       </tags>
   </entry>
@@ -142,96 +214,9 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>电子</tag>
         <tag>diy</tag>
+        <tag>电子</tag>
         <tag>作死</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>整一个铅酸电池欠压保护板</title>
-    <url>/posts/9718/</url>
-    <content><![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a href="https://www.eet-china.com/news/202107011132.html">https://www.eet-china.com/news/202107011132.html</a></p>
-<p>贴上电路：<img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/circurt.webp" loading='lazy'></p>
-<table>
-<thead>
-<tr>
-<th align="center">制作所用原件</th>
-<th align="center">型号 (或参数)</th>
-<th align="center">数量</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">MOS 管</td>
-<td align="center">NCEP40PT15D</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">三级管</td>
-<td align="center">S8050 &#x2F; S8550</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电压基准芯片</td>
-<td align="center">TL431</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">电阻</td>
-<td align="center">10Ω, 100Ω, 330Ω, 1kΩ, 6.8kΩ, 10kΩ</td>
-<td align="center">10kΩ x2, 其余都是x1</td>
-</tr>
-<tr>
-<td align="center">电容</td>
-<td align="center">0603 10nF</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">其他</td>
-<td align="center">undefined</td>
-<td align="center">undefined</td>
-</tr>
-</tbody></table>
-<p>板子到手才发现，当初在凌晨画的板子画错了，又是飞线伺候（哭笑）<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/01.webp" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/02.webp" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/ele-diy1/03.webp" loading='lazy'></p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>diy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个升压模块的制作</title>
-    <url>/posts/2ced/</url>
-    <content><![CDATA[<p>学校宿舍每到晚上 11 点就断电，有时候又需要在笔记本上整些负载比较重的应用，总是用笔记本的电池也不是太好。正好手头上有一个 12v 的铅酸电瓶，于是便想让一个高效率的升压模块把这块电池利用起来，给笔记本供电。由于某宝上都没有满意的（要不就是太贵），遂折腾（</p>
-<p>说起 <a href="https://oshwhub.com/">oshwhub</a> 这个好地方，应该是之前逛贴吧还是水群的时候偶然看到的，是一个开源的硬件平台。然后发现上面有很多开源的高效率&amp;低成本的升降压工程或方案，接着就是一通折腾：查资料、学用嘉立创EDA、画板子、打板子、买了一大坨工具还有原件回来折腾…… <del>后来才发现总成本已远远超出预期 吐血</del> 这个升压模块的制作就主要是参考 oshwhub 上面的两个工程的：<a href="https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701">https://oshwhub.com/diy-lover1123/high-power-automatic-buck-boost-module-sc8701</a>、<a href="https://oshwhub.com/aknice/sc8701">https://oshwhub.com/aknice/sc8701</a>，我发的 SC8201 升压模块工程在这里：<a href="https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya">https://oshwhub.com/ch108/sc8201-tong-bu-sheng-ya</a></p>
-<p>接下来就<del>赘述</del>一下折腾的过程吧。</p>
-<p>考虑来考虑去，最终使用了南芯的 <a href="https://www.semiee.com/file/Specfile/SouthChip-SC8201_v0.2.4.pdf">SC8201</a>升压主控，功率管使用了 TO-220 封装的 <a href="https://www.infineon.com/dgdl/Infineon-IPP040N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372bbaa5ad4942">IPP040N06N</a> 。本来升压主控是想用 SC8701 的，可以照搬 oshwhub 上已有的工程，但是考虑到损耗&amp;成本的问题<del>（其实就是闲着没事想折腾）</del>，还是选择了 SC8201。PCB 大电流走线部分都有堆锡或者埋铜处理，功率管走线参考了 <a href="https://www.semiee.com/file/SouthChip/SouthChip-SC880X-NOTES.pdf">SC880x&#x2F;SC870x 的布线指南</a>。接着就是 —— 看图：<br><img src="https://image-pro.lceda.cn/pullimages/4274f2f577974f028c427b3585b33ef2.webp" alt="电路图" loading='lazy'></p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/f892544276aa499e875fe5df0bf93fd5.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/75cb65502d844278bd4755b265ff2c41.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/b251923e83fa46c791154daf0793e8ce.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/1dccea851b644cb9bf71998f6b255552.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/6d0c8c530e644e469b04410de6093083.webp","alt":"","title":""}]</div>
-  </div>
-
-
-<p>板子的话，我也是边学边画的，前前后后估计打了3次板子（不包括中途画错然后取消订单的），花了差不多 60RMB 吧。<br>第一次画的板子打出来后才发现 MOS 的栅极走线太细了，不敢用，于是修改好后又打了一次板子。第二次打的板子，迫不及待地焊接好后，通电，然后久违地体验了一次炸电容（电解电容焊反了。。。）<br><img src="https://image.lceda.cn/oshwhub/064c02f6397547289a377b6429a5b931.webp" alt="电容炸了" loading='lazy'></p>
-<p>换好电容后，测试。接好 12v 电瓶，升压至 20v，带约1.7欧假负载电阻（俩5.1欧电阻串联，接着并联x6，水冷，见图）测试的时候，一切都似乎挺正常的，测得输入功率 228w，测得纹波应该是 310mv+。</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/943d654a1b6e4701a00ee2e8223414ed.webp","alt":"输入","title":""},{"url":"https://image.lceda.cn/oshwhub/27035f27f6fb4d55844149947172a24e.webp","alt":"输出电流","title":""},{"url":"https://image.lceda.cn/oshwhub/c0d8dacf549843329f5567b5bebe853e.webp","alt":"水冷负载电阻~","title":""}]</div>
-  </div>
-
-<p>接着接上笔记本，在笔记本上进行压力测试，发现模块带不动笔记本（笔记本经常掉电），这才发现模块的电压反馈部分有问题，于是就修改电路、飞线，后恢复正常。总之折腾了挺久的，从早上10点搞到晚上7点左右才搞好（哭笑）</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/15024188a7324d348a63ff47dd169156.webp","alt":"飞线~","title":""},{"url":"https://image.lceda.cn/oshwhub/caa6777675fc4d9fb044e8c67bcb3e7a.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/3707060b92944f41b5387fbb472a8ed0.webp","alt":"","title":""},{"url":"https://image.lceda.cn/oshwhub/e1201a5d4ff24b9c87ed38ec1fb9b623.webp","alt":"接笔记本测试","title":""}]</div>
-  </div>
-
-<p>第三次打的板子才是比较满意的，测试的时候也有很好的表现。这次给模块供电的是 12v 开关电源，同样是 20v 输出，空载纹波似乎不到 20mv；接1.7欧假负载电阻，测得输入功率 248w，输出功率 240w，纹波 214mv，给笔记本供电也绰绰有余。</p>
-<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
-    <div class="gallery-items">[{"url":"https://image.lceda.cn/oshwhub/7ab9b34d617142eb970792d1508d9b94.webp","alt":"某宝的服务器拆机电源","title":""},{"url":"https://image.lceda.cn/oshwhub/25c26e0e641d4585901ef880fbef89ad.webp","alt":"输出20v","title":""},{"url":"https://image.lceda.cn/oshwhub/8002286e968c47b5a57d8abe4f53be00.webp","alt":"空载纹波","title":""},{"url":"https://image.lceda.cn/oshwhub/2a6a3a11d2d7412f906f61bfd1ae56b4.webp","alt":"空载功耗","title":""},{"url":"https://image.lceda.cn/oshwhub/fd7046018cb341e8ae106b5349b5c556.webp","alt":"带1.7欧假负载电阻，输出12A","title":""},{"url":"https://image.lceda.cn/oshwhub/665c28fa9aed417dbf0f4d62f8f740b0.webp","alt":"带1.7欧假负载电阻，输入功耗","title":""},{"url":"https://image.lceda.cn/oshwhub/3123f4b2ea3a44e79c648bfc0cb5d8dc.webp","alt":"带1.7欧假负载电阻时，纹波","title":""},{"url":"https://image.lceda.cn/oshwhub/ef6f9cbcf2fe4f128fd98dfc2b5dc1d0.webp","alt":"带笔记本，双烤","title":""},{"url":"https://image.lceda.cn/oshwhub/b94c0b6704a14dce87bb75c3f8413a85.webp","alt":"带笔记本，双烤","title":""}]</div>
-  </div>
-
-<p>中间还接了一个短路欠压保护板，电路也不是很复杂。至于测纹波，我买的示波器似乎并没有直接测量纹波的功能，于是就简单地用电容和电阻把纹波“过滤”了出来。不清楚这样做是否完全正确，不过目前对于我来说应该是够用了。<br><img src="https://image.lceda.cn/oshwhub/76ef4026934045659a01a52bce9526f7.webp" loading='lazy'></p>
-<p>另外，原件的话，除了功率管是在立创商城买的，其他都是在某宝买的。总之交了不少学费。。。</p>
-]]></content>
-      <tags>
-        <tag>电子</tag>
-        <tag>diy</tag>
       </tags>
   </entry>
   <entry>
@@ -261,8 +246,19 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>电子</tag>
         <tag>diy</tag>
+        <tag>电子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git 使用笔记</title>
+    <url>/posts/3e60/</url>
+    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 丢弃未提交的更改</span></span><br><span class="line">git checkout .</span><br><span class="line"></span><br><span class="line"><span class="comment"># commit 时带上其他人</span></span><br><span class="line">git commit --author=<span class="string">&quot;aaa &lt;aaa@xxx.com&gt;&quot;</span> -a -m <span class="string">&quot;xxxx</span></span><br><span class="line"><span class="string">xxxxxxxx</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Co-authored-by: bbb &lt;bbb@bbb.de&gt;</span></span><br><span class="line"><span class="string">Co-authored-by: ccc &lt;ccc@users.noreply.github.com&gt;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>note</tag>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -325,17 +321,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git 使用笔记</title>
-    <url>/posts/3e60/</url>
-    <content><![CDATA[<p>一些关于 Git 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 文档&amp;教程</span></span><br><span class="line"><span class="comment"># https://git-scm.com/</span></span><br><span class="line"><span class="comment"># https://github.com/</span></span><br><span class="line"><span class="comment"># https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository</span></span><br><span class="line"><span class="comment"># https://www.runoob.com/git/git-tutorial.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github cli 使用</span></span><br><span class="line"><span class="comment"># https://cli.github.com/manual/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 gh 登陆</span></span><br><span class="line">gh auth login</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新仓库,并推送至远程地址</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;# your repo name&quot;</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 已有 repo</span></span><br><span class="line">git remote add origin https://github.com/your-github-account-name/your-new-repo.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在已有仓库创建新 branch</span></span><br><span class="line">git checkout -b newBranch</span><br><span class="line">git add *</span><br><span class="line">git commit -m <span class="string">&quot;init commit&quot;</span></span><br><span class="line">git push origin newBranch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看已有分支</span></span><br><span class="line">git branch -a</span><br><span class="line"></span><br><span class="line"><span class="comment"># 丢弃未提交的更改</span></span><br><span class="line">git checkout .</span><br><span class="line"></span><br><span class="line"><span class="comment"># commit 时带上其他人</span></span><br><span class="line">git commit --author=<span class="string">&quot;aaa &lt;aaa@xxx.com&gt;&quot;</span> -a -m <span class="string">&quot;xxxx</span></span><br><span class="line"><span class="string">xxxxxxxx</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Co-authored-by: bbb &lt;bbb@bbb.de&gt;</span></span><br><span class="line"><span class="string">Co-authored-by: ccc &lt;ccc@users.noreply.github.com&gt;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换代码版本</span></span><br><span class="line">git checkout <span class="string">&quot;可以是tag、branch,也可以是当前分支下的 commit sha&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看未提交的代码与原代码的差异</span></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除远程分支</span></span><br><span class="line">git push origin -d remote_branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># git 修改 commit</span></span><br><span class="line"><span class="comment"># https://segmentfault.com/a/1190000041122415</span></span><br><span class="line"><span class="comment"># https://juejin.cn/post/6844903806224826375</span></span><br><span class="line">git rebase -i <span class="string">&quot;你需要修改的 commit 的前一个 commit&quot;</span> (接着会跳出编辑器页面，把需要修改的 commit 的 <span class="string">&quot;pick&quot;</span> 改成 <span class="string">&quot;edit&quot;</span>)</span><br><span class="line">git commit --amend (还可以附带参数，如：--author=<span class="string">&quot;Author Name &lt;email@address.com&gt;&quot;</span>)</span><br><span class="line"><span class="comment"># 如果你已经修改了 git config 中的用户名和邮箱，也可以使用：git commit --amend --reset-author --no-edit</span></span><br><span class="line">git rebase --<span class="built_in">continue</span> (移动到下个 commit 作为基准)</span><br><span class="line">git push -f</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>note</tag>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>npm 使用笔记</title>
     <url>/posts/637e/</url>
     <content><![CDATA[<p>一些关于 npm 的使用笔记</p>
@@ -348,6 +333,21 @@
       <tags>
         <tag>note</tag>
         <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浅拆一来电断电报警器</title>
+    <url>/posts/9235/</url>
+    <content><![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/00.webp" alt="在淘宝花47.97RMB买的断电报警器" loading='lazy'></p>
+<p>由于外壳不太好拆，于是我就直接拿钳子把外壳钳开了（后面的话就裸板用了）：<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/01.webp" alt="上壳正面" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/02.webp" alt="上壳反面，粘有天线，拆的时候不小心把信号线扯断了" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/03.webp" alt="电路板正面" loading='lazy'></p>
+<p>拆出整块电路板：<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/05.webp" alt="电路板正面，有一个物联网模块，等坏了再进一步拆解" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/07.webp" alt="电路板正面，200毫安的锂电池" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/08.webp" alt="电路板反面" loading='lazy'></p>
+<p>开关电源模块降压到5v给其他部分供电：<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/06.webp" alt="开关电源模块背面" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/04.webp" alt="电压测量" loading='lazy'></p>
+<p>拆完后，外壳也不成样子了，于是就只能接5v然后裸板用了（</p>
+]]></content>
+      <tags>
+        <tag>电子</tag>
+        <tag>拆解</tag>
+        <tag>手残</tag>
       </tags>
   </entry>
   <entry>
@@ -395,8 +395,8 @@
 <p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
 ]]></content>
       <tags>
-        <tag>手残</tag>
         <tag>电子</tag>
+        <tag>手残</tag>
       </tags>
   </entry>
   <entry>
@@ -457,8 +457,8 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>手残</tag>
         <tag>电子</tag>
+        <tag>手残</tag>
         <tag>闲鱼</tag>
         <tag>小黄鱼</tag>
       </tags>
