@@ -10,13 +10,30 @@
   <rights>All rights reserved 2026, haf208</rights>
   <subtitle>(一个咕咕的小博客</subtitle>
   <title>HAF208 的 Blog</title>
-  <updated>2025-08-17T13:14:17.000Z</updated>
+  <updated>2026-09-12T17:21:51.105Z</updated>
   <entry>
     <author>
       <name>haf208</name>
     </author>
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
+    <category term="拆解" scheme="https://blog.haf208.cc/tags/%E6%8B%86%E8%A7%A3/"/>
+    <category term="修理" scheme="https://blog.haf208.cc/tags/%E4%BF%AE%E7%90%86/"/>
+    <category term="note" scheme="https://blog.haf208.cc/tags/note/"/>
+    <id>https://blog.haf208.cc/posts/f57c/</id>
+    <link href="https://blog.haf208.cc/posts/f57c/"/>
+    <published>2026-09-12T17:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>最近几个月待在老家<del>（都tm快一年了）</del>，实在是闷的慌。一是找不到合适的实习，二是在家实在没什么好做的，三是在家闷着慌后现在想找工作，找半天找不到合适的……<br>不过好在这中间也有些事情可以供咱折腾，家里开销也还支撑得下去。</p>
+<p>这段时间内，受]]>
+    </summary>
+    <title>记——到奶奶家做修理</title>
+    <updated>2026-09-12T17:21:51.105Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>haf208</name>
+    </author>
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <id>https://blog.haf208.cc/posts/4f8b/</id>
     <link href="https://blog.haf208.cc/posts/4f8b/"/>
     <published>2025-08-17T13:14:17.000Z</published>
@@ -47,9 +64,9 @@
     <author>
       <name>haf208</name>
     </author>
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     <category term="拆解" scheme="https://blog.haf208.cc/tags/%E6%8B%86%E8%A7%A3/"/>
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     <id>https://blog.haf208.cc/posts/9235/</id>
     <link href="https://blog.haf208.cc/posts/9235/"/>
     <published>2025-01-23T15:51:17.000Z</published>
@@ -63,8 +80,8 @@
     <author>
       <name>haf208</name>
     </author>
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     <category term="闲鱼" scheme="https://blog.haf208.cc/tags/%E9%97%B2%E9%B1%BC/"/>
     <category term="小黄鱼" scheme="https://blog.haf208.cc/tags/%E5%B0%8F%E9%BB%84%E9%B1%BC/"/>
     <id>https://blog.haf208.cc/posts/c720/</id>
@@ -80,8 +97,8 @@
     <author>
       <name>haf208</name>
     </author>
-    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     <category term="手残" scheme="https://blog.haf208.cc/tags/%E6%89%8B%E6%AE%8B/"/>
+    <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
     <id>https://blog.haf208.cc/posts/ddbf/</id>
     <link href="https://blog.haf208.cc/posts/ddbf/"/>
     <published>2024-07-17T16:02:17.000Z</published>
@@ -95,8 +112,8 @@
     <author>
       <name>haf208</name>
     </author>
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <id>https://blog.haf208.cc/posts/2ced/</id>
     <link href="https://blog.haf208.cc/posts/2ced/"/>
     <published>2024-06-05T16:02:17.000Z</published>
@@ -110,8 +127,8 @@
     <author>
       <name>haf208</name>
     </author>
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <id>https://blog.haf208.cc/posts/9718/</id>
     <link href="https://blog.haf208.cc/posts/9718/"/>
     <published>2024-05-31T17:24:57.000Z</published>
@@ -125,8 +142,8 @@
     <author>
       <name>haf208</name>
     </author>
-    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <category term="电子" scheme="https://blog.haf208.cc/tags/%E7%94%B5%E5%AD%90/"/>
+    <category term="diy" scheme="https://blog.haf208.cc/tags/diy/"/>
     <category term="作死" scheme="https://blog.haf208.cc/tags/%E4%BD%9C%E6%AD%BB/"/>
     <id>https://blog.haf208.cc/posts/e15/</id>
     <link href="https://blog.haf208.cc/posts/e15/"/>
