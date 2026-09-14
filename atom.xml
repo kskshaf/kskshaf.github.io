@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, haf208</rights>
   <subtitle>(一个咕咕的小博客</subtitle>
   <title>HAF208 的 Blog</title>
-  <updated>2026-09-12T17:21:51.105Z</updated>
+  <updated>2026-09-14T15:59:54.774Z</updated>
   <entry>
     <author>
       <name>haf208</name>
@@ -22,11 +22,11 @@
     <link href="https://blog.haf208.cc/posts/f57c/"/>
     <published>2026-09-12T17:00:00.000Z</published>
     <summary>
-      <![CDATA[<p>最近几个月待在老家<del>（都tm快一年了）</del>，实在是闷的慌。一是找不到合适的实习，二是在家实在没什么好做的，三是在家闷着慌后现在想找工作，找半天找不到合适的……<br>不过好在这中间也有些事情可以供咱折腾，家里开销也还支撑得下去。</p>
-<p>这段时间内，受]]>
+      <![CDATA[<p>最近几个月咱基本上都在老家这边。受老爸邀请，咱到奶奶家修理了她的空调、洗衣机。</p>
+<h1 id="修空调（四月）"><a href="#修空调（四月）" class="headerlink"]]>
     </summary>
     <title>记——到奶奶家做修理</title>
-    <updated>2026-09-12T17:21:51.105Z</updated>
+    <updated>2026-09-14T15:59:54.774Z</updated>
   </entry>
   <entry>
     <author>
@@ -37,9 +37,7 @@
     <id>https://blog.haf208.cc/posts/4f8b/</id>
     <link href="https://blog.haf208.cc/posts/4f8b/"/>
     <published>2025-08-17T13:14:17.000Z</published>
-    <summary>
-      <![CDATA[<p><del>又是一个瞎折腾的东东</del><br>为了实现“断电不断网”，去年我就给家里的光猫和路由器加上了 UPS。不同于之前的<a href="https://blog.haf208.cc/posts/c720/">市电 UPS</a>，这个 UPS]]>
-    </summary>
+    <summary>~又是一个瞎折腾的东东~</summary>
     <title>断电不断网 —— 给光猫和路由器制作一个 UPS 模块</title>
     <updated>2025-08-17T13:14:17.000Z</updated>
   </entry>
@@ -74,7 +72,7 @@
       <![CDATA[<p>放寒假了，在家里闲着没事干，于是就拆解了之前购买的断电报警器。<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/disassemble-pw-sts/00.webp"]]>
     </summary>
     <title>浅拆一来电断电报警器</title>
-    <updated>2025-01-23T19:49:11.366Z</updated>
+    <updated>2026-09-14T16:00:22.483Z</updated>
   </entry>
   <entry>
     <author>
@@ -91,7 +89,7 @@
       <![CDATA[<p><img src="https://pic-lrc-bed.haf208.cc/img/extra/ups-mt500pro/00.webp" alt="在小黄鱼买的山特MT500 Pro"]]>
     </summary>
     <title>小黄鱼第一买 —— 山特 MT500 Pro UPS</title>
-    <updated>2025-08-17T13:15:56.106Z</updated>
+    <updated>2026-09-14T15:00:52.778Z</updated>
   </entry>
   <entry>
     <author>
@@ -133,7 +131,7 @@
     <link href="https://blog.haf208.cc/posts/9718/"/>
     <published>2024-05-31T17:24:57.000Z</published>
     <summary>
-      <![CDATA[<p><del>咕了N个月没发博客了，出来诈下尸</del><br>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a]]>
+      <![CDATA[<p>前段时间买了一个 12V 9AH 的铅酸电池，用来当大功率电源用。使用时可能会遇到电池过放或短路，这时保护板就可以及时断电，避免电池或电路受到更大的损伤。这个保护板参照了这篇文章来制作：<a]]>
     </summary>
     <title>整一个铅酸电池欠压保护板</title>
     <updated>2024-08-13T19:00:15.000Z</updated>
@@ -163,12 +161,9 @@
     <id>https://blog.haf208.cc/posts/637e/</id>
     <link href="https://blog.haf208.cc/posts/637e/"/>
     <published>2024-03-02T15:10:26.000Z</published>
-    <summary>
-      <![CDATA[<p>一些关于 npm 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span]]>
-    </summary>
+    <summary>一些关于 npm 的使用笔记</summary>
     <title>npm 使用笔记</title>
-    <updated>2025-01-23T18:51:22.054Z</updated>
+    <updated>2026-09-14T08:53:31.398Z</updated>
   </entry>
   <entry>
     <author>
@@ -179,10 +174,7 @@
     <id>https://blog.haf208.cc/posts/3e60/</id>
     <link href="https://blog.haf208.cc/posts/3e60/"/>
     <published>2024-02-15T13:18:23.000Z</published>
-    <summary>
-      <![CDATA[<p>一些关于 Git 的使用笔记</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span]]>
-    </summary>
+    <summary>一些关于 Git 的使用笔记</summary>
     <title>Git 使用笔记</title>
     <updated>2024-03-02T14:36:26.000Z</updated>
   </entry>
@@ -224,11 +216,7 @@
     <id>https://blog.haf208.cc/posts/9aa0/</id>
     <link href="https://blog.haf208.cc/posts/9aa0/"/>
     <published>2023-11-18T13:33:03.000Z</published>
-    <summary>
-      <![CDATA[<h2> 伊朗做死哥 </h2>
-<br>
-<iframe width="427" height="240"]]>
-    </summary>
+    <summary>一些视频</summary>
     <title>一些视频 (随缘)</title>
     <updated>2024-08-13T22:20:26.000Z</updated>
   </entry>
