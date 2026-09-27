@@ -200,14 +200,14 @@
 
   
   <url>
-    <loc>https://blog.haf208.cc/tags/hello/</loc>
+    <loc>https://blog.haf208.cc/tags/old/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.haf208.cc/tags/old/</loc>
+    <loc>https://blog.haf208.cc/tags/hello/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -249,13 +249,6 @@
   </url>
   
   <url>
-    <loc>https://blog.haf208.cc/tags/%E4%BF%AE%E7%90%86/</loc>
-    <lastmod>2026-09-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.haf208.cc/tags/note/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -270,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://blog.haf208.cc/tags/linux/</loc>
+    <loc>https://blog.haf208.cc/tags/%E4%BF%AE%E7%90%86/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -278,6 +271,13 @@
   
   <url>
     <loc>https://blog.haf208.cc/tags/npm/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haf208.cc/tags/linux/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
