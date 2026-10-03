@@ -14,6 +14,7 @@
  *   - pjax:send  -> 销毁所有非固定播放器（保留右下角全局固定播放器）
  *   - pjax:complete -> 重新初始化页面内的播放器
  * 该脚本由 inject.bottom 注入、位于 pjax 交换区之外，事件监听注册一次永久生效。
+ * by deepseek
  */
 (() => {
   const registry = (window.aplayers = window.aplayers || [])
