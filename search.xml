@@ -5,19 +5,47 @@
     <url>/posts/9aa0/</url>
     <content><![CDATA[<h2> 伊朗做死哥 </h2>
 <br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=833985&bvid=BV1qs411o7SE&cid=1212261&p=2" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin: 16px 0;">
+  <iframe 
+    src="//player.bilibili.com/player.html?bvid=BV1qs411o7SE&page=1&high_quality=1&danmaku=0" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true" 
+    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+  </iframe>
+</div>
+
 <br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=11768005&bvid=BV1Lx411r7Nj&cid=19433505&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/mdZo_keUoEs" title="Just Try and Make Your Own Coil-Gun (Accelerator)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/lT3vGaOLWqE" title="Making a Jacob's Ladder to Celebrate a Million Subs!" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin: 16px 0;">
+  <iframe 
+    src="//player.bilibili.com/player.html?bvid=BV1Lx411r7Nj&page=1&high_quality=1&danmaku=0" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true" 
+    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+  </iframe>
+</div>
+
 
 <h2> MAD </h2>
 <br>
-<iframe width="427" height="240" src="https://player.bilibili.com/player.html?aid=880431715&bvid=BV1MN4y1x7V5&cid=1384807640&p=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
-<br>
-<iframe width="427" height="240" src="https://www.youtube-nocookie.com/embed/LwtkXihbgFA" title="【MAD】世界限界の向日葵と永劫回帰の櫻【サクラノ刻】 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin: 16px 0;">
+  <iframe 
+    src="//player.bilibili.com/player.html?bvid=BV1MN4y1x7V5&page=1&high_quality=1&danmaku=0" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true" 
+    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+  </iframe>
+</div>
+
+]]></content>
       <tags>
         <tag>hello</tag>
       </tags>
@@ -434,6 +462,16 @@
 <p>于是我就去买了个 32GB 的 KLMBG2JETD-B041，然后换上去。<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/04.webp" alt="下单！" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/05.webp" alt="左边是立创商城买的，右边淘宝买的（似乎是拆机翻新货），包运费，淘宝的便宜了10多块" loading='lazy'><br>不过尴尬的是，初次上手，清理焊盘时把部分的阻焊层拖掉了，新的 EMMC 焊上去焊点动不动连锡就短路，然后我干了7、8次（拆、植锡、焊）才干好。中间又跑去B站看了下教程，才发现诀窍是：合适的温度&amp;风速、适量的焊油、风枪绕着 EMMC“画圈”，而且特别要注意的是：用镊子碰 EMMC 的时候，幅度不能太大，要不底部很容易连锡，从而造成短路。</p>
 <p>焊接完新的 EMMC 后，先要使用晶晨线刷工具 USB Burning Tool 给这个机顶盒刷入安卓系统（我用的这里的系统<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347">https://github.com/ophub/amlogic-s9xxx-armbian/issues/2347</a>），然后才可以进一步安装 Armbian。具体教程其他地方有很多，我这里就不再赘述。<br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/08.webp" alt="USB Burning Tool" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/06.webp" alt="原机 EMMC 测试" loading='lazy'><br><img src="https://pic-lrc-bed.haf208.cc/img/extra/tvbox-emmc/07.webp" alt="32GB EMMC 测试" loading='lazy'></p>
 <p>换完装好系统，开 nginx 测试了下，结果发现机器的性能实在太弱了，加载的东西一多，浏览器动不动就报错“ERR_SSL_PROTOCOL_ERROR”，另一部性能好的机器却不会这样。。。</p>
+<p><strong>2026.10.07</strong><br>自从用上了香橙派，电视盒子都压箱底一年了，拿出来通通电，没想到还能进入系统。记得之前的那个<code>KLM8G1GETF-B041</code>放久了系统会自动坏掉，这也是咱为啥上面说<code>寒假那会回来也只是重装了下系统</code><br>今天补些图片，顺便更新系统，然后测试测试</p>
+<p>大图补充）：</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    
+  </div>
+
+<p>系统更新以及测试：</p>
+<div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">
+    
+  </div>
 ]]></content>
       <tags>
         <tag>手残</tag>
